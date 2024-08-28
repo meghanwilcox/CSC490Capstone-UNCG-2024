@@ -3,9 +3,9 @@
 !! Current setup has db.sqlite3 file, will change to AzureMySQL or MySQL once setup is complete. Is temporary for now :) !!
 
 Contributors:
-    Meghan Wilcox
-    Derek Fox
-    Alex Jasper
+    Meghan Wilcox,
+    Derek Fox,
+    Alex Jasper,
     William Harper
 
 Professor:
