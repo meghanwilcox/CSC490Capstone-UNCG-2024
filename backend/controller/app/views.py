@@ -5,18 +5,14 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import generics, status
 from django.shortcuts import render
-from django.contrib.auth.hashers import make_password  # Import password hashing utility
+from django.contrib.auth.hashers import make_password, check_password
 
 class UsersListView(ListAPIView):
     queryset = User.objects.all()
-    serializer_class = UserSerializer
+    serializer_class = CreateUserSerializer
 
 class CreateUserView(APIView):
     serializer_class = UserSerializer
-
-    # Handle GET request to provide some information or response
-    def get(self, request, format=None):
-        return Response({"message": "Use a POST request to create a new user."}, status=status.HTTP_200_OK)
 
     def post(self, request, format=None):
         serializer = self.serializer_class(data=request.data)
@@ -41,3 +37,23 @@ class CreateUserView(APIView):
             return Response(UserSerializer(user).data, status=status.HTTP_201_CREATED)
         
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    
+class UserLoginView(APIView):
+    def post(self, request):
+        email = request.data.get('email')
+        password = request.data.get('password')
+
+        if not email or not password:
+            return Response({'error': 'Email and password are required.'}, status=status.HTTP_400_BAD_REQUEST)
+
+        try:
+            # Find the user by email
+            user = User.objects.get(email=email)
+        except User.DoesNotExist:
+            return Response({'error': 'Invalid email or password.'}, status=status.HTTP_401_UNAUTHORIZED)
+
+        # Check if the password is correct
+        if check_password(password, user.password):
+            return Response({'message': 'Login successful', 'user': {'email': user.email, 'name': user.name, 'is_researcher': user.is_researcher}}, status=status.HTTP_200_OK)
+        else:
+            return Response({'error': 'Invalid email or password.'}, status=status.HTTP_401_UNAUTHORIZED)
