@@ -1,0 +1,66 @@
+/* src/styles/Login.css */
+body {
+    font-family: 'Arial', sans-serif; /* Font for the entire page */
+    background-color: #eaf0e5; /* Light green background for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* White background for the form */
+    text-align: center;
+}
+
+h1 {
+    color: #2c6b2f; /* Forest green */
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #2c6b2f; /* Forest green */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #2c6b2f; /* Forest green border */
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2c6b2f; /* Forest green */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #1e4d1e; /* Darker forest green */
+}
+
+p {
+    color: red; /* Red for error messages */
+    margin-top: 10px;
+}
