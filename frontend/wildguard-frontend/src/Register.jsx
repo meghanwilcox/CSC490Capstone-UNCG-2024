@@ -1,29 +1,30 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
-import './styles/Login.css'; 
+import './styles/Register.css'; 
 
-const Login = () => {
+const Register = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [name, setName] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate(); // Initialize useNavigate
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:8000/users/login/', {
+      const response = await fetch('http://localhost:8000/users/create/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ email, password }),
+        body: JSON.stringify({ email, password, name }), // Exclude is_researcher
       });
 
       if (response.ok) {
         const data = await response.json();
-        // Handle successful login
-        console.log('Login successful:', data);
-        // Redirect or handle successful login
+        // Handle successful registration
+        console.log('Registration successful:', data);
+        navigate('/login'); // Redirect to login page
       } else {
         const errorData = await response.json();
         setError(errorData.error || 'An error occurred');
@@ -34,9 +35,13 @@ const Login = () => {
     }
   };
 
+  const handleCancel = () => {
+    navigate('/login'); // Navigate back to login page
+  };
+
   return (
-    <div className="login-container">
-      <h1>Login</h1>
+    <div className="register-container">
+      <h1>Register</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label>Email:</label>
@@ -56,14 +61,21 @@ const Login = () => {
             required
           />
         </div>
-        <button type="submit">Login</button>
+        <div className="form-group">
+          <label>Name:</label>
+          <input
+            type="text"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            required
+          />
+        </div>
+        <button type="submit">Register</button>
+        <button type="button" onClick={handleCancel} className="cancel-button">Cancel</button>
       </form>
       {error && <p>{error}</p>}
-      <button onClick={() => navigate('/register')} className="register-button">
-        Register
-      </button>
     </div>
   );
 };
 
-export default Login;
+export default Register;
