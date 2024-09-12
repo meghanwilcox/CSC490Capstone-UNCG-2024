@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import User
+from .models import User, Species
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
@@ -11,3 +11,8 @@ class CreateUserSerializer(serializers.ModelSerializer):
         model = User
         fields = ('email', 'password', 'name')
         extra_kwargs = {'password': {'write_only': True}}  
+
+class SpeciesSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Species
+        fields = '__all__'  # Or specify fields explicitly if needed
