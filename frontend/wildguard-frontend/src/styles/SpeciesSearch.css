@@ -3,12 +3,30 @@ html, body {
   width: 100%;
   margin: 0;
   padding: 0;
+  background-image: url('../assets/endangered_species_background.png'); /* Add background image */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
 }
 
-#root {
-  width: 100%;
-  margin: 0;
-  padding: 0;
+/* WildGuard title and header styling */
+.page-header {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+
+.wildguard-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(253, 253, 253); /* Adjust to match the design */
+}
+
+.wildguard-title:hover {
+  text-decoration: underline; /* Optional hover effect */
 }
 
 /* Main container for the search page */
@@ -29,6 +47,7 @@ html, body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-height: 100vh; /* Limit height to viewport */
   overflow: hidden; /* Prevent overflow */
+  background-color: rgba(255, 255, 255, 0.85); /* Add slight transparency to the page background */
 }
 
 /* Title styling */

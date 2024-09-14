@@ -1,5 +1,6 @@
+// src/SpeciesSearch.jsx
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom'; 
 import './styles/SpeciesSearch.css';
 
 const SpeciesSearchPage = () => {
@@ -13,7 +14,7 @@ const SpeciesSearchPage = () => {
       try {
         const response = await fetch('http://localhost:8000/api/species/');
         const data = await response.json();
-        setSpecies(data.results); // Adjust based on your API response
+        setSpecies(data.results); 
       } catch (error) {
         console.error('Error fetching species data:', error);
       }
@@ -37,6 +38,10 @@ const SpeciesSearchPage = () => {
 
   return (
     <div className="species-search-page">
+      <header className="page-header">
+        <Link to="/" className="wildguard-title">WildGuard</Link>
+      </header>
+
       <h1>Species Search</h1>
       <div className="filters">
         <input

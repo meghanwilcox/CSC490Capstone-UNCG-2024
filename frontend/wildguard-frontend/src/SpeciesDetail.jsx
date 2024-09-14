@@ -1,5 +1,6 @@
+// src/SpeciesDetail.jsx
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import './styles/SpeciesDetail.css';
 
 const SpeciesDetail = () => {
@@ -44,6 +45,10 @@ const SpeciesDetail = () => {
 
   return (
     <div className="species-detail">
+      <header className="page-header">
+        <Link to="/" className="wildguard-title">WildGuard</Link>
+      </header>
+
       <h2>Species Details</h2>
       <p><strong>Scientific Name:</strong> {speciesData.scientificName}</p>
       <p><strong>Kingdom:</strong> {speciesData.kingdom}</p>

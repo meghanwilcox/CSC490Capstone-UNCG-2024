@@ -6,6 +6,10 @@ import './styles/SpeciesOptions.css'; // Add custom styles if needed
 const SpeciesOptions = () => {
   return (
     <div className="species-options-container">
+      <header className="page-header">
+        <Link to="/" className="wildguard-title">WildGuard</Link>
+      </header>
+
       <h1>Explore Species</h1>
       <div className="options">
         <Link to="/species-search" className="cta-button">Species Search</Link>

@@ -2,56 +2,79 @@
 
 /* Container for the entire species options page */
 .species-options-container {
-    text-align: center;
-    padding: 4rem;
-    background-color: #f5f5f5;
-    min-height: 100vh;
-  }
-  
-  /* Header for the species options page */
-  .species-options-container h1 {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-    color: #2c3e50;
-  }
-  
-  /* Flex container for the two buttons */
+  text-align: center;
+  padding: 4rem;
+  background-image: url('../assets/endangered_species_background.png'); /* Add the background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Make the background image fixed when scrolling */
+  min-height: 100vh;
+  color: rgb(10, 10, 10); /* Adjust text color to be readable over the image */
+}
+
+/* WildGuard title and header styling */
+.page-header {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+
+.wildguard-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(3, 68, 12); /* Adjust to match the design */
+}
+
+.wildguard-title:hover {
+  text-decoration: underline; /* Optional hover effect */
+}
+
+/* Header for the species options page */
+.species-options-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: white; /* Ensure the text is readable */
+}
+
+/* Flex container for the two buttons */
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 2rem; /* Space between the buttons */
+  margin-top: 2rem;
+}
+
+/* Styling for each button */
+.cta-button {
+  padding: 1rem 2rem;
+  background-color: rgba(0, 123, 255, 0.8); /* Slightly transparent button background */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Hover effect for the buttons */
+.cta-button:hover {
+  background-color: rgba(0, 86, 179, 0.8); /* Make the hover state consistent */
+}
+
+/* Small media query for mobile responsiveness */
+@media (max-width: 768px) {
   .options {
-    display: flex;
-    justify-content: center;
-    gap: 2rem; /* Space between the buttons */
-    margin-top: 2rem;
+    flex-direction: column; /* Stack the buttons vertically on small screens */
+    gap: 1rem;
   }
-  
-  /* Styling for each button */
+
   .cta-button {
-    padding: 1rem 2rem;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    width: 100%;
   }
-  
-  /* Hover effect for the buttons */
-  .cta-button:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Small media query for mobile responsiveness */
-  @media (max-width: 768px) {
-    .options {
-      flex-direction: column; /* Stack the buttons vertically on small screens */
-      gap: 1rem;
-    }
-  
-    .cta-button {
-      width: 100%;
-    }
-  }
-  
+}
