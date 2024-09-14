@@ -18,6 +18,7 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     background-color: #ffffff; /* White background for the form */
     text-align: center;
+    margin: 0 auto; /* Ensure horizontal centering */
 }
 
 h1 {

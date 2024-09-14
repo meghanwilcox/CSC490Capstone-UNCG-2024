@@ -1,0 +1,164 @@
+/* Styles for general layout and logo */
+#root {
+  margin: 300 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Styles specifically for the landing page */
+.app-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Hero section with the background image */
+.hero-section {
+  background-image: url('./assets/endangered_species_background.png'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white; /* Make text readable on a dark background */
+  padding: 5rem;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: rgb(15, 155, 74); /* Text color to ensure visibility */
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: rgb(15, 155, 74); /* Text color to ensure visibility */
+}
+
+.cta-button {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+/* Features Section */
+.features-section {
+  padding: 4rem;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.feature {
+  max-width: 300px;
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer Section */
+.footer-section {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+/* Navigation styles */
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  background-color: #f0f0f0;
+}
+
+.nav-button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.nav-button:hover {
+  background-color: #0056b3;
+}
+
+/* Species Options Page */
+.species-options-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.cta-button {
+  padding: 1rem 2rem;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
