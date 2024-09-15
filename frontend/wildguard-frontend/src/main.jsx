@@ -17,7 +17,7 @@ root.render(
       <Route path="/" element={<App />} /> {/* App is the landing page */}
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
-      <Route path="/species-options" element={<SpeciesOptions />} /> {/* New route */}
+      <Route path="/species-options" element={<SpeciesOptions />} /> 
       <Route path="/species-search" element={<SpeciesSearchPage />} />
       <Route path="/detail/:scientificName" element={<SpeciesDetail />} />
     </Routes>
