@@ -1,67 +1,66 @@
 /* SpeciesDetail.css */
 
 html, body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  
-  #root {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .species-detail {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80%;
-    margin: 0;
-    padding: 20px;
-    box-sizing: border-box;
-    z-index: 1000; /* Ensures it stays on top of other content */
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .species-detail h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #004d00; /* Matching color to species-list h2 */
-  }
-  
-  .species-detail p {
-    font-size: 1rem;
-    margin: 10px 0;
-    color: #34495e; /* Matching color to species-list p */
-  }
-  
-  .species-detail strong {
-    color: #004d00; /* Matching color to species-list h2 */
-  }
-  
-  .species-detail .error,
-  .species-detail .loading,
-  .species-detail .no-data {
-    font-style: italic;
-    margin-top: 20px;
-  }
-  
-  .species-detail .error {
-    color: #e74c3c; /* Red for error */
-  }
-  
-  .species-detail .loading {
-    color: #f39c12; /* Yellow for loading */
-  }
-  
-  .species-detail .no-data {
-    color: #95a5a6; /* Grey for no data */
-  }
-  
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.species-detail {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 1000; /* Ensures it stays on top of other content */
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.species-detail h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #004d00; /* Matching color to species-list h2 */
+}
+
+.species-detail p {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #34495e; /* Matching color to species-list p */
+}
+
+.species-detail strong {
+  color: #004d00; /* Matching color to species-list h2 */
+}
+
+.species-detail .error,
+.species-detail .loading,
+.species-detail .no-data {
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.species-detail .error {
+  color: #e74c3c; /* Red for error */
+}
+
+.species-detail .loading {
+  color: #f39c12; /* Yellow for loading */
+}
+
+.species-detail .no-data {
+  color: #95a5a6; /* Grey for no data */
+}

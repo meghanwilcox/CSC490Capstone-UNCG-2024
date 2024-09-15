@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; 
-import './styles/Login.css'; 
+import { useNavigate, Link } from 'react-router-dom';
+import './styles/Login.css';
+import woodpeckerGif from './assets/wired-gradient-1144-woodpecker-hover-pinch.gif'; // Path to the .gif file
 
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
-  const navigate = useNavigate(); 
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -21,7 +22,7 @@ const Login = () => {
       if (response.ok) {
         const data = await response.json();
         console.log('Login successful:', data);
-        navigate('/'); 
+        navigate('/');
       } else {
         const errorData = await response.json();
         alert('Login failed: ' + (errorData.error || 'An error occurred'));
@@ -35,33 +36,46 @@ const Login = () => {
   };
 
   return (
-    <div className="login-container">
-      <h1>Login</h1>
-      <form onSubmit={handleSubmit}>
-        <div className="form-group">
-          <label>Email:</label>
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
+    <div className="login-page">
+      <header className="login-header">
+        <Link to="/" className="logo">WildGuard</Link>
+      </header>
+
+      <div className="login-wrapper">
+        <div className="login-container">
+          <div className="login-header-with-gif">
+            <h1>Login</h1>
+            <img src={woodpeckerGif} alt="Woodpecker pecking" className="woodpecker" />
+          </div>
+          <form onSubmit={handleSubmit}>
+            <div className="form-group">
+              <label>Email:</label>
+              <input
+                type="email"
+                value={email}
+                placeholder="Enter your email"
+                onChange={(e) => setEmail(e.target.value)}
+                required
+              />
+            </div>
+            <div className="form-group">
+              <label>Password:</label>
+              <input
+                type="password"
+                value={password}
+                placeholder="Enter your password"
+                onChange={(e) => setPassword(e.target.value)}
+                required
+              />
+            </div>
+            {error && <p className="error-message">{error}</p>}
+            <button type="submit">Login</button>
+          </form>
+          <p className="register-prompt">
+            Don't have an account? <Link to="/register">Register here</Link>
+          </p>
         </div>
-        <div className="form-group">
-          <label>Password:</label>
-          <input
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
-        </div>
-        <button type="submit">Login</button>
-      </form>
-      {error && <p>{error}</p>}
-      <button onClick={() => navigate('/register')} className="register-button">
-        Register
-      </button>
+      </div>
     </div>
   );
 };

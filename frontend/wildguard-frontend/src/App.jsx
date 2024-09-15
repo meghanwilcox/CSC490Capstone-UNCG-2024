@@ -1,40 +1,53 @@
-// src/App.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './styles/App.css'; // Assuming you want to style it
+import './styles/App.css';
 
 const App = () => {
   return (
     <div className="app-container">
+      {/* Navigation Bar */}
       <header className="navigation">
-        <Link to="/login" className="nav-button">Login</Link>
-        <Link to="/register" className="nav-button">Register</Link>
+        <div className="nav-content">
+          <Link to=" " className="logo"></Link>
+          <nav>
+            <Link to="/login" className="nav-button">Login</Link>
+            <Link to="/register" className="nav-button">Register</Link>
+          </nav>
+        </div>
       </header>
 
-      <header className="hero-section">
-        <h1>Welcome to WildGuard</h1>
-        <p>Discover, Learn, and Protect Wildlife Species</p>
-        
-      </header>
-
-      <section className="features-section">
+      {/* Hero Section */}
+      <section className="hero-section">
+        <div className="hero-overlay">
+          <h1>WildGuard</h1>
+          <p>Endangered Progammers For Endangered Species</p>
         <div className="features">
-          <div className="feature">
+          <Link to="/species-options" className="feature clickable-feature">
+            <div className="feature-icon">
+              <span role="img" aria-label="Search">&#128269;</span>
+            </div>
             <h3>Species Search</h3>
             <p>Search for various species and learn more about them.</p>
-            <Link to="/species-options" className="cta-button">Explore</Link> {/* Add button */}
+          </Link>
+          <div className="feature">
+            <div className="feature-icon">
+              <span role="img" aria-label="Information">&#8505;</span>
+            </div>
+            <h3>TBD</h3>
+            <p>TBD</p>
           </div>
           <div className="feature">
-            <h3>Detailed Information</h3>
-            <p>Get detailed information on species including threat status.</p>
-          </div>
-          <div className="feature">
-            <h3>Community Engagement</h3>
+            <div className="feature-icon">
+              <span role="img" aria-label="Community">&#128101;</span>
+            </div>
+            <h3>TBD</h3>
             <p>Join our community to help protect wildlife.</p>
           </div>
         </div>
+        </div>
       </section>
 
+      {/* Footer */}
       <footer className="footer-section">
         <p>&copy; 2024 WildGuard. All rights reserved.</p>
       </footer>

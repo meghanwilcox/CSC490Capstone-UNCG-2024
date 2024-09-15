@@ -1,67 +1,155 @@
-/* src/styles/Login.css */
-body {
-    font-family: 'Arial', sans-serif; /* Font for the entire page */
-    background-color: #eaf0e5; /* Light green background for contrast */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+/* General styling */
+* {
     margin: 0;
-}
-
-.login-container {
-    max-width: 400px;
-    width: 100%;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff; /* White background for the form */
-    text-align: center;
-    margin: 0 auto; /* Ensure horizontal centering */
-}
-
-h1 {
-    color: #2c6b2f; /* Forest green */
-    margin-bottom: 20px;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-.form-group label {
-    display: block;
-    margin-bottom: 8px;
-    color: #2c6b2f; /* Forest green */
-}
-
-.form-group input {
-    width: 100%;
-    padding: 10px;
+    padding: 0;
     box-sizing: border-box;
-    border: 1px solid #2c6b2f; /* Forest green border */
-    border-radius: 8px;
-    font-size: 16px;
-}
-
-button {
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f8f5;
+  }
+  
+  /* Header styling */
+  .login-header {
+    background-color: #f6faf760;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.596);
+  }
+  
+  .login-header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0F9B4A;
+    text-decoration: none;
+  }
+  
+  /* Main layout */
+  .login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Wrapper for login container */
+  .login-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
     width: 100%;
-    padding: 12px;
-    background-color: #2c6b2f; /* Forest green */
-    color: white;
+  }
+  
+  /* Login container styling */
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for login header with woodpecker */
+  .login-header-with-gif {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .login-header-with-gif h1 {
+    font-size: 2rem;
+    color: #0F9B4A;
+    margin-left: 10px; /* Space between woodpecker and Login text */
+  }
+  
+  .woodpecker {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 0px; /* Adds space between the woodpecker and Login text */
+  }
+  
+  /* Form group styling */
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .form-group input:focus {
+    border-color: #0F9B4A;
+    outline: none;
+  }
+  
+  /* Button styling */
+  button[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #0F9B4A;
+    color: #fff;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
+    font-size: 1.1rem;
     cursor: pointer;
-    font-size: 18px;
-    margin-top: 10px;
-}
-
-button:hover {
-    background-color: #1e4d1e; /* Darker forest green */
-}
-
-p {
-    color: red; /* Red for error messages */
-    margin-top: 10px;
-}
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0C7A3F;
+  }
+  
+  .error-message {
+    color: #ff4d4f;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .register-prompt {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .register-prompt a {
+    color: #0F9B4A;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .register-prompt a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .login-header-with-gif {
+      flex-direction: column;
+    }
+  
+    .login-header-with-gif h1 {
+      margin-bottom: 10px;
+      margin-left: 0; /* Remove left margin on smaller screens */
+    }
+  
+    .woodpecker {
+      margin-right: 0; /* Remove right margin on smaller screens */
+    }
+  }
+  
