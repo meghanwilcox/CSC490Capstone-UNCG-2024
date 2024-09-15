@@ -1,6 +1,6 @@
 from rest_framework.generics import ListAPIView, CreateAPIView
-from .serializers import UserSerializer, CreateUserSerializer, SpeciesSerializer
-from .models import User, Species
+from .serializers import UserSerializer, CreateUserSerializer, SpeciesSerializer, AdminSerializer
+from .models import User, Species, Admin
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.filters import SearchFilter, OrderingFilter
@@ -60,6 +60,26 @@ class UserLoginView(APIView):
         # Check if the password is correct
         if check_password(password, user.password):
             return Response({'message': 'Login successful', 'user': {'email': user.email, 'name': user.name, 'is_researcher': user.is_researcher}}, status=status.HTTP_200_OK)
+        else:
+            return Response({'error': 'Invalid email or password.'}, status=status.HTTP_401_UNAUTHORIZED)
+        
+class AdminLoginView(APIView):
+    def post(self, request):
+        email = request.data.get('email')
+        password = request.data.get('password')
+
+        if not email or not password:
+            return Response({'error': 'Email and password are required.'}, status=status.HTTP_400_BAD_REQUEST)
+
+        try:
+            # Find the admin by email
+            admin = Admin.objects.get(email=email)
+        except Admin.DoesNotExist:
+            return Response({'error': 'Invalid email or password.'}, status=status.HTTP_401_UNAUTHORIZED)
+
+        # Check if the password is correct
+        if check_password(password, admin.password):
+            return Response({'message': 'Login successful', 'user': {'email': admin.email, 'name': admin.name}}, status=status.HTTP_200_OK)
         else:
             return Response({'error': 'Invalid email or password.'}, status=status.HTTP_401_UNAUTHORIZED)
         
