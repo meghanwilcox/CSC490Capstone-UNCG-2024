@@ -79,7 +79,7 @@ nav {
 .hero-overlay {
   padding: 2rem;
   text-align: center;
-  color: #ffffff;
+  color: #1111117a;
   border-radius: 10px;
 }
 
@@ -91,6 +91,12 @@ nav {
 .hero-section p {
   font-size: 1.5rem;
   margin-bottom: 2rem;
+}
+
+.hero-logo {
+  width: 200px; /* Adjust the size of the logo as needed */
+  height: auto;
+  margin-bottom: 1rem; /* Add space between the logo and the text */
 }
 
 .cta-button {
@@ -212,3 +218,9 @@ nav {
     flex: 1 1 100%;
   }
 }
+
+.logo-image {
+  width: 150px; /* Adjust the width of the logo as needed */
+  height: auto;
+}
+

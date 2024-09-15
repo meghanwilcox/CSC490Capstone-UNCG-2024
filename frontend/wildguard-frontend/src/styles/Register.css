@@ -16,9 +16,9 @@
   
   /* Header/Banner Styles */
   .register-header {
-    background-color: #f6faf760;
+    background-color: #f6faf700;
     padding: 1rem 2rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.596);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
   }
   
   .register-header .logo {
@@ -28,6 +28,13 @@
     text-decoration: none;
   }
   
+.logo-image {
+  width: 150px; /* Adjust the width of the logo */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
   /* Page Layout */
   .register-page {
     display: flex;

@@ -11,9 +11,11 @@
   }
   
   /* Header styling */
-  .login-header {
+  .login-image {
+    display: flex;
+    justify-content: center; /* Horizontally center the logo */
+    padding: 1rem 0;
     background-color: #f6faf760;
-    padding: 1rem 2rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.596);
   }
   
@@ -137,6 +139,7 @@
     text-decoration: underline;
   }
   
+  
   /* Responsive Styles */
   @media (max-width: 768px) {
     .login-header-with-gif {
@@ -152,4 +155,3 @@
       margin-right: 0; /* Remove right margin on smaller screens */
     }
   }
-  

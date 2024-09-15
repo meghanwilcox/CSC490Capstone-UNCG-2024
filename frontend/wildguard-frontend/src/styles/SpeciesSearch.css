@@ -26,12 +26,14 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.species-search-header .logo {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #0F9B4A;
-  text-decoration: none;
+/* Styling for the logo in the header */
+.logo-image {
+  width: 150px; /* Adjust the width of the logo */
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
+
 
 /* Main Page Layout */
 .species-search-page {

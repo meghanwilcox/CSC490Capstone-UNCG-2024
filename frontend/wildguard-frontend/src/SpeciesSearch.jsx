@@ -1,8 +1,8 @@
-// src/SpeciesSearchPage.jsx
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './styles/SpeciesSearch.css';
 import eyeGif from './assets/wired-outline-69-eye-hover-blink.gif'; // Adjust the path based on your project structure
+import logo from './assets/logo 2 transparent.png'; // Adjust the path to your logo
 
 const SpeciesSearchPage = () => {
   const [species, setSpecies] = useState([]);
@@ -41,7 +41,9 @@ const SpeciesSearchPage = () => {
     <div className="species-search-page">
       {/* Header/Banner */}
       <header className="species-search-header">
-        <Link to="/" className="logo">WildGuard</Link>
+        <Link to="/" className="logo">
+          <img src={logo} alt="WildGuard Logo" className="logo-image" />
+        </Link>
       </header>
 
       {/* Main Content */}

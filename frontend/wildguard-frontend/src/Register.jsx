@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import './styles/Register.css';
 import bearGif from './assets/wired-outline-1203-bear-hover-pinch.gif';
+import logo from './assets/logo 2 transparent.png'; // Adjust the path to your logo
 
 const Register = () => {
   const [email, setEmail] = useState('');
@@ -39,7 +40,9 @@ const Register = () => {
     <div className="register-page">
       {/* Header/Banner */}
       <header className="register-header">
-        <Link to="/" className="logo">WildGuard</Link>
+        <Link to="/" className="logo">
+          <img src={logo} alt="WildGuard Logo" className="logo-image" />
+        </Link>
       </header>
 
       <div className="register-container">

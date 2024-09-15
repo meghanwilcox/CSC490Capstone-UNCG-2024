@@ -13,20 +13,13 @@ body {
 
 /* Header/Banner Styles */
 .species-options-header {
-  background-color: #03030315;
+  background-color: #ffffff00;
   padding: 1rem 2rem;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 100;
-  box-shadow: 0 2px 4px rgba(255, 254, 254, 0.055);
-}
-
-.species-options-header .logo {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #0F9B4A;
-  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Main Page Layout */
@@ -35,11 +28,18 @@ body {
   flex-direction: column;
   align-items: center;
 }
+/* Styling for the logo in the header */
+.logo-image {
+  width: 150px; /* Adjust the width of the logo */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
 .species-options-content {
   width: 100%;
   max-width: 1200px;
-  margin-top: 6rem; /* To offset the fixed header */
+  margin-top: 10rem; /* To offset the fixed header */
   padding: 2rem;
   text-align: center;
 }

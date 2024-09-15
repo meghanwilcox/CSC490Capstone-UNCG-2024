@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import './styles/Login.css';
 import woodpeckerGif from './assets/wired-gradient-1144-woodpecker-hover-pinch.gif'; // Path to the .gif file
+import logo from './assets/logo 2 transparent.png'; // Adjust the path to your logo
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -38,8 +39,11 @@ const Login = () => {
   return (
     <div className="login-page">
       <header className="login-header">
-        <Link to="/" className="logo">WildGuard</Link>
-      </header>
+  <Link to="/">
+    <img src={logo} alt="WildGuard Logo" className="logo-image" />
+  </Link>
+</header>
+
 
       <div className="login-wrapper">
         <div className="login-container">

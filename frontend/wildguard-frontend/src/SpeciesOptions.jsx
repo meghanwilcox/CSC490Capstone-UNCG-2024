@@ -2,13 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles/SpeciesOptions.css';
 import wingsGif from './assets/wired-outline-1145-wings.gif'; // Ensure the correct path to the GIF
+import logo from './assets/logo 2 transparent.png'; // Adjust the path to your logo
 
 const SpeciesOptions = () => {
   return (
     <div className="species-options-page">
       {/* Header/Banner */}
       <header className="species-options-header">
-        <Link to="/" className="logo">WildGuard</Link>
+        <Link to="/" className="logo">
+          <img src={logo} alt="WildGuard Logo" className="logo-image" />
+        </Link>
       </header>
 
       {/* Main Content */}
