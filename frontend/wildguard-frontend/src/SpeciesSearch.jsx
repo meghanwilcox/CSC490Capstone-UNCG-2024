@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom'; 
 import './styles/SpeciesSearch.css';
 
 const SpeciesSearchPage = () => {
@@ -13,7 +13,7 @@ const SpeciesSearchPage = () => {
       try {
         const response = await fetch('http://localhost:8000/api/species/');
         const data = await response.json();
-        setSpecies(data.results); // Adjust based on your API response
+        setSpecies(data.results); 
       } catch (error) {
         console.error('Error fetching species data:', error);
       }
@@ -62,7 +62,6 @@ const SpeciesSearchPage = () => {
           <ul>
             {filteredSpecies.map((species) => (
               <li key={species.taxonid}>
-                {/* Link to species detail using scientific name */}
                 <Link to={`/detail/${encodeURIComponent(species.scientific_name)}`}>
                   <h2>{species.scientific_name}</h2>
                   <p>Common Name: {species.main_common_name || 'N/A'}</p>

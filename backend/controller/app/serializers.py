@@ -20,4 +20,4 @@ class CreateUserSerializer(serializers.ModelSerializer):
 class SpeciesSerializer(serializers.ModelSerializer):
     class Meta:
         model = Species
-        fields = '__all__'  # Or specify fields explicitly if needed
+        fields = '__all__'  

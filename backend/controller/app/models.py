@@ -9,7 +9,7 @@ class User(models.Model):
 
 class Admin(models.Model):
     admin_id = models.AutoField(primary_key=True)   
-    email = email = models.CharField(max_length=50, unique=True, null=False,)
+    email = models.CharField(max_length=50, unique=True, null=False,)
     password = models.CharField(max_length=128, null=False,)
     name = models.CharField(max_length=100, null=False,)
 

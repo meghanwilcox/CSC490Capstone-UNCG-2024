@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import { useNavigate } from 'react-router-dom'; 
 import './styles/Register.css'; 
 
 const Register = () => {
@@ -7,7 +7,7 @@ const Register = () => {
   const [password, setPassword] = useState('');
   const [name, setName] = useState('');
   const [error, setError] = useState('');
-  const navigate = useNavigate(); // Initialize useNavigate
+  const navigate = useNavigate(); 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -17,14 +17,13 @@ const Register = () => {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ email, password, name }), // Exclude is_researcher
+        body: JSON.stringify({ email, password, name }), 
       });
 
       if (response.ok) {
         const data = await response.json();
-        // Handle successful registration
         console.log('Registration successful:', data);
-        navigate('/login'); // Redirect to login page
+        navigate('/login'); 
       } else {
         const errorData = await response.json();
         setError(errorData.error || 'An error occurred');
@@ -36,7 +35,7 @@ const Register = () => {
   };
 
   const handleCancel = () => {
-    navigate('/login'); // Navigate back to login page
+    navigate('/login'); 
   };
 
   return (

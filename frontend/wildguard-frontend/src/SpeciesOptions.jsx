@@ -1,7 +1,6 @@
-// src/SpeciesOptions.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './styles/SpeciesOptions.css'; // Add custom styles if needed
+import './styles/SpeciesOptions.css'; 
 
 const SpeciesOptions = () => {
   return (

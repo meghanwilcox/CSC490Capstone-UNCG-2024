@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import { useNavigate } from 'react-router-dom'; 
 import './styles/Login.css'; 
 
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
-  const navigate = useNavigate(); // Initialize useNavigate
+  const navigate = useNavigate(); 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -18,18 +18,18 @@ const Login = () => {
         },
         body: JSON.stringify({ email, password }),
       });
-
       if (response.ok) {
         const data = await response.json();
-        // Handle successful login
         console.log('Login successful:', data);
-        // Redirect or handle successful login
+        navigate('/'); 
       } else {
         const errorData = await response.json();
+        alert('Login failed: ' + (errorData.error || 'An error occurred'));
         setError(errorData.error || 'An error occurred');
       }
     } catch (err) {
       console.error('Error:', err);
+      alert('An error occurred during login');
       setError('An error occurred');
     }
   };

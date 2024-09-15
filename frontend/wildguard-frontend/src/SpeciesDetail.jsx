@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import './styles/SpeciesDetail.css';
 
 const SpeciesDetail = () => {
-  const { scientificName } = useParams(); // Get the scientific name from the URL
+  const { scientificName } = useParams(); 
   const [speciesData, setSpeciesData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -11,7 +11,6 @@ const SpeciesDetail = () => {
   useEffect(() => {
     const fetchSpeciesData = async () => {
       try {
-        // Fetch data using the scientific name
         const response = await fetch(`http://localhost:8000/species/?scientificName=${encodeURIComponent(scientificName)}`);
         
         if (!response.ok) {
