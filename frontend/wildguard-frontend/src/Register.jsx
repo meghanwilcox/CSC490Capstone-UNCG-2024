@@ -47,7 +47,7 @@ const Register = () => {
 
       <div className="register-container">
         <h1>Create an Account</h1>
-        <img src={bearGif} alt="Bear GIF" className="bear-gif" />
+        {/* <img src={bearGif} alt="Bear GIF" className="bear-gif" /> */}
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label>Email:</label>

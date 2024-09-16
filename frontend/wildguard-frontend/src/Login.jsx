@@ -49,7 +49,7 @@ const Login = () => {
         <div className="login-container">
           <div className="login-header-with-gif">
             <h1>Login</h1>
-            <img src={woodpeckerGif} alt="Woodpecker pecking" className="woodpecker" />
+            {/* <img src={woodpeckerGif} alt="Woodpecker pecking" className="woodpecker" /> */}
           </div>
           <form onSubmit={handleSubmit}>
             <div className="form-group">
