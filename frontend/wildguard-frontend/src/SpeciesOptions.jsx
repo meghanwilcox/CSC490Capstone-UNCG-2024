@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles/SpeciesOptions.css';
-import wingsGif from './assets/wired-outline-1145-wings.gif'; // Ensure the correct path to the GIF
-import logo from './assets/logo 2 transparent.png'; // Adjust the path to your logo
+import wingsGif from './assets/wired-outline-1145-wings.gif'; 
+import logo from './assets/logo 2 transparent.png'; 
 
 const SpeciesOptions = () => {
   return (

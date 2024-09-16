@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles/App.css';
-import logo from './assets/logo 2 transparent.png'; // Adjust the path if necessary
+import logo from './assets/logo 2 transparent.png'; 
 
 const App = () => {
   return (
@@ -22,7 +22,7 @@ const App = () => {
       {/* Hero Section */}
       <section className="hero-section">
   <div className="hero-overlay">
-    <img src={logo} alt="WildGuard Logo" className="hero-logo" /> {/* Replace the <h1> with this */}
+    <img src={logo} alt="WildGuard Logo" className="hero-logo" /> 
     <p>Endangered Programmers For Endangered Species</p>
     <div className="features">
       <Link to="/species-options" className="feature clickable-feature">

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import './styles/Register.css';
 import bearGif from './assets/wired-outline-1203-bear-hover-pinch.gif';
-import logo from './assets/logo 2 transparent.png'; // Adjust the path to your logo
+import logo from './assets/logo 2 transparent.png'; 
 
 const Register = () => {
   const [email, setEmail] = useState('');
