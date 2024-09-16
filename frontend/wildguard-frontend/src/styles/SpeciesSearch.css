@@ -1,6 +1,7 @@
 /* src/styles/SpeciesSearch.css */
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 /* Reset default styles */
 * {
   margin: 0;
@@ -10,7 +11,7 @@
 
 /* Body Styling */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #f0f8f5;
   color: #333;
 }
@@ -28,12 +29,11 @@ body {
 
 /* Styling for the logo in the header */
 .logo-image {
-  width: 150px; /* Adjust the width of the logo */
+  width: 150px;
   height: auto;
   display: block;
   margin: 0 auto;
 }
-
 
 /* Main Page Layout */
 .species-search-page {
@@ -88,7 +88,7 @@ body {
 
 .filters input:focus,
 .filters select:focus {
-  border-color: #0F9B4A;
+  border-color: #0f9b4a;
   outline: none;
 }
 
@@ -106,7 +106,7 @@ body {
 .species-list li {
   background-color: #fff;
   border: 1px solid #ddd;
-  border-left: 5px solid #0F9B4A;
+  border-left: 5px solid #0f9b4a;
   border-radius: 5px;
   padding: 1rem;
   margin-bottom: 1rem;
@@ -125,7 +125,7 @@ body {
 
 .species-list h2 {
   font-size: 1.5rem;
-  color: #0F9B4A;
+  color: #0f9b4a;
   margin-bottom: 0.5rem;
 }
 
@@ -152,7 +152,7 @@ body {
 }
 
 .species-list::-webkit-scrollbar-thumb {
-  background-color: #0F9B4A;
+  background-color: #0f9b4a;
   border-radius: 5px;
 }
 

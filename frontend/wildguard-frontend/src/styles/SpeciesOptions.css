@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #f0f8f5;
   color: #333;
 }
@@ -30,7 +30,7 @@ body {
 }
 /* Styling for the logo in the header */
 .logo-image {
-  width: 150px; /* Adjust the width of the logo */
+  width: 150px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -39,7 +39,7 @@ body {
 .species-options-content {
   width: 100%;
   max-width: 1200px;
-  margin-top: 10rem; /* To offset the fixed header */
+  margin-top: 10rem;
   padding: 2rem;
   text-align: center;
 }
@@ -60,7 +60,7 @@ body {
 /* Wings GIF styling */
 .wings-gif {
   margin: 2rem auto;
-  width: 200px; /* Adjust size as needed */
+  width: 200px;
   height: auto;
 }
 
@@ -92,7 +92,7 @@ body {
 
 .option-icon {
   font-size: 3rem;
-  color: #0F9B4A;
+  color: #0f9b4a;
   margin-bottom: 1rem;
 }
 

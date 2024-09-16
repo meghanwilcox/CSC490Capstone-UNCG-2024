@@ -1,6 +1,7 @@
 /* SpeciesDetail.css */
 
-html, body {
+html,
+body {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -23,7 +24,7 @@ html, body {
   margin: 0;
   padding: 20px;
   box-sizing: border-box;
-  z-index: 1000; /* Ensures it stays on top of other content */
+  z-index: 1000;
   background-color: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 8px;

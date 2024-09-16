@@ -1,5 +1,5 @@
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 /* Reset default styles */
 * {
@@ -10,7 +10,7 @@
 
 /* Body Styling */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #333;
 }
 
@@ -39,7 +39,7 @@ body {
 .logo {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #0F9B4A;
+  color: #0f9b4a;
   text-decoration: none;
 }
 
@@ -58,21 +58,21 @@ nav {
 }
 
 .nav-button:hover {
-  background-color: #0C7A3F;
+  background-color: #0c7a3f;
 }
 
 /* Hero Section */
 .hero-section {
-  background-image: url('../assets/tyler-smith-pantherwatch03.jpg');
+  background-image: url("../assets/tyler-smith-pantherwatch03.jpg");
   background-size: cover;
   background-position: center;
-  min-height: 100vh; /* Ensure it covers at least the full viewport height */
+  min-height: 100vh;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* Align the content to the top */
-  padding-top: 100px; /* Add some padding to move it away from the top */
+  justify-content: flex-start;
+  padding-top: 100px;
   margin-bottom: 0;
 }
 
@@ -94,13 +94,13 @@ nav {
 }
 
 .hero-logo {
-  width: 200px; /* Adjust the size of the logo as needed */
+  width: 200px;
   height: auto;
-  margin-bottom: 1rem; /* Add space between the logo and the text */
+  margin-bottom: 1rem;
 }
 
 .cta-button {
-  background-color: #0F9B4A;
+  background-color: #0f9b4a;
   color: white;
   padding: 1rem 2rem;
   border: none;
@@ -112,7 +112,7 @@ nav {
 }
 
 .cta-button:hover {
-  background-color: #0C7A3F;
+  background-color: #0c7a3f;
 }
 
 /* Features Section */
@@ -133,15 +133,14 @@ nav {
   color: inherit;
 }
 
-
 /* Features Section */
 .features {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  position: absolute; /* Make it stick to the bottom */
-  bottom: 2rem; /* Distance from the bottom */
+  position: absolute;
+  bottom: 2rem;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -150,10 +149,10 @@ nav {
 /* Adjust the feature styles to make them smaller */
 .feature {
   background-color: #415d7400;
-  padding: 1rem; /* Reduce padding */
+  padding: 1rem;
   border-radius: 10px;
-  flex: 1 1 calc(20% - 2rem); /* Make each feature smaller */
-  max-width: 150px; /* Reduce the max-width */
+  flex: 1 1 calc(20% - 2rem);
+  max-width: 150px;
   text-align: center;
   box-shadow: 0 2px 8px rgba(7, 7, 7, 0.1);
   transition: transform 0.3s;
@@ -164,22 +163,21 @@ nav {
 }
 
 .feature-icon {
-  font-size: 2rem; /* Reduce icon size */
-  margin-bottom: 0.5rem; /* Less margin */
-  color: #0F9B4A;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #0f9b4a;
 }
 
 .feature h3 {
-  font-size: 1.2rem; /* Smaller text */
+  font-size: 1.2rem;
   margin-bottom: 0.5rem;
   color: #f5f1f1;
 }
 
 .feature p {
-  font-size: 0.8rem; /* Smaller description text */
+  font-size: 0.8rem;
   color: #fcf9f9;
 }
-
 
 /* Footer Section */
 .footer-section {
@@ -220,7 +218,6 @@ nav {
 }
 
 .logo-image {
-  width: 150px; /* Adjust the width of the logo as needed */
+  width: 150px;
   height: auto;
 }
-
