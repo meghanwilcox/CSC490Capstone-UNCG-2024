@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './styles/SpeciesSearch.css';
-import eyeGif from './assets/wired-outline-69-eye-hover-blink.gif'; 
+// import eyeGif from './assets/wired-outline-69-eye-hover-blink.gif'; 
 import logo from './assets/logo 2 transparent.png'; 
 
 const SpeciesSearchPage = () => {
@@ -48,10 +48,7 @@ const SpeciesSearchPage = () => {
 
       {/* Main Content */}
       <div className="species-search-content">
-        {/* Eye GIF */}
-        <div className="eye-gif-container">
-          <img src={eyeGif} alt="Eye animation" className="eye-gif" />
-        </div>
+
 
         <h1>Species Search</h1>
 

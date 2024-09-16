@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import './styles/Login.css';
-import woodpeckerGif from './assets/wired-gradient-1144-woodpecker-hover-pinch.gif'; 
 import logo from './assets/logo 2 transparent.png'; 
 
 const Login = () => {

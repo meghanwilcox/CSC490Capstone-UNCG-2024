@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import './styles/Register.css';
-import bearGif from './assets/wired-outline-1203-bear-hover-pinch.gif';
+
 import logo from './assets/logo 2 transparent.png'; 
 
 const Register = () => {
@@ -47,7 +47,6 @@ const Register = () => {
 
       <div className="register-container">
         <h1>Create an Account</h1>
-        {/* <img src={bearGif} alt="Bear GIF" className="bear-gif" /> */}
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label>Email:</label>
