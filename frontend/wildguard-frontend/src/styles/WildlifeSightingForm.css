@@ -1,0 +1,146 @@
+/* src/styles/WildlifeSightingForm.css */
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Import Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  
+  /* Body Styling */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f8f5;
+    color: #333;
+  }
+  
+  /* Header/Banner Styles */
+  .wildlife-sighting-form-header {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wildlife-sighting-form-header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0F9B4A;
+    text-decoration: none;
+  }
+  
+  /* Main Page Layout */
+  .wildlife-sighting-form-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .wildlife-sighting-form-content {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 6rem; /* To offset the fixed header */
+    padding: 2rem;
+  }
+  
+  .wildlife-sighting-form-content h1 {
+    text-align: center;
+    color: #0F9B4A;
+    margin-bottom: 2rem;
+  }
+  
+  /* Form Styling */
+  form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="date"],
+  .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .form-group input[type="file"] {
+    padding: 0.75rem 0;
+  }
+  
+  .form-group textarea {
+    min-height: 150px;
+    resize: vertical;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #0F9B4A;
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #0F9B4A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0C7A3F;
+  }
+  
+  /* Media Preview */
+  .media-preview {
+    margin-top: 1rem;
+  }
+  
+  .media-preview p {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .media-preview img,
+  .media-preview video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .wildlife-sighting-form-content {
+      padding: 1rem;
+    }
+  
+    form {
+      padding: 1.5rem;
+    }
+  }
+  

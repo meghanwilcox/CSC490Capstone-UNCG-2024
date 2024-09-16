@@ -6,7 +6,9 @@ import Login from './Login';
 import Register from './Register';
 import SpeciesSearchPage from './SpeciesSearch';
 import SpeciesDetail from './SpeciesDetail';
-import SpeciesOptions from './SpeciesOptions'; 
+import SpeciesOptions from './SpeciesOptions';
+import WildlifeSightingForm from './WildlifeSightingForm'; // Import WildlifeSightingForm component
+import UserProfile from './UserProfile'; // Import UserProfile component
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -19,6 +21,8 @@ root.render(
       <Route path="/species-options" element={<SpeciesOptions />} /> 
       <Route path="/species-search" element={<SpeciesSearchPage />} />
       <Route path="/detail/:scientificName" element={<SpeciesDetail />} />
+      <Route path="/wildlife-sighting-form" element={<WildlifeSightingForm />} /> {/* Add route for WildlifeSightingForm */}
+      <Route path="/user-profile" element={<UserProfile />} /> {/* Add route for UserProfile */}
     </Routes>
   </Router>
 );
