@@ -6,7 +6,6 @@ import placeholderImage from './assets/neon-demon-slayer-tengen-uzui-cw5wj06w8h0
 const UserProfile = () => {
   const navigate = useNavigate();
 
-  
   const storedUser = JSON.parse(localStorage.getItem('user'));
   const [user, setUser] = useState(storedUser || {});
 
@@ -96,6 +95,13 @@ const UserProfile = () => {
               {/* Link to Wildlife Sighting Form */}
               <Link to="/wildlife-sighting-form" className="submit-sighting-button">
                 Submit Wildlife Sighting
+              </Link>
+              {/* Add buttons to Map Page and Species Options */}
+              <Link to="/map-page" className="map-page-button">
+                View Map
+              </Link>
+              <Link to="/species-options" className="species-options-button">
+                Explore Species
               </Link>
             </div>
           ) : (

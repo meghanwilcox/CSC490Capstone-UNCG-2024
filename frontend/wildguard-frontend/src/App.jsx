@@ -35,7 +35,7 @@ const App = () => {
           <nav>
             {isLoggedIn ? (
               <>
-                <Link to="/user-profile" className="nav-button">Profile</Link> {/* Correct link to user profile */}
+                <Link to="/user-profile" className="nav-button">Profile</Link>
                 <button onClick={handleLogout} className="nav-button">Logout</button>
               </>
             ) : (
@@ -61,13 +61,14 @@ const App = () => {
               <h3>Species Search</h3>
               <p>Search for various species and learn more about them.</p>
             </Link>
-            <div className="feature">
+            {/* Modify this middle button */}
+            <Link to="/map-page" className="feature clickable-feature">
               <div className="feature-icon">
-                <span role="img" aria-label="Information">&#8505;</span>
+                <span role="img" aria-label="Globe">&#127758;</span> {/* Globe icon */}
               </div>
-              <h3>TBD</h3>
-              <p>TBD</p>
-            </div>
+              <h3>Explore Map</h3>
+              <p>See sightings on the map.</p>
+            </Link>
             <div className="feature">
               <div className="feature-icon">
                 <span role="img" aria-label="Community">&#128101;</span>
