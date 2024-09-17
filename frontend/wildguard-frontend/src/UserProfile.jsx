@@ -1,21 +1,14 @@
-// src/UserProfile.jsx
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './styles/UserProfile.css';
-import placeholderImage from './assets/profile-placeholder.png';
+import placeholderImage from './assets/neon-demon-slayer-tengen-uzui-cw5wj06w8h06hkao.jpg';
 
 const UserProfile = () => {
   const navigate = useNavigate();
 
-  // Simulated user data (replace with actual data from your backend)
-  const [user, setUser] = useState({
-    user_id: 1,
-    name: 'Jane Smith',
-    email: 'janesmith@example.com',
-    role: 'Researcher', // or 'Volunteer'
-    profilePicture: null,
-    bio: 'Researcher focused on wildlife conservation.',
-  });
+  
+  const storedUser = JSON.parse(localStorage.getItem('user'));
+  const [user, setUser] = useState(storedUser || {});
 
   // State to manage edit mode
   const [isEditing, setIsEditing] = useState(false);
@@ -31,17 +24,37 @@ const UserProfile = () => {
   };
 
   // Handle form submission
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Update user data (send to backend)
-    setUser({ ...editedUser });
-    setIsEditing(false);
-    // Implement API call to update user data on the backend
+  
+    const response = await fetch('http://localhost:8000/users/update-profile/', {
+      method: 'PUT',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        user_id: user.user_id,
+        name: editedUser.name,
+        email: editedUser.email,
+        bio: editedUser.bio,
+      }),
+    });
+  
+    if (response.ok) {
+      const updatedUser = await response.json();
+      setUser(updatedUser);  
+      setIsEditing(false);
+      localStorage.setItem('user', JSON.stringify(updatedUser));  
+    } else {
+      console.error('Error saving profile:', response.statusText);
+      alert('Failed to update profile. Please try again.');
+    }
   };
 
   // Handle logout
   const handleLogout = () => {
-    // Implement logout functionality
+    localStorage.removeItem('user');     
+    localStorage.removeItem('user_id');  
     navigate('/login');
   };
 
@@ -80,6 +93,10 @@ const UserProfile = () => {
               >
                 Edit Profile
               </button>
+              {/* Link to Wildlife Sighting Form */}
+              <Link to="/wildlife-sighting-form" className="submit-sighting-button">
+                Submit Wildlife Sighting
+              </Link>
             </div>
           ) : (
             <form className="edit-profile-form" onSubmit={handleSubmit}>
@@ -111,7 +128,6 @@ const UserProfile = () => {
                   onChange={handleChange}
                 ></textarea>
               </div>
-              {/* Additional fields if necessary */}
               <button type="submit" className="save-button">
                 Save Changes
               </button>
@@ -128,21 +144,6 @@ const UserProfile = () => {
             </form>
           )}
         </div>
-
-        {/* Conditional Content Based on Role */}
-        {user.role === 'Researcher' ? (
-          <div className="researcher-content">
-            <h2>Researcher Dashboard</h2>
-            <p>Access to advanced data and sighting validations.</p>
-            {/* Implement additional researcher functionalities here */}
-          </div>
-        ) : (
-          <div className="volunteer-content">
-            <h2>Your Recent Sightings</h2>
-            <p>You have not submitted any sightings yet.</p>
-            {/* Implement additional volunteer functionalities here */}
-          </div>
-        )}
       </div>
     </div>
   );

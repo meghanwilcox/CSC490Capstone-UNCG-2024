@@ -19,11 +19,19 @@ const Login = () => {
         },
         body: JSON.stringify({ email, password }),
       });
+  
       if (response.ok) {
         const data = await response.json();
         console.log('Login successful:', data);
-        navigate('/');
-      } else {
+  
+        
+        localStorage.setItem('user_id', data.user.id); 
+        localStorage.setItem('user', JSON.stringify(data.user));
+        
+        navigate('/user-profile');
+
+      } 
+      else {
         const errorData = await response.json();
         alert('Login failed: ' + (errorData.error || 'An error occurred'));
         setError(errorData.error || 'An error occurred');
@@ -34,6 +42,7 @@ const Login = () => {
       setError('An error occurred');
     }
   };
+  
 
   return (
     <div className="login-page">
@@ -48,7 +57,7 @@ const Login = () => {
         <div className="login-container">
           <div className="login-header-with-gif">
             <h1>Login</h1>
-            {/* <img src={woodpeckerGif} alt="Woodpecker pecking" className="woodpecker" /> */}
+            
           </div>
           <form onSubmit={handleSubmit}>
             <div className="form-group">

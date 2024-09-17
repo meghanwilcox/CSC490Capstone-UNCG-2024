@@ -26,7 +26,10 @@ SECRET_KEY = 'django-insecure-et%p9jggbdji*5o3gaqnw-2@mhser^m()nz_md8epd273=6&+p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1'
+]
 
 
 # Application definition
@@ -56,6 +59,10 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',  # React app's URL
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    'http://localhost:3000',
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
@@ -137,7 +144,14 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+# Session settings
+SESSION_COOKIE_AGE = 1209600  # Two weeks (in seconds)
+SESSION_EXPIRE_AT_BROWSER_CLOSE = False  # Keep session alive after closing the browser
+SESSION_ENGINE = 'django.contrib.sessions.backends.db'  # Store sessions in the database
+SESSION_COOKIE_SECURE = False  # For production, set this to True with HTTPS
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+

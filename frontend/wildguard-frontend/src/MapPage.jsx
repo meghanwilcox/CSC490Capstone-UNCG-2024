@@ -6,7 +6,7 @@ import 'leaflet/dist/leaflet.css';
 import { Link } from 'react-router-dom';
 import L from 'leaflet';
 
-// Fix default icon issues with Leaflet in React
+
 delete L.Icon.Default.prototype._getIconUrl;
 
 import iconRetinaUrl from 'leaflet/dist/images/marker-icon-2x.png';
