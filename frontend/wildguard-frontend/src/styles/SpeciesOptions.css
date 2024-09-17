@@ -1,80 +1,124 @@
-/* src/styles/SpeciesOptions.css */
-
-/* Container for the entire species options page */
-.species-options-container {
-  text-align: center;
-  padding: 4rem;
-  background-image: url('../assets/endangered_species_background.png'); /* Add the background image */
-  background-size: cover; /* Ensure the image covers the entire background */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
-  background-attachment: fixed; /* Make the background image fixed when scrolling */
-  min-height: 100vh;
-  color: rgb(10, 10, 10); /* Adjust text color to be readable over the image */
+/* General styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* WildGuard title and header styling */
-.page-header {
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f8f5;
+  color: #333;
+}
+
+/* Header/Banner Styles */
+.species-options-header {
+  background-color: #ffffff00;
+  padding: 1rem 2rem;
   position: fixed;
-  top: 10px;
-  left: 10px;
-  z-index: 1000;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.wildguard-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: none;
-  color: rgb(3, 68, 12); /* Adjust to match the design */
+/* Main Page Layout */
+.species-options-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Styling for the logo in the header */
+.logo-image {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
-.wildguard-title:hover {
-  text-decoration: underline; /* Optional hover effect */
+.species-options-content {
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 10rem;
+  padding: 2rem;
+  text-align: center;
 }
 
-/* Header for the species options page */
-.species-options-container h1 {
+/* Title and Description */
+.species-options-content h1 {
   font-size: 2.5rem;
-  margin-bottom: 2rem;
-  color: white; /* Ensure the text is readable */
+  color: #050505;
+  margin-bottom: 1rem;
 }
 
-/* Flex container for the two buttons */
+.species-options-content p {
+  font-size: 1.2rem;
+  color: #080808;
+  margin-bottom: 3rem;
+}
+
+/* Wings GIF styling */
+.wings-gif {
+  margin: 2rem auto;
+  width: 200px;
+  height: auto;
+}
+
+/* Options Styling */
 .options {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem; /* Space between the buttons */
-  margin-top: 2rem;
+  gap: 2rem;
 }
 
-/* Styling for each button */
-.cta-button {
-  padding: 1rem 2rem;
-  background-color: rgba(0, 123, 255, 0.8); /* Slightly transparent button background */
-  color: white;
+.option-card {
+  background-color: #1bdeec2c;
+  border: 1px solid #dddddd00;
+  border-radius: 10px;
+  width: 300px;
+  padding: 2rem;
+  text-align: center;
   text-decoration: none;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  color: #000000;
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
 }
 
-/* Hover effect for the buttons */
-.cta-button:hover {
-  background-color: rgba(0, 86, 179, 0.8); /* Make the hover state consistent */
+.option-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 15px rgba(255, 253, 253, 0.1);
 }
 
-/* Small media query for mobile responsiveness */
+.option-icon {
+  font-size: 3rem;
+  color: #0f9b4a;
+  margin-bottom: 1rem;
+}
+
+.option-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.option-card p {
+  font-size: 1rem;
+  color: #000000;
+}
+
+/* Responsive Styles */
 @media (max-width: 768px) {
   .options {
-    flex-direction: column; /* Stack the buttons vertically on small screens */
-    gap: 1rem;
+    flex-direction: column;
+    gap: 1.5rem;
   }
 
-  .cta-button {
+  .option-card {
     width: 100%;
+  }
+
+  /* Responsive wings GIF */
+  .wings-gif {
+    width: 150px;
   }
 }

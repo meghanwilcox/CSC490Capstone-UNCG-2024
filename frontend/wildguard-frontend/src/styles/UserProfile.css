@@ -1,0 +1,246 @@
+/* src/styles/UserProfile.css */
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f8f5;
+  color: #333;
+}
+
+/* Header/Banner Styles */
+.user-profile-header {
+  background-color: #ece6e6;
+  padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-profile-header .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #0f9b4a;
+  text-decoration: none;
+}
+
+/* Main Page Layout */
+.user-profile-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-profile-content {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 6rem;
+  padding: 2rem;
+}
+
+/* Profile Card */
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.profile-info h1 {
+  font-size: 2rem;
+  color: #0f9b4a;
+  margin-bottom: 0.5rem;
+}
+
+.profile-info .email {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.profile-info .bio {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.edit-profile-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #0f9b4a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-profile-button:hover {
+  background-color: #0c7a3f;
+}
+
+/* User's Sightings */
+.user-sightings {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.user-sightings h2 {
+  font-size: 1.8rem;
+  color: #0f9b4a;
+  margin-bottom: 1rem;
+}
+
+.user-sightings p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .profile-card {
+    padding: 1.5rem;
+  }
+
+  .profile-info h1 {
+    font-size: 1.8rem;
+  }
+
+  .edit-profile-button {
+    width: 100%;
+  }
+
+  /* Navigation Styles */
+.user-profile-header nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-button {
+  margin-left: auto;
+  padding: 0.5rem 1rem;
+  background-color: #0F9B4A;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: #0C7A3F;
+}
+
+/* Edit Profile Form */
+.edit-profile-form {
+  width: 100%;
+}
+
+.edit-profile-form .form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.edit-profile-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.edit-profile-form input,
+.edit-profile-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit-profile-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.edit-profile-form input:focus,
+.edit-profile-form textarea:focus {
+  border-color: #0F9B4A;
+  outline: none;
+}
+
+.save-button,
+.cancel-button {
+  width: 48%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.save-button {
+  background-color: #0F9B4A;
+  color: #fff;
+  margin-right: 4%;
+}
+
+.save-button:hover {
+  background-color: #0C7A3F;
+}
+
+.cancel-button {
+  background-color: #ccc;
+  color: #333;
+}
+
+.cancel-button:hover {
+  background-color: #999;
+}
+
+/* Role-specific Content */
+.researcher-content,
+.volunteer-content {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.researcher-content h2,
+.volunteer-content h2 {
+  font-size: 1.8rem;
+  color: #0F9B4A;
+  margin-bottom: 1rem;
+}
+
+.researcher-content p,
+.volunteer-content p {
+  font-size: 1rem;
+  color: #555;
+}
+
+}

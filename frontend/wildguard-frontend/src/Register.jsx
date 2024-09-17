@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
-import './styles/Register.css'; 
+import { useNavigate, Link } from 'react-router-dom';
+import './styles/Register.css';
+
+import logo from './assets/logo 2 transparent.png'; 
 
 const Register = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [name, setName] = useState('');
   const [error, setError] = useState('');
-  const navigate = useNavigate(); // Initialize useNavigate
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -17,14 +19,13 @@ const Register = () => {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ email, password, name }), // Exclude is_researcher
+        body: JSON.stringify({ email, password, name }),
       });
 
       if (response.ok) {
         const data = await response.json();
-        // Handle successful registration
         console.log('Registration successful:', data);
-        navigate('/login'); // Redirect to login page
+        navigate('/login');
       } else {
         const errorData = await response.json();
         setError(errorData.error || 'An error occurred');
@@ -35,45 +36,55 @@ const Register = () => {
     }
   };
 
-  const handleCancel = () => {
-    navigate('/login'); // Navigate back to login page
-  };
-
   return (
-    <div className="register-container">
-      <h1>Register</h1>
-      <form onSubmit={handleSubmit}>
-        <div className="form-group">
-          <label>Email:</label>
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-        </div>
-        <div className="form-group">
-          <label>Password:</label>
-          <input
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
-        </div>
-        <div className="form-group">
-          <label>Name:</label>
-          <input
-            type="text"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            required
-          />
-        </div>
-        <button type="submit">Register</button>
-        <button type="button" onClick={handleCancel} className="cancel-button">Cancel</button>
-      </form>
-      {error && <p>{error}</p>}
+    <div className="register-page">
+      {/* Header/Banner */}
+      <header className="register-header">
+        <Link to="/" className="logo">
+          <img src={logo} alt="WildGuard Logo" className="logo-image" />
+        </Link>
+      </header>
+
+      <div className="register-container">
+        <h1>Create an Account</h1>
+        <form onSubmit={handleSubmit}>
+          <div className="form-group">
+            <label>Email:</label>
+            <input
+              type="email"
+              value={email}
+              placeholder="Enter your email"
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+          <div className="form-group">
+            <label>Password:</label>
+            <input
+              type="password"
+              value={password}
+              placeholder="Create a password"
+              onChange={(e) => setPassword(e.target.value)}
+              required
+            />
+          </div>
+          <div className="form-group">
+            <label>Name:</label>
+            <input
+              type="text"
+              value={name}
+              placeholder="Enter your name"
+              onChange={(e) => setName(e.target.value)}
+              required
+            />
+          </div>
+          {error && <p className="error-message">{error}</p>}
+          <button type="submit">Register</button>
+        </form>
+        <p className="login-prompt">
+          Already have an account? <Link to="/login">Login here</Link>
+        </p>
+      </div>
     </div>
   );
 };

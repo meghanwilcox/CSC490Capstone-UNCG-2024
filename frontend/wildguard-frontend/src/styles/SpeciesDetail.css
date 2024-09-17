@@ -1,6 +1,7 @@
 /* SpeciesDetail.css */
 
-html, body {
+html,
+body {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -12,26 +13,6 @@ html, body {
   padding: 0;
 }
 
-/* WildGuard title and header styling */
-.page-header {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  z-index: 1000;
-}
-
-.wildguard-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: none;
-  color: #004d00; /* Matching the theme */
-}
-
-.wildguard-title:hover {
-  text-decoration: underline; /* Optional hover effect */
-}
-
-/* Container for species detail */
 .species-detail {
   display: flex;
   flex-direction: column;
@@ -43,7 +24,7 @@ html, body {
   margin: 0;
   padding: 20px;
   box-sizing: border-box;
-  z-index: 1000; /* Ensures it stays on top of other content */
+  z-index: 1000;
   background-color: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -66,7 +47,6 @@ html, body {
   color: #004d00; /* Matching color to species-list h2 */
 }
 
-/* Loading, error, and no data states */
 .species-detail .error,
 .species-detail .loading,
 .species-detail .no-data {
