@@ -1,4 +1,3 @@
-// src/MapPage.jsx
 import React, { useState, useEffect } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import './styles/MapPage.css';

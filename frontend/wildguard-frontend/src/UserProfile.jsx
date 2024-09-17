@@ -9,11 +9,11 @@ const UserProfile = () => {
   const storedUser = JSON.parse(localStorage.getItem('user'));
   const [user, setUser] = useState(storedUser || {});
 
-  // State to manage edit mode
+  
   const [isEditing, setIsEditing] = useState(false);
   const [editedUser, setEditedUser] = useState({ ...user });
 
-  // Handle input changes
+  
   const handleChange = (e) => {
     const { name, value } = e.target;
     setEditedUser({
@@ -22,7 +22,7 @@ const UserProfile = () => {
     });
   };
 
-  // Handle form submission
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
   
@@ -50,7 +50,7 @@ const UserProfile = () => {
     }
   };
 
-  // Handle logout
+  
   const handleLogout = () => {
     localStorage.removeItem('user');     
     localStorage.removeItem('user_id');  

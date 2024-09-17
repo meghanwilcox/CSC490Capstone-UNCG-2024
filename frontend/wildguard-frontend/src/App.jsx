@@ -61,10 +61,9 @@ const App = () => {
               <h3>Species Search</h3>
               <p>Search for various species and learn more about them.</p>
             </Link>
-            {/* Modify this middle button */}
             <Link to="/map-page" className="feature clickable-feature">
               <div className="feature-icon">
-                <span role="img" aria-label="Globe">&#127758;</span> {/* Globe icon */}
+                <span role="img" aria-label="Globe">&#127758;</span> 
               </div>
               <h3>Explore Map</h3>
               <p>See sightings on the map.</p>
