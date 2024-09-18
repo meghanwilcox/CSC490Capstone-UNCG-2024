@@ -99,7 +99,6 @@ body {
 .edit-profile-button:hover {
   background-color: #0c7a3f;
 }
-
 /* Submit Sighting Button */
 .submit-sighting-button {
   display: inline-block;
@@ -118,6 +117,7 @@ body {
 .submit-sighting-button:hover {
   background-color: #e69500;
 }
+
 
 /* User's Sightings */
 .user-sightings {
@@ -147,6 +147,7 @@ body {
   .profile-info h1 {
     font-size: 1.8rem;
   }
+
 
   .edit-profile-button,
   .submit-sighting-button {
@@ -278,4 +279,9 @@ body {
 .map-page-button:hover,
 .species-options-button:hover {
   background-color: #0056b3; /* Darken on hover */
+}
+
+  .edit-profile-button {
+    width: 100%;
+  }
 }

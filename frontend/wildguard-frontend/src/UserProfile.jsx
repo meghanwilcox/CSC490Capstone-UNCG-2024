@@ -55,6 +55,7 @@ const UserProfile = () => {
     localStorage.removeItem('user');     
     localStorage.removeItem('user_id');  
     navigate('/login');
+
   };
 
   return (
@@ -69,8 +70,6 @@ const UserProfile = () => {
             Logout
           </button>
         </nav>
-      </header>
-
       {/* Main Content */}
       <div className="user-profile-content">
         <div className="profile-card">

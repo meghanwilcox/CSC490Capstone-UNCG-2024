@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import './styles/Login.css';
+
 import logo from './assets/logo 2 transparent.png'; 
+
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -19,6 +21,7 @@ const Login = () => {
         },
         body: JSON.stringify({ email, password }),
       });
+
   
       if (response.ok) {
         const data = await response.json();
@@ -32,6 +35,7 @@ const Login = () => {
 
       } 
       else {
+
         const errorData = await response.json();
         alert('Login failed: ' + (errorData.error || 'An error occurred'));
         setError(errorData.error || 'An error occurred');
@@ -57,7 +61,6 @@ const Login = () => {
         <div className="login-container">
           <div className="login-header-with-gif">
             <h1>Login</h1>
-            
           </div>
           <form onSubmit={handleSubmit}>
             <div className="form-group">

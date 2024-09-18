@@ -9,7 +9,9 @@ import SpeciesDetail from './SpeciesDetail';
 import SpeciesOptions from './SpeciesOptions';
 import WildlifeSightingForm from './WildlifeSightingForm'; 
 import UserProfile from './UserProfile'; 
+
 import MapPage from './MapPage';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './styles/SpeciesSearch.css';
+// import eyeGif from './assets/wired-outline-69-eye-hover-blink.gif'; 
+import logo from './assets/logo 2 transparent.png'; 
 
 import logo from './assets/logo 2 transparent.png'; 
 
