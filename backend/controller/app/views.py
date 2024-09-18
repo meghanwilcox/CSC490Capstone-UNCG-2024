@@ -55,7 +55,63 @@ class UserLoginView(APIView):
             return Response({'error': 'Invalid email or password.'}, status=status.HTTP_401_UNAUTHORIZED)
 
         if check_password(password, user.password):
-            return Response({'message': 'Login successful', 'user': {'email': user.email, 'name': user.name, 'is_researcher': user.is_researcher}}, status=status.HTTP_200_OK)
+            # Add the bio to the response so the frontend can store it
+            return Response({
+                'message': 'Login successful',
+                'user': {
+                    'user_id': user.user_id,
+                    'email': user.email,
+                    'name': user.name,
+                    'is_researcher': user.is_researcher,
+                    'role': 'Researcher' if user.is_researcher else 'Volunteer',
+                    'bio': user.bio  
+                }
+            }, status=status.HTTP_200_OK)
+        else:
+            return Response({'error': 'Invalid email or password.'}, status=status.HTTP_401_UNAUTHORIZED)
+        
+class UpdateUserProfileView(APIView):
+    def put(self, request):
+        user_id = request.data.get('user_id')
+        bio = request.data.get('bio')
+        name = request.data.get('name')
+        email = request.data.get('email')
+
+        try:
+            user = User.objects.get(user_id=user_id)
+        except User.DoesNotExist:
+            return Response({'error': 'User not found'}, status=status.HTTP_404_NOT_FOUND)
+
+        # Update user details
+        user.bio = bio
+        user.name = name
+        user.email = email
+        user.save()
+
+        return Response({
+            'user_id': user.user_id,
+            'email': user.email,
+            'name': user.name,
+            'is_researcher': user.is_researcher,
+            'bio': user.bio
+        }, status=status.HTTP_200_OK)
+
+        
+class AdminLoginView(APIView):
+    def post(self, request):
+        email = request.data.get('email')
+        password = request.data.get('password')
+
+        if not email or not password:
+            return Response({'error': 'Email and password are required.'}, status=status.HTTP_400_BAD_REQUEST)
+
+        try:
+            admin = Admin.objects.get(email=email)
+        except Admin.DoesNotExist:
+            return Response({'error': 'Invalid email or password.'}, status=status.HTTP_401_UNAUTHORIZED)
+
+        if check_password(password, admin.password):
+            return Response({'message': 'Login successful', 'user': {'email': admin.email, 'name': admin.name}}, status=status.HTTP_200_OK)
         else:
             return Response({'error': 'Invalid email or password.'}, status=status.HTTP_401_UNAUTHORIZED)
         

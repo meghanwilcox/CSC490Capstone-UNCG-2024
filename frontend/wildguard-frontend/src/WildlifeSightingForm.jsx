@@ -30,10 +30,11 @@ const WildlifeSightingForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
+
+    
     console.log('Form data:', formData);
     alert('Sighting submitted successfully!');
-    // Reset form
+    
     setFormData({
       description: '',
       date: '',
@@ -116,3 +117,4 @@ const WildlifeSightingForm = () => {
 };
 
 export default WildlifeSightingForm;
+

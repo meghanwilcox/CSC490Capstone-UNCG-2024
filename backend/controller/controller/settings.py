@@ -144,7 +144,14 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+# Session settings
+SESSION_COOKIE_AGE = 1209600  # Two weeks (in seconds)
+SESSION_EXPIRE_AT_BROWSER_CLOSE = False  # Keep session alive after closing the browser
+SESSION_ENGINE = 'django.contrib.sessions.backends.db'  # Store sessions in the database
+SESSION_COOKIE_SECURE = False  # For production, set this to True with HTTPS
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+

@@ -1,0 +1,50 @@
+/* src/styles/MapPage.css */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Body Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f8f5;
+  color: #333;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Header/Banner Styles */
+.map-page-header {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.map-page-header .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #0F9B4A;
+  text-decoration: none;
+}
+
+/* Map Container */
+.map-container {
+  position: absolute;
+  top: 60px; /* Adjust based on header height */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}

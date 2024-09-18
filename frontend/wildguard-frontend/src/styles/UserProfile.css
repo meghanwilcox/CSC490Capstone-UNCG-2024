@@ -1,4 +1,3 @@
-/* src/styles/UserProfile.css */
 /* Import Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /* Reset default styles */
@@ -17,7 +16,7 @@ body {
 
 /* Header/Banner Styles */
 .user-profile-header {
-  background-color: #fff;
+  background-color: #ece6e6;
   padding: 1rem 2rem;
   position: fixed;
   top: 0;
@@ -100,6 +99,25 @@ body {
 .edit-profile-button:hover {
   background-color: #0c7a3f;
 }
+/* Submit Sighting Button */
+.submit-sighting-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #ffa500;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.submit-sighting-button:hover {
+  background-color: #e69500;
+}
+
 
 /* User's Sightings */
 .user-sightings {
@@ -129,6 +147,139 @@ body {
   .profile-info h1 {
     font-size: 1.8rem;
   }
+
+
+  .edit-profile-button,
+  .submit-sighting-button {
+    width: 100%;
+  }
+}
+
+/* Navigation Styles */
+.user-profile-header nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-button {
+  margin-left: auto;
+  padding: 0.5rem 1rem;
+  background-color: #0f9b4a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: #0c7a3f;
+}
+
+/* Edit Profile Form */
+.edit-profile-form {
+  width: 100%;
+}
+
+.edit-profile-form .form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.edit-profile-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.edit-profile-form input,
+.edit-profile-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit-profile-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.edit-profile-form input:focus,
+.edit-profile-form textarea:focus {
+  border-color: #0f9b4a;
+  outline: none;
+}
+
+.save-button,
+.cancel-button {
+  width: 48%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.save-button {
+  background-color: #0f9b4a;
+  color: #fff;
+  margin-right: 4%;
+}
+
+.save-button:hover {
+  background-color: #0c7a3f;
+}
+
+.cancel-button {
+  background-color: #ccc;
+  color: #333;
+}
+
+.cancel-button:hover {
+  background-color: #999;
+}
+
+/* Role-specific Content */
+.researcher-content,
+.volunteer-content {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.researcher-content h2,
+.volunteer-content h2 {
+  font-size: 1.8rem;
+  color: #0f9b4a;
+  margin-bottom: 1rem;
+}
+
+.researcher-content p,
+.volunteer-content p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.map-page-button,
+.species-options-button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #007BFF; /* Change to your preferred color */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.map-page-button:hover,
+.species-options-button:hover {
+  background-color: #0056b3; /* Darken on hover */
+}
 
   .edit-profile-button {
     width: 100%;

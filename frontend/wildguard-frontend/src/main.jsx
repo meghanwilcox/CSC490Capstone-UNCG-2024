@@ -10,6 +10,9 @@ import SpeciesOptions from './SpeciesOptions';
 import WildlifeSightingForm from './WildlifeSightingForm'; 
 import UserProfile from './UserProfile'; 
 
+import MapPage from './MapPage';
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
@@ -23,6 +26,7 @@ root.render(
       <Route path="/detail/:scientificName" element={<SpeciesDetail />} />
       <Route path="/wildlife-sighting-form" element={<WildlifeSightingForm />} /> 
       <Route path="/user-profile" element={<UserProfile />} /> 
+      <Route path="/map-page" element={<MapPage />} /> 
     </Routes>
   </Router>
 );
