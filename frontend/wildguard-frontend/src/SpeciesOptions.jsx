@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './styles/SpeciesOptions.css';
-import wingsGif from './assets/wired-outline-1145-wings.gif'; // Ensure the correct path to the GIF
-import logo from './assets/logo 2 transparent.png'; // Adjust the path to your logo
+import './styles/SpeciesOptions.css'; 
+import logo from './assets/logo 2 transparent.png'; 
 
 const SpeciesOptions = () => {
   return (
@@ -18,9 +17,6 @@ const SpeciesOptions = () => {
       <div className="species-options-content">
         <h1>Explore Species</h1>
         <p>Discover the wonders of wildlife through our comprehensive species database.</p>
-        
-        {/* Wings GIF */}
-        <img src={wingsGif} alt="Wings GIF" className="wings-gif" />
 
         <div className="options">
           <Link to="/species-search" className="option-card">

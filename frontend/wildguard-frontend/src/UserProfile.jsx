@@ -2,15 +2,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles/UserProfile.css';
-import placeholderImage from './assets/profile-placeholder.png'; // Placeholder profile image
+import placeholderImage from './assets/profile-placeholder.png'; 
 
 const UserProfile = () => {
   const user = {
     name: 'John Doe',
     email: 'johndoe@example.com',
-    profilePicture: null, // Replace with actual image source if available
+    profilePicture: null, 
     bio: 'Wildlife enthusiast and photographer.',
-    // Add more user properties as needed
+    
   };
 
   return (
