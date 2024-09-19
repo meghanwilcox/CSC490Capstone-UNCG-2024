@@ -1,26 +1,16 @@
-import React, { useState, useEffect } from 'react';
+// App.jsx
+import React, { useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-
 import './styles/App.css';
 import logo from './assets/logo 2 transparent.png'; 
+import { AuthContext } from './AuthContext'; 
 
 const App = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const { isLoggedIn, logout, user } = useContext(AuthContext); 
   const navigate = useNavigate();
 
-  useEffect(() => {
-    const user = localStorage.getItem('user');
-    if (user) {
-      setIsLoggedIn(true); 
-    } else {
-      setIsLoggedIn(false); 
-    }
-  }, []);
-
   const handleLogout = () => {
-    localStorage.removeItem('user_id'); 
-    localStorage.removeItem('user');    
-    setIsLoggedIn(false);               
+    logout();
     navigate('/');                      
   };
 
@@ -54,7 +44,7 @@ const App = () => {
           <img src={logo} alt="WildGuard Logo" className="hero-logo" />
           <p>Endangered Programmers For Endangered Species</p>
           <div className="features">
-            <Link to="/species-options" className="feature clickable-feature">
+            <Link to="/species-search" className="feature clickable-feature">
               <div className="feature-icon">
                 <span role="img" aria-label="Search">&#128269;</span>
               </div>
@@ -78,7 +68,11 @@ const App = () => {
           </div>
         </div>
       </section>
+
   
+
+      
+
       {/* Footer */}
       <footer className="footer-section">
         <p>&copy; 2024 WildGuard. All rights reserved.</p>

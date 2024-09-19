@@ -1,15 +1,16 @@
-import React, { useState } from 'react';
+// Login.jsx
+import React, { useState, useContext } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import './styles/Login.css';
-
 import logo from './assets/logo 2 transparent.png'; 
-
+import { AuthContext } from './AuthContext'; 
 
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();
+  const { login } = useContext(AuthContext); 
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -22,20 +23,16 @@ const Login = () => {
         body: JSON.stringify({ email, password }),
       });
 
-  
       if (response.ok) {
         const data = await response.json();
         console.log('Login successful:', data);
-  
-        
-        localStorage.setItem('user_id', data.user.id); 
-        localStorage.setItem('user', JSON.stringify(data.user));
-        
-        navigate('/user-profile');
 
-      } 
-      else {
-
+        
+        login(data.user);
+        
+        // Redirect to Landing page
+        navigate('/');
+      } else {
         const errorData = await response.json();
         alert('Login failed: ' + (errorData.error || 'An error occurred'));
         setError(errorData.error || 'An error occurred');
@@ -46,16 +43,14 @@ const Login = () => {
       setError('An error occurred');
     }
   };
-  
 
   return (
     <div className="login-page">
       <header className="login-header">
-  <Link to="/">
-    <img src={logo} alt="WildGuard Logo" className="logo-image" />
-  </Link>
-</header>
-
+        <Link to="/">
+          <img src={logo} alt="WildGuard Logo" className="logo-image" />
+        </Link>
+      </header>
 
       <div className="login-wrapper">
         <div className="login-container">

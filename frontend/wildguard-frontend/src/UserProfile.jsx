@@ -1,16 +1,22 @@
-import React, { useState, useEffect } from 'react';
+// UserProfile.jsx
+import React, { useState, useEffect, useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './styles/UserProfile.css';
 import placeholderImage from './assets/neon-demon-slayer-tengen-uzui-cw5wj06w8h06hkao.jpg';
+import { AuthContext } from './AuthContext'; // Import AuthContext
 
 const UserProfile = () => {
   const navigate = useNavigate();
-
-  const storedUser = JSON.parse(localStorage.getItem('user'));
-  const [user, setUser] = useState(storedUser || {});
+  const { user, logout, updateUser } = useContext(AuthContext); // Use AuthContext
 
   const [isEditing, setIsEditing] = useState(false);
   const [editedUser, setEditedUser] = useState({ ...user });
+
+  useEffect(() => {
+    if (!user) {
+      navigate('/login'); // Redirect if user is not logged in
+    }
+  }, [user, navigate]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -38,9 +44,8 @@ const UserProfile = () => {
 
     if (response.ok) {
       const updatedUser = await response.json();
-      setUser(updatedUser);  
+      updateUser(updatedUser); // Update user in AuthContext
       setIsEditing(false);
-      localStorage.setItem('user', JSON.stringify(updatedUser));  
     } else {
       console.error('Error saving profile:', response.statusText);
       alert('Failed to update profile. Please try again.');
@@ -48,10 +53,13 @@ const UserProfile = () => {
   };
 
   const handleLogout = () => {
-    localStorage.removeItem('user');     
-    localStorage.removeItem('user_id');  
-    navigate('/login');
+    logout();      // Update AuthContext
+    navigate('/'); // Redirect to homepage
   };
+
+  if (!user) {
+    return null; // Or a loading indicator
+  }
 
   return (
     <div className="user-profile-page">
@@ -65,7 +73,7 @@ const UserProfile = () => {
             Logout
           </button>
         </nav>
-      </header>  {/* Correctly closing the header tag here */}
+      </header>
 
       {/* Main Content */}
       <div className="user-profile-content">

@@ -20,6 +20,11 @@ body {
 }
 
 /* Navigation styles */
+nav {
+  display: flex;
+  gap: 1rem; /* Adds space between nav-buttons */
+}
+
 .navigation {
   background-color: rgba(3, 3, 3, 0);
   position: fixed;
@@ -63,7 +68,6 @@ nav {
 
 /* Hero Section */
 .hero-section {
-  background-image: url("../assets/tyler-smith-pantherwatch03.jpg");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -148,13 +152,13 @@ nav {
 
 /* Adjust the feature styles to make them smaller */
 .feature {
-  background-color: #415d7400;
+  background-color: #025f3b59;
   padding: 1rem;
   border-radius: 10px;
   flex: 1 1 calc(20% - 2rem);
   max-width: 150px;
   text-align: center;
-  box-shadow: 0 2px 8px rgba(7, 7, 7, 0.1);
+  box-shadow: 0 2px 8px rgba(12, 221, 43, 0.1);
   transition: transform 0.3s;
 }
 
@@ -171,12 +175,12 @@ nav {
 .feature h3 {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
-  color: #f5f1f1;
+  color: #030303;
 }
 
 .feature p {
   font-size: 0.8rem;
-  color: #fcf9f9;
+  color: #030303dc;
 }
 
 /* Footer Section */
