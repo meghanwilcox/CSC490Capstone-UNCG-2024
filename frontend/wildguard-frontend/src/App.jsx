@@ -17,7 +17,6 @@ const App = () => {
     }
   }, []);
 
-  // handle logout
   const handleLogout = () => {
     localStorage.removeItem('user_id'); 
     localStorage.removeItem('user');    
@@ -34,7 +33,6 @@ const App = () => {
             <img src={logo} alt="WildGuard Logo" className="logo-image" />
           </Link>
           <nav>
-
             {isLoggedIn ? (
               <>
                 <Link to="/user-profile" className="nav-button">Profile</Link>
@@ -78,29 +76,9 @@ const App = () => {
               <p>Join our community to help protect wildlife.</p>
             </div>
           </div>
-
         </div>
-        <h3>Species Search</h3>
-        <p>Search for various species and learn more about them.</p>
-      </Link>
-      <div className="feature">
-        <div className="feature-icon">
-          <span role="img" aria-label="Information">&#8505;</span>
-        </div>
-        <h3>TBD</h3>
-        <p>TBD</p>
-      </div>
-      <div className="feature">
-        <div className="feature-icon">
-          <span role="img" aria-label="Community">&#128101;</span>
-        </div>
-        <h3>TBD</h3>
-        <p>Join our community to help protect wildlife.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
+      </section>
+  
       {/* Footer */}
       <footer className="footer-section">
         <p>&copy; 2024 WildGuard. All rights reserved.</p>

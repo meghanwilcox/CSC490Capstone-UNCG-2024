@@ -9,11 +9,9 @@ const UserProfile = () => {
   const storedUser = JSON.parse(localStorage.getItem('user'));
   const [user, setUser] = useState(storedUser || {});
 
-  
   const [isEditing, setIsEditing] = useState(false);
   const [editedUser, setEditedUser] = useState({ ...user });
 
-  
   const handleChange = (e) => {
     const { name, value } = e.target;
     setEditedUser({
@@ -22,10 +20,9 @@ const UserProfile = () => {
     });
   };
 
-  
   const handleSubmit = async (e) => {
     e.preventDefault();
-  
+
     const response = await fetch('http://localhost:8000/users/update-profile/', {
       method: 'PUT',
       headers: {
@@ -38,7 +35,7 @@ const UserProfile = () => {
         bio: editedUser.bio,
       }),
     });
-  
+
     if (response.ok) {
       const updatedUser = await response.json();
       setUser(updatedUser);  
@@ -50,12 +47,10 @@ const UserProfile = () => {
     }
   };
 
-  
   const handleLogout = () => {
     localStorage.removeItem('user');     
     localStorage.removeItem('user_id');  
     navigate('/login');
-
   };
 
   return (
@@ -70,6 +65,8 @@ const UserProfile = () => {
             Logout
           </button>
         </nav>
+      </header>  {/* Correctly closing the header tag here */}
+
       {/* Main Content */}
       <div className="user-profile-content">
         <div className="profile-card">

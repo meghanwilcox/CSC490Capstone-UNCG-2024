@@ -1,6 +1,5 @@
 from django.urls import path
 from .views import UsersListView, CreateUserView, UserLoginView, SpeciesListView, SpeciesDataView, AdminLoginView, UpdateUserProfileView
-=======
 
 urlpatterns = [
     path('users/', UsersListView.as_view(), name='user-list'),
