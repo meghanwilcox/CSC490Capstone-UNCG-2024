@@ -7,7 +7,7 @@ import Login from './Login';
 import Register from './Register';
 import SpeciesSearchPage from './SpeciesSearch';
 import SpeciesDetail from './SpeciesDetail';
-
+import AboutUs from './AboutUs';
 import WildlifeSightingForm from './WildlifeSightingForm'; 
 import UserProfile from './UserProfile'; 
 import MapPage from './MapPage';
@@ -22,7 +22,7 @@ root.render(
         <Route path="/" element={<App />} /> 
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-         
+        <Route path="/about" element={<AboutUs />} />
         <Route path="/species-search" element={<SpeciesSearchPage />} />
         <Route path="/detail/:scientificName" element={<SpeciesDetail />} />
         <Route path="/wildlife-sighting-form" element={<WildlifeSightingForm />} /> 

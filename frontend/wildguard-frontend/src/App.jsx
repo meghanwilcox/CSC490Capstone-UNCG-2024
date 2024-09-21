@@ -4,6 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import './styles/App.css';
 import logo from './assets/logo 2 transparent.png'; 
 import { AuthContext } from './AuthContext'; 
+import Navbar from './Navbar';
 
 const App = () => {
   const { isLoggedIn, logout, user } = useContext(AuthContext); 
@@ -16,29 +17,7 @@ const App = () => {
 
   return (
     <div className="app-container">
-      {/* Navigation Bar */}
-      <header className="navigation">
-        <div className="nav-content">
-          <Link to="/" className="logo">
-            <img src={logo} alt="WildGuard Logo" className="logo-image" />
-          </Link>
-          <nav>
-            {isLoggedIn ? (
-              <>
-                <Link to="/user-profile" className="nav-button">Profile</Link>
-                <button onClick={handleLogout} className="nav-button">Logout</button>
-              </>
-            ) : (
-              <>
-                <Link to="/login" className="nav-button">Login</Link>
-                <Link to="/register" className="nav-button">Register</Link>
-              </>
-            )}
-          </nav>
-        </div>
-      </header>
-
-      {/* Hero Section */}
+      <Navbar />
       <section className="hero-section">
         <div className="hero-overlay">
           <img src={logo} alt="WildGuard Logo" className="hero-logo" />
@@ -68,10 +47,6 @@ const App = () => {
           </div>
         </div>
       </section>
-
-  
-
-      
 
       {/* Footer */}
       <footer className="footer-section">
