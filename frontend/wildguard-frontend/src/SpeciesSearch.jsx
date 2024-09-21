@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './styles/SpeciesSearch.css';
 import logo from './assets/logo 2 transparent.png'; 
+import Navbar from './Navbar';
 
 const SpeciesSearchPage = () => {
   const [species, setSpecies] = useState([]);
@@ -37,18 +38,10 @@ const SpeciesSearchPage = () => {
   }, [searchTerm, categoryFilter, species]);
 
   return (
-    <div className="species-search-page">
-      {/* Header/Banner */}
-      <header className="species-search-header">
-        <Link to="/" className="logo">
-          <img src={logo} alt="WildGuard Logo" className="logo-image" />
-        </Link>
-      </header>
-
-      {/* Main Content */}
-      <div className="species-search-content">
-
-
+    
+    <div>
+      <Navbar />
+      <div>
         <h1>Species Search</h1>
 
         {/* Filters */}

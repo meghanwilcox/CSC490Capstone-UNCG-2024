@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import './styles/SpeciesDetail.css';
+import Navbar from './Navbar';
 
 const SpeciesDetail = () => {
   const { scientificName } = useParams(); 
@@ -43,6 +44,7 @@ const SpeciesDetail = () => {
 
   return (
     <div className="species-detail">
+      <Navbar />
       <h2>Species Details</h2>
       <p><strong>Scientific Name:</strong> {speciesData.scientificName}</p>
       <p><strong>Kingdom:</strong> {speciesData.kingdom}</p>

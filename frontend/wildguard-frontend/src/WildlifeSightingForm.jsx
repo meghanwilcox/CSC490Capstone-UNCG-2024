@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './styles/WildlifeSightingForm.css';
+import Navbar from './Navbar';
 
 const WildlifeSightingForm = () => {
   const [formData, setFormData] = useState({
@@ -47,9 +48,7 @@ const WildlifeSightingForm = () => {
   return (
     <div className="wildlife-sighting-form-page">
       {/* Header/Banner */}
-      <header className="wildlife-sighting-form-header">
-        <Link to="/" className="logo">WildGuard</Link>
-      </header>
+      <Navbar/>
 
       {/* Main Content */}
       <div className="wildlife-sighting-form-content">
