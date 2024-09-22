@@ -94,10 +94,10 @@ WSGI_APPLICATION = 'controller.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'wildguarddb',  
-        'USER': 'capstoneAdmin',
-        'PASSWORD': 'wildguard2024!',
-        'HOST': 'capstone-database-server.mysql.database.azure.com',
+        'NAME': 'capstone-db',  
+        'USER': 'serverAdmin',
+        'PASSWORD': 'capstone2024!',
+        'HOST': 'capstoneserver.mysql.database.azure.com',
         'PORT': '3306',
         'OPTIONS': {
             'ssl': {
