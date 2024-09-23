@@ -1,0 +1,1001 @@
+taxonid,kingdom_name,phylum_name,class_name,order_name,family_name,genus_name,scientific_name,taxonomic_authority,infra_rank,infra_name,population,category,main_common_name
+43,ANIMALIA,ARTHROPODA,INSECTA,ODONATA,AESHNIDAE,Acanthaeschna,Acanthaeschna victoria,"Martin, 1901",,,,EN,Thylacine Darner
+83,ANIMALIA,ARTHROPODA,INSECTA,HYMENOPTERA,FORMICIDAE,Acanthomyops,Acanthomyops latipes,"(Walsh, 1863)",,,,VU,
+169,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,ACHATINELLIDAE,Achatinella,Achatinella bellula,"Smith, 1873",,,,CR,
+179,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,ACHATINELLIDAE,Achatinella,Achatinella decora,"(Férussac, 1821)",,,,EX,
+190,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,ACHATINELLIDAE,Achatinella,Achatinella lorata,"(Férussac, 1824)",,,,CR,
+201,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,ACHATINELLIDAE,Achatinella,Achatinella taeniolata,"Pfeiffer, 1846",,,,CR,
+213,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINIFORMES,ACHEILOGNATHIDAE,Acheilognathus,Acheilognathus longipinnis,"Regan, 1905",,,,EN,Deepbodied Bitterling
+225,ANIMALIA,CHORDATA,ACTINOPTERYGII,ACIPENSERIFORMES,ACIPENSERIDAE,Acipenser,Acipenser nudiventris,"Lovetsky, 1828",,,,CR,Ship Sturgeon
+236,ANIMALIA,CHORDATA,ACTINOPTERYGII,ACIPENSERIFORMES,ACIPENSERIDAE,Acipenser,Acipenser sinensis,"Gray, 1835",,,,CR,Chinese Sturgeon
+254,ANIMALIA,CHORDATA,ACTINOPTERYGII,ACIPENSERIFORMES,ACIPENSERIDAE,Acipenser,Acipenser stellatus,"Pallas, 1771",,,Caspian Sea subpopulation,CR,Stellate Sturgeon
+270,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Acomys,Acomys mullah,"Thomas, 1904",,,,LC,Mullah Spiny Mouse
+313,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,LYCAENIDAE,Acrodipsas,Acrodipsas illidgei,"(Waterhouse &amp; Lyell, 1914)",,,,EN,Illidge's Ant-blue
+506,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,GEOMITRIDAE,Actinella,Actinella laciniosa,"(R.T. Lowe, 1852)",,,,VU,
+523,ANIMALIA,CHORDATA,ACTINOPTERYGII,BELONIFORMES,ADRIANICHTHYIDAE,Adrianichthys,Adrianichthys kruyti,"Weber, 1913",,,,CR,Duck-billed Buntingi
+550,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,BOVIDAE,Aepyceros,Aepyceros melampus,"(Lichtenstein, 1812)",,,,LC,Impala
+568,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Aethomys,Aethomys bocagei,"(Thomas, 1904)",,,,LC,Bocage's Rock Rat
+593,ANIMALIA,ARTHROPODA,MALACOSTRACA,DECAPODA,POTAMONAUTIDAE,Afrithelphusa,Afrithelphusa gerhildae,"Bott, 1969",,,,DD,
+624,ANIMALIA,ARTHROPODA,INSECTA,COLEOPTERA,DYTISCIDAE,Agabus,Agabus hozgargantae,"Burmeister, 1983",,,,EN,
+706,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,NOCTUIDAE,Agrotis,Agrotis kerri,"Swezey, 1920",,,,CR,Kerr's Noctuid Moth
+727,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Neomicroxus,Neomicroxus bogotensis,"(Thomas, 1895)",,,,LC,Bogota Grass Mouse
+739,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Akodon,Akodon kofordi,"Myers &amp; Patton, 1989",,,,LC,Koford's Grass Mouse
+752,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Akodon,Akodon orophilus,"Osgood, 1913",,,,LC,El Dorado Grass Mouse
+763,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Akodon,Akodon toba,"Thomas, 1921",,,,LC,Chaco Grass Mouse
+778,ANIMALIA,MOLLUSCA,BIVALVIA,UNIONIDA,UNIONIDAE,Alasmidonta,Alasmidonta wrightiana,"(Walker, 1901)",,,,EX,Ochlockonee Arcmussel
+811,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,BOVIDAE,Alcelaphus,Alcelaphus buselaphus,"(Pallas, 1766)",,,,LC,Hartebeest
+851,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,DIPODIDAE,Allactaga,Allactaga balikunica,"Hsia &amp; Fang, 1964",,,,LC,Balikun Jerboa
+862,ANIMALIA,ARTHROPODA,MALACOSTRACA,ANASPIDACEA,ANASPIDIDAE,Allanaspides,Allanaspides helonomus,"Swain, Wilson, Hickman &amp; Ong, 1970",,,,VU,Tasmanian Anaspid Crustacean
+874,ANIMALIA,ARTHROPODA,MALACOSTRACA,AMPHIPODA,CRANGONYCTIDAE,Allocrangonyx,Allocrangonyx pellucidus,"Mackin, 1935",,,,VU,Oklahoma Cave Amphipod
+886,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,LYCAENIDAE,Aloeides,Aloeides carolynnae,"Dickson, 1983",,,,VU,
+898,ANIMALIA,ARTHROPODA,BRANCHIOPODA,DIPLOSTRACA,CHYDORIDAE,Alona,Alona smirnovi,"Petkovsky &amp; Flossner,1972",,,,VU,
+918,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,ATELIDAE,Alouatta,Alouatta ululata,"Elliot, 1912",,,,EN,Maranhão Red-handed Howler Monkey
+942,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,DIPSADIDAE,Alsophis,Alsophis rufiventris,"(Duméril, Bibron &amp; Duméril,1854)",,,,VU,Orange-bellied Racer
+958,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Alticola,Alticola strelzowi,"(Kastschenko, 1899)",,,,LC,Flat-headed Vole
+989,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,AMASTRIDAE,Amastra,Amastra albolabris,Newcomb,,,,EX,
+999,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,AMASTRIDAE,Amastra,Amastra tenuispira,Newcomb,,,,EX,
+1080,ANIMALIA,CHORDATA,ACTINOPTERYGII,PERCOPSIFORMES,AMBLYOPSIDAE,Amblyopsis,Amblyopsis spelaea,"DeKay, 1842",,,,NT,Northern Cavefish
+1119,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,TEIIDAE,Pholidoscelis,Pholidoscelis cineraceus,"(Barbour &amp; Noble, 1915)",,,,EX,Guadeloupe Ameiva
+1154,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,FURIPTERIDAE,Amorphochilus,Amorphochilus schnablii,"Peters, 1877",,,,VU,Smoky Bat
+1170,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,FERUSSACIIDAE,Amphorella,Amphorella melampoides,"(R.T. Lowe, 1831)",,,,LC,
+1258,ANIMALIA,CHORDATA,ACTINOPTERYGII,SILURIFORMES,ANCHARIIDAE,Gogo,Gogo brevibarbis,"(Boulenger, 1911)",,,,DD,Vaona
+1285,ANIMALIA,ARTHROPODA,INSECTA,HYMENOPTERA,FORMICIDAE,Anergates,Anergates atratulus,"(Schenck, 1852)",,,,VU,
+1296,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,TATEIDAE,Fluvidona,Fluvidona petterdi,"(Smith, 1882)",,,,CR,
+1550,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,ANOMALURIDAE,Anomalurus,Anomalurus derbianus,"(Gray, 1842)",,,,LC,Lord Derby's Scaly-tailed Squirrel
+1581,ANIMALIA,CHORDATA,MAMMALIA,DASYUROMORPHIA,DASYURIDAE,Antechinomys,Antechinomys laniger,"(Gould, 1856)",,,,LC,Kultarr
+1675,ANIMALIA,ARTHROPODA,INSECTA,HYMENOPTERA,FORMICIDAE,Antichthonidris,Antichthonidris bidentatus,"(Mayr, 1887)",,,,VU,
+1787,ANIMALIA,ARTHROPODA,MALACOSTRACA,ISOPODA,CIROLANIDAE,Antrolana,Antrolana lira,"Bowman, 1964",,,,VU,Madison Cave Isopod
+1843,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINODONTIFORMES,APHANIIDAE,Anatolichthys,Anatolichthys anatoliae,"(Leidenfrost, 1912)",,,,NT,Lake Tuz Killifish
+1869,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,APLODONTIIDAE,Aplodontia,Aplodontia rufa,"(Rafinesque, 1817)",,,,LC,Mountain Beaver
+1900,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Apodemus,Apodemus ponticus,"Sviridenko, 1936",,,,LC,Caucasus Field Mouse
+1912,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Apomys,Apomys insignis,"Mearns, 1905",,,,LC,Mindanao Montane Forest Mouse
+1950,ANIMALIA,ARTHROPODA,MALACOSTRACA,AMPHIPODA,PARAMELITIDAE,Aquadulcaris,Aquadulcaris pheronyx,"(Stewart &amp; Griffiths, 1992)",,,,CR,
+2055,ANIMALIA,CHORDATA,MAMMALIA,CARNIVORA,OTARIIDAE,Arctocephalus,Arctocephalus australis,"(Zimmermann, 1783)",,,,LC,South American Fur Seal
+2068,ANIMALIA,ARTHROPODA,MAXILLOPODA,CALANOIDA,DIAPTOMIDAE,Arctodiaptomus,Arctodiaptomus burduricus,"Kiefer, 1939",,,,VU,
+2103,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,LYCAENIDAE,Trimenia,Trimenia malagrida ssp. cedrusmontana,"(Dickson &amp; Stephen, 1975)",ssp.,cedrusmontana,,LC,Scarce Mountain Copper
+2117,ANIMALIA,ARTHROPODA,BRANCHIOPODA,ANOSTRACA,ARTEMIIDAE,Artemia,Artemia monica,"Verrill, 1869",,,,LR/cd,Mono Lake Brine Shrimp
+2130,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PHYLLOSTOMIDAE,Enchisthenes,Enchisthenes hartii,"(Thomas, 1892)",,,,LC,Velvety Fruit-eating Bat
+2146,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Arvicanthis,Arvicanthis nairobae,"J.A. Allen, 1909",,,,LC,Nairobi Grass Rat
+2161,ANIMALIA,ARTHROPODA,INSECTA,ODONATA,GOMPHIDAE,Asiagomphus,Asiagomphus yayeyamensis,"(Matsumura in Oguma, 1926)",,,,EN,
+2182,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,ASSIMINEIDAE,Assiminea,Assiminea pecos,"Taylor, 1987",,,,EN,Pecos Assiminea
+2194,ANIMALIA,CHORDATA,ACTINOPTERYGII,CICHLIFORMES,CICHLIDAE,Haplochromis,Haplochromis brownae,"Greenwood, 1962",,,,CR,
+2276,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,ATELIDAE,Ateles,Ateles belzebuth,"É. Geoffroy, 1806",,,,EN,White-bellied Spider Monkey
+2297,ANIMALIA,CHORDATA,AMPHIBIA,ANURA,BATRACHYLIDAE,Atelognathus,Atelognathus reverberii,"(Cei, 1969)",,,,VU,Laguna Raimunda Frog
+2377,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,PAPILIONIDAE,Atrophaneura,Atrophaneura luchti,"(Gray, 1852)",,,,EN,
+2406,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,ACHATINELLIDAE,Auriculella,Auriculella crassula,"Smith, 1915-1916",,,,DD,
+2422,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CAMAENIDAE,Protolinitis,Protolinitis pusilla,"(Hedley, 1912)",,,,LR/nt,Tinaroo Red-striped Snail
+2434,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,INDRIIDAE,Avahi,Avahi laniger,"(Gmelin, 1788)",,,,VU,Eastern Woolly Lemur
+2466,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Baiomys,Baiomys taylori,"(Thomas, 1887)",,,,LC,Northern Pygmy Mouse
+2480,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,BALAENOPTERIDAE,Balaenoptera,Balaenoptera bonaerensis,"Burmeister, 1867",,,,NT,Antarctic Minke Whale
+2553,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Barbastella,Barbastella barbastellus,"(Schreber, 1774)",,,,NT,Barbastelle Bat
+2572,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINIFORMES,CYPRINIDAE,Enteromius,Enteromius treurensis,"Groenewald, 1958",,,,CR,Treur River Barb
+2584,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINIFORMES,CYPRINIDAE,Luciobarbus,Luciobarbus bocagei,"(Linnaeus, 1758)",,,,LC,Iberian Barbel
+2613,ANIMALIA,CHORDATA,MAMMALIA,CARNIVORA,PROCYONIDAE,Bassariscus,Bassariscus sumichrasti,"(Saussure, 1860)",,,,LC,Cacomistle
+2644,ANIMALIA,CHORDATA,ACTINOPTERYGII,BATRACHOIDIFORMES,BATRACHOIDIDAE,Batrachoides,Batrachoides manglae,"Cervigón, 1964",,,,LC,Cotuero Toadfish
+2680,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,SUBULINIDAE,Beckianum,Beckianum sinistrum,"Martens, 1890",,,,LR/nt,
+2690,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,TATEIDAE,Beddomeia,Beddomeia franklandensis,"Ponder &amp; Clark, 1993",,,,VU,
+2701,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,TATEIDAE,Beddomeia,Beddomeia launcestonensis,"Johnston, 1879",,,,VU,
+2711,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,TATEIDAE,Beddomeia,Beddomeia topsiae,"Ponder &amp; Clark, 1993",,,,VU,
+2721,ANIMALIA,CHORDATA,ACTINOPTERYGII,ATHERINIFORMES,BEDOTIIDAE,Bedotia,Bedotia madagascariensis,"Regan, 1903",,,,EN,Zona
+2735,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,HYDROBIIDAE,Belgrandiella,Belgrandiella pelerei,"Haase, 1994",,,,CR,
+2749,ANIMALIA,MOLLUSCA,GASTROPODA,ARCHITAENIOGLOSSA,VIVIPARIDAE,Bellamya,Bellamya pagodiformis,"(Smith, 1893)",,,,CR,
+2762,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,ZIPHIIDAE,Berardius,Berardius arnuxii,"Duvernoy, 1851",,,,LC,Arnoux's Beaked Whale
+2774,ANIMALIA,CHORDATA,ACTINOPTERYGII,PERCIFORMES,OSPHRONEMIDAE,Betta,Betta hipposideros,"Ng &amp; Kottelat, 1994",,,,EN,
+2784,ANIMALIA,CHORDATA,MAMMALIA,DIPROTODONTIA,POTOROIDAE,Bettongia,Bettongia lesueur,"(Quoy &amp; Gaimard, 1824)",,,,NT,Burrowing Bettong
+2805,ANIMALIA,ARTHROPODA,INSECTA,ORTHOPTERA,TETRIGIDAE,Tetrix,Tetrix transsylvanica,"(Bazyluk &amp; Kis, 1960)",,,,EN,Transsylvanian Wingless Groundhopper
+2816,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,SCIURIDAE,Biswamoyopterus,Biswamoyopterus biswasi,"Saha, 1981",,,,CR,Namdapha Flying Squirrel
+2841,ANIMALIA,ARTHROPODA,MAXILLOPODA,CALANOIDA,CENTROPAGIDAE,Boeckella,Boeckella calcaris,"(Harding, 1955)",,,,VU,
+2861,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Necromys,Necromys punctulatus,"(Thomas, 1894)",,,,DD,Spotted Bolo Mouse
+2881,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,SUCCINEIDAE,Boninosuccinea,Boninosuccinea punctulispira,"(Pilsbry, 1901)",,,,VU,
+2894,ANIMALIA,CHORDATA,ACTINOPTERYGII,GOBIIFORMES,ELEOTRIDAE,Bostrychus,Bostrychus aruensis,"Weber, 1911",,,,DD,Island Gudgeon
+2917,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,VIPERIDAE,Bothrops,Bothrops insularis,"(Amaral, 1921)",,,,CR,Golden Lancehead
+2983,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PHYLLOSTOMIDAE,Brachyphylla,Brachyphylla nana,"Miller, 1902",,,,LC,Cuban Fruit-eating Bat
+3023,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,CHAMAELEONIDAE,Bradypodion,Bradypodion taeniabronchum,"(A. Smith, 1831)",,,,LC,Elandsberg Dwarf Chameleon
+3048,ANIMALIA,ARTHROPODA,BRANCHIOPODA,ANOSTRACA,BRANCHINECTIDAE,Branchinecta,Branchinecta sandiegonensis,"Fugate, 1993",,,,EN,San Diego Fairy Shrimp
+3064,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,ZONITIDAE,Brazieria,Brazieria lutaria,"(Baker, 1941)",,,,DD,
+3127,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,BOVIDAE,Bubalus,Bubalus mindorensis,"Heude, 1888",,,,CR,Tamaraw
+3177,ANIMALIA,CHORDATA,AMPHIBIA,ANURA,BUFONIDAE,Rhinella,Rhinella atacamensis,"(Cei, 1962)",,,,VU,Atacama Toad
+3289,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,BULIMULIDAE,Bulimulus,Bulimulus darwini,"(Pfeiffer, 1846)",,,,VU,
+3299,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,BULIMULIDAE,Bulimulus,Bulimulus rugiferus,"(Sowerby, 1833)",,,,DD,
+3314,ANIMALIA,MOLLUSCA,GASTROPODA,HYGROPHILA,BULINIDAE,Bulinus,Bulinus canescens,"(Morelet, 1868)",,,,LC,
+3326,ANIMALIA,CHORDATA,MAMMALIA,LAGOMORPHA,LEPORIDAE,Bunolagus,Bunolagus monticularis,"(Thomas, 1903)",,,,CR,Riverine Rabbit
+3381,ANIMALIA,CHORDATA,ACTINOPTERYGII,GOBIIFORMES,ELEOTRIDAE,Butis,Butis butis,"(Hamilton, 1822)",,,,LC,Crimson-tipped Gudgeon
+3397,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,MOITESSIERIIDAE,Bythiospeum,Bythiospeum articense,"R. Bernasconi, 1985",,,,LC,
+3407,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,MOITESSIERIIDAE,Bythiospeum,Bythiospeum quenstedti,"(Wiedersheim, 1873)",,,,LC,
+3420,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,PITHECIIDAE,Cacajao,Cacajao ucayalii,"(Thomas, 1928)",,,,VU,Ucayali Bald-headed Uacari
+3449,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINIFORMES,CYPRINIDAE,Caecobarbus,Caecobarbus geertsii,"Boulenger, 1921",,,,VU,Congo Blind Barb
+3523,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,EUCONULIDAE,Caldwellia,Caldwellia philyrina,"Morelet, 1851",,,,EX,
+3575,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,CALLITRICHIDAE,Callithrix,Callithrix kuhlii,"Coimbra-Filho, 1985",,,,VU,Wied's Marmoset
+3598,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,SCIURIDAE,Callosciurus,Callosciurus melanogaster,"(Thomas, 1895)",,,,VU,Mentawai Squirrel
+3611,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Calomys,Calomys callosus,"(Rengger, 1830)",,,,LC,Large Vesper Mouse
+3621,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CALOMYSCIDAE,Calomyscus,Calomyscus mystax,"Kashkarov, 1925",,,,LC,Afghan Mouse-like Hamster
+3651,ANIMALIA,CHORDATA,MAMMALIA,DIDELPHIMORPHIA,DIDELPHIDAE,Caluromysiops,Caluromysiops irrupta,"Sanborn, 1951",,,,LC,Black-shouldered Opossum
+3679,ANIMALIA,ARTHROPODA,MALACOSTRACA,DECAPODA,CAMBARIDAE,Cambarus,Cambarus deweesae,"Bouchard &amp; Etnier, 1979",,,,LC,Valley Flame Crayfish
+3689,ANIMALIA,ARTHROPODA,MALACOSTRACA,DECAPODA,CAMBARIDAE,Cambarus,Cambarus chaugaensis,"Prins &amp; Hobbs, 1969",,,,LC,Chauga River Crayfish
+3699,ANIMALIA,ARTHROPODA,MALACOSTRACA,DECAPODA,CAMBARIDAE,Cambarus,Cambarus miltus,"Fitzpatrick, 1978",,,,LC,Rusty Grave Digger
+3714,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,VERTIGINIDAE,Campolaemus,Campolaemus perexilis,"Smith, 1892",,,,EX,
+3747,ANIMALIA,CHORDATA,MAMMALIA,CARNIVORA,CANIDAE,Canis,Canis rufus,"Audubon &amp; Bachman, 1851",,,,CR,Red Wolf
+3768,ANIMALIA,ARTHROPODA,HEXANAUPLIA,HARPACTICOIDA,CANTHOCAMPTIDAE,Canthocamptus,Canthocamptus mammillifurca,"Hamond, 1987",,,,VU,
+3795,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,BOVIDAE,Capra,Capra cylindricornis,"(Blyth, 1841)",,,,NT,Eastern Tur
+3845,ANIMALIA,ARTHROPODA,INSECTA,COLEOPTERA,CARABIDAE,Carabus,Carabus intricatus,"Linnaeus, 1761",,,,LR/nt,Blue Ground Beetle
+3857,ANIMALIA,ARTHROPODA,INSECTA,HYMENOPTERA,FORMICIDAE,Cardiocondyla,Cardiocondyla zoserka,"Bolton, 1982",,,,VU,
+3882,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,AMASTRIDAE,Carelia,Carelia hyattiana,Newcomb,,,,EX,
+3892,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,AMASTRIDAE,Carelia,Carelia pilsbryi,Newcomb,,,,EX,
+3906,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PHYLLOSTOMIDAE,Carollia,Carollia subrufa,"(Hahn, 1905)",,,,LC,Gray Short-tailed Bat
+3997,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,GEOMITRIDAE,Caseolus,Caseolus leptostictus,"(R.T. Lowe, 1852)",,,,VU,
+4038,ANIMALIA,CHORDATA,MAMMALIA,CARNIVORA,FELIDAE,Catopuma,Catopuma temminckii,"(Vigors &amp; Horsfield, 1827)",,,,NT,Asiatic Golden Cat
+4055,ANIMALIA,CHORDATA,AMPHIBIA,ANURA,CALYPTOCEPHALELLIDAE,Calyptocephalella,Calyptocephalella gayi,"(Duméril &amp; Bibron, 1841)",,,,VU,Helmeted Water Toad
+4082,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,CEBIDAE,Cebus,Cebus cesarae,"Hershkovitz, 1949",,,,EN,Río Cesar White-fronted Capuchin
+4096,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,DIPLOGLOSSIDAE,Celestus,Celestus microblepharis,"(Underwood, 1959)",,,,CR,Small-eyed Galliwasp
+4140,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,BOVIDAE,Cephalophus,Cephalophus jentinki,"Thomas, 1892",,,,EN,Jentink's Duiker
+4150,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,BOVIDAE,Cephalophus,Cephalophus silvicultor,"(Afzelius, 1815)",,,,NT,Yellow-backed Duiker
+4166,ANIMALIA,ARTHROPODA,INSECTA,COLEOPTERA,CERAMBYCIDAE,Cerambyx,Cerambyx cerdo,"Linnaeus, 1758",,,,VU,Cerambyx Longicorn
+4207,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,CERCOPITHECIDAE,Cercocebus,Cercocebus chrysogaster,"Lydekker, 1900",,,,EN,Golden-bellied Mangabey
+4223,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,CERCOPITHECIDAE,Cercopithecus,Cercopithecus neglectus,"Schlegel, 1876",,,,LC,De Brazza’s Monkey
+4237,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,CERCOPITHECIDAE,Allochrocebus,Allochrocebus preussi ssp. insularis,"(Thomas, 1910)",ssp.,insularis,,EN,Bioko Preuss’s Monkey
+4261,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,CERVIDAE,Cervus,Cervus hanglu,"Wagner, 1844",,,,LC,Tarim Red Deer
+4307,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,MOLOSSIDAE,Mops,Mops bemmeleni,"(Jentink, 1879)",,,,LC,Gland-tailed Wrinkle-lipped Bat
+4318,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,MOLOSSIDAE,Mops,Mops pusillus,"(Miller, 1902)",,,,VU,Seychelles Free-tailed bat
+4332,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,HETEROMYIDAE,Chaetodipus,Chaetodipus goldmani,"(Osgood, 1900)",,,,NT,Goldman's Pocket Mouse
+4363,ANIMALIA,CHORDATA,ACTINOPTERYGII,PERCIFORMES,CHAETODONTIDAE,Prognathodes,Prognathodes obliquus,"(Lubbock &amp; Edwards, 1980)",,,,DD,Oblique Butterflyfish
+4407,ANIMALIA,ARTHROPODA,INSECTA,HYMENOPTERA,FORMICIDAE,Chalepoxenus,Chalepoxenus tauricus,"Radchenko, 1989",,,,VU,
+4425,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Chalinolobus,Chalinolobus tuberculatus,"(Forster, 1844)",,,,CR,New Zealand Long-tailed Bat
+4562,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,NYMPHALIDAE,Charaxes,Charaxes marieps,"van Someren &amp; Jackson, 1957",,,,LC,Marieps Charaxes
+4596,ANIMALIA,CHORDATA,ACTINOPTERYGII,CHARACIFORMES,CHARACIDAE,Cheirodon,Cheirodon kiliani,"Campos, 1982",,,,EN,Pocha
+4610,ANIMALIA,CHORDATA,REPTILIA,TESTUDINES,CHELIDAE,Chelodina,Chelodina reimanni,"Philippen &amp; Grossman, 1990",,,,LR/nt,Reimann's Snake-necked Turtle
+4628,ANIMALIA,CHORDATA,ACTINOPTERYGII,ATHERINIFORMES,MELANOTAENIIDAE,Chilatherina,Chilatherina axelrodi,"Allen, 1979",,,,EN,Axelrod's Rainbowfish
+4638,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,SUBULINIDAE,Chilonopsis,Chilonopsis melanoides,"Wollaston, 1878",,,,EX,
+4649,ANIMALIA,CHORDATA,MAMMALIA,EULIPOTYPHLA,SORICIDAE,Chimarrogale,Chimarrogale sumatrana,"(Thomas, 1921)",,,,DD,Sumatran Water Shrew
+4662,ANIMALIA,ARTHROPODA,BRANCHIOPODA,ANOSTRACA,CHIROCEPHALIDAE,Chirocephalus,Chirocephalus reiseri,"Marcus, 1913",,,,VU,
+4672,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,COLUBRIDAE,Chironius,Chironius vincenti,"(Boulenger, 1891)",,,,CR,St Vincent Blacksnake
+4692,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Chiruromys,Chiruromys lamia,"(Thomas, 1897)",,,,LC,Broad-headed Tree Mouse
+4710,ANIMALIA,ARTHROPODA,INSECTA,ORTHOPTERA,ACRIDIDAE,Chloealtis,Chloealtis aspasma,"Rehn &amp; Hebard, 1919",,,,VU,Siskiyou Chloealtis Grasshopper
+4768,ANIMALIA,CHORDATA,MAMMALIA,AFROSORICIDA,CHRYSOCHLORIDAE,Chlorotalpa,Chlorotalpa duthieae,"(Broom, 1907)",,,,VU,Duthie's Golden Mole
+4787,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINIFORMES,LEUCISCIDAE,Chondrostoma,Chondrostoma holmwoodii,"(Boulenger, 1896)",,,,VU,Eastern Aegean nase
+4801,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,GEKKONIDAE,Christinus,Christinus guentheri,"Nussbaum &amp; Raxworthy, 1998",,,,VU,Lord Howe Island Southern Gecko
+4819,ANIMALIA,CHORDATA,MAMMALIA,CARNIVORA,CANIDAE,Chrysocyon,Chrysocyon brachyurus,"(Illiger, 1815)",,,,NT,Maned Wolf
+4851,ANIMALIA,ARTHROPODA,INSECTA,COLEOPTERA,CICINDELIDAE,Cicindela,Cicindela marginipennis,"DeJean, 1831",,,,VU,Cobblestone Tiger Beetle
+4891,ANIMALIA,MOLLUSCA,GASTROPODA,ARCHITAENIOGLOSSA,CYCLOPHORIDAE,Cipangochalax,Cipangochalax placeonovitas,"Minato, 1981",,,,DD,
+4969,ANIMALIA,CHORDATA,REPTILIA,TESTUDINES,EMYDIDAE,Actinemys,Actinemys marmorata,"(Baird &amp; Girard, 1852)",,,,VU,Western Pond Turtle
+4986,ANIMALIA,CHORDATA,ACTINOPTERYGII,CLUPEIFORMES,CLUPEIDAE,Clupeonella,Clupeonella abrau ssp. muhlisi,"Neu, 1934",ssp.,muhlisi,,VU,
+5032,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINIFORMES,COBITIDAE,Cobitis,Cobitis hellenica,"Economidis &amp; Nalbant, 1996",,,,EN,Louros Spined Loach
+5049,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,COCHLIOPIDAE,Cochliopina,Cochliopina milleri,"Taylor, 1966",,,,VU,Miller's Snail
+5079,ANIMALIA,ARTHROPODA,INSECTA,COLEOPTERA,TENEBRIONIDAE,Coelus,Coelus gracilis,"Blaisdell, 1939",,,,VU,San Joaquin Dune Beetle
+5119,ANIMALIA,MOLLUSCA,GASTROPODA,PATELLIDA,NACELLIDAE,Collisella,Collisella edmitchelli,"Lipps, 1966",,,,EX,
+5151,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Colomys,Colomys goslingi,"Thomas &amp; Wroughton, 1907",,,,LC,African Wading Rat
+5161,ANIMALIA,ARTHROPODA,INSECTA,COLEOPTERA,LUCANIDAE,Colophon,Colophon westwoodi,"Barnard, 1932",,,,VU,
+5224,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Conilurus,Conilurus penicillatus,"(Gould, 1842)",,,,VU,Brush-tailed Rabbit-rat
+5272,ANIMALIA,MOLLUSCA,GASTROPODA,NEOGASTROPODA,CONIDAE,Conus,Conus nobrei,"Trovao, 1975",,,,NT,
+5362,ANIMALIA,CHORDATA,ACTINOPTERYGII,SALMONIFORMES,SALMONIDAE,Coregonus,Coregonus artedi,"Lesueur, 1818",,,,LR/lc,Cisco
+5376,ANIMALIA,CHORDATA,ACTINOPTERYGII,SALMONIFORMES,SALMONIDAE,Coregonus,Coregonus reighardi,"(Koelz, 1924)",,,,CR,Shortnose Cisco
+5441,ANIMALIA,CHORDATA,ACTINOPTERYGII,SCORPAENIFORMES,COTTIDAE,Cottus,Cottus leiopomus,"Gilbert &amp; Evermann, 1894",,,,NT,Wood River Sculpin
+5471,ANIMALIA,ARTHROPODA,MALACOSTRACA,AMPHIPODA,CRANGONYCTIDAE,Crangonyx,Crangonyx grandimanus,"Bousfield, 1963",,,,VU,Florida Cave Amphipod
+5489,ANIMALIA,CHORDATA,ACTINOPTERYGII,ATHERINIFORMES,ATHERINIDAE,Craterocephalus,Craterocephalus dalhousiensis,"Ivantsoff &amp; Glover, 1974",,,,CR,Dalhousie Hardyhead
+5500,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Crateromys,Crateromys schadenbergi,"(Meyer, 1895)",,,,EN,Luzon Crateromys
+5523,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Urocricetus,Urocricetus alticola,"(O. Thomas, 1917)",,,,LC,Ladakh Dwarf Hamster
+5548,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CAMAENIDAE,Cristilabrum,Cristilabrum grossum,"Solem, 1981",,,,EN,
+5560,ANIMALIA,CHORDATA,MAMMALIA,EULIPOTYPHLA,SORICIDAE,Crocidura,Crocidura canariensis,"Hutterer, López-Jurado, &amp; Vogel, 1987",,,,EN,Canary Shrew
+5572,ANIMALIA,CHORDATA,MAMMALIA,EULIPOTYPHLA,SORICIDAE,Crocidura,Crocidura lucina,"Dippenaar, 1980",,,,VU,Lucina's Shrew
+5589,ANIMALIA,CHORDATA,MAMMALIA,EULIPOTYPHLA,SORICIDAE,Crocidura,Crocidura ludia,"Hollister, 1916",,,,LC,Dramatic Shrew
+5599,ANIMALIA,CHORDATA,MAMMALIA,EULIPOTYPHLA,SORICIDAE,Crocidura,Crocidura dhofarensis,"Hutterer &amp; Harrison, 1988",,,,DD,Dhofarian Shrew
+5611,ANIMALIA,CHORDATA,MAMMALIA,EULIPOTYPHLA,SORICIDAE,Crocidura,Crocidura orientalis,"Jentink in Weber, 1890",,,,LC,Oriental Shrew
+5622,ANIMALIA,CHORDATA,MAMMALIA,EULIPOTYPHLA,SORICIDAE,Crocidura,Crocidura bottegoides,"Hutterer &amp; Yalden, 1990",,,,EN,Bale Shrew
+5632,ANIMALIA,CHORDATA,MAMMALIA,EULIPOTYPHLA,SORICIDAE,Crocidura,Crocidura greenwoodi,"Heim de Balsac, 1966",,,,LC,Greenwood's Shrew
+5660,ANIMALIA,CHORDATA,REPTILIA,CROCODYLIA,CROCODYLIDAE,Mecistops,Mecistops cataphractus,"(Cuvier, 1824)",,,,CR,Slender-snouted Crocodile
+5679,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Crossomys,Crossomys moncktoni,"Thomas, 1907",,,,LC,Earless Water Rat
+5749,ANIMALIA,CHORDATA,MAMMALIA,AFROSORICIDA,CHRYSOCHLORIDAE,Cryptochloris,Cryptochloris zyli,"Shortridge & Carter, 1938",,,,EN,Van Zyl's Golden Mole
+5763,ANIMALIA,CHORDATA,MAMMALIA,EULIPOTYPHLA,SORICIDAE,Cryptotis,Cryptotis endersi,"Setzer, 1950",,,,EN,Ender's Small-eared Shrew
+5797,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CTENOMYIDAE,Ctenomys,Ctenomys azarae,"Thomas, 1903",,,,EN,Azara's Tuco-tuco
+5808,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CTENOMYIDAE,Ctenomys,Ctenomys knighti,"Thomas, 1919",,,,DD,Catamarca Tuco-tuco
+5819,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CTENOMYIDAE,Ctenomys,Ctenomys pearsoni,"Lessa &amp; Langguth, 1983",,,,NT,Pearson's Tuco-tuco
+5829,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CTENOMYIDAE,Ctenomys,Ctenomys torquatus,"Lichtenstein, 1830",,,,LC,Collared Tuco-tuco
+5862,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,SCINCIDAE,Ctenotus,Ctenotus zastictus,"Storr, 1984",,,,NT,Hamelin Ctenotus
+5961,ANIMALIA,CHORDATA,REPTILIA,TESTUDINES,GEOEMYDIDAE,Cuora,Cuora mccordi,"Ernst, 1988",,,,CR,McCord's Box Turtle
+5990,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,LYCAENIDAE,Cyanophrys,Cyanophrys bertha,"Jones, 1912",,,,VU,
+6018,ANIMALIA,MOLLUSCA,BIVALVIA,UNIONIDA,UNIONIDAE,Cyclonaias,Cyclonaias tuberculata,"Rafinesque, 1820",,,,NT,Purple Wartyback
+6033,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,IGUANIDAE,Cyclura,Cyclura rileyi,"Stejneger, 1903",,,,EN,Central Bahamian Rock Iguana
+6048,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,IGUANIDAE,Cyclura,Cyclura rileyi ssp. rileyi,"Stejneger, 1903",ssp.,rileyi,,CR,San Salvador Rock Iguana
+6071,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,NYMPHALIDAE,Cymothoe,Cymothoe alcimeda ssp. alcimeda,"(Godart, [1824])",ssp.,alcimeda,,LC,Battling Glider
+6103,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PTEROPODIDAE,Cynopterus,Cynopterus brachyotis,"(Müller, 1838)",,,,LC,Lesser Dog-faced Fruit Bat
+6138,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINIFORMES,LEUCISCIDAE,Cyprinella,Cyprinella panarcys,"(Hubbs &amp; Miller, 1978)",,,,NT,Conchos Shiner
+6150,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINODONTIFORMES,CYPRINODONTIDAE,Cyprinodon,Cyprinodon elegans,"Baird &amp; Girard, 1853",,,,EN,Comanche Springs Pupfish
+6164,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINODONTIFORMES,CYPRINODONTIDAE,Cyprinodon,Cyprinodon radiosus,"Miller, 1948",,,,EN,Owens Pupfish
+6180,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINIFORMES,CYPRINIDAE,Cyprinus,Cyprinus carpio,"Linnaeus, 1758",,,River Danube subpopulation,CR,Wild Common Carp
+6219,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Dacnomys,Dacnomys millardi,"Thomas, 1916",,,,DD,Millard's Rat
+6230,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,HESPERIIDAE,Dalla,Dalla octomaculata,"(Godman, 1900)",,,,DD,Light-spotted Skipper
+6244,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CAMAENIDAE,Damochlora,Damochlora millepunctata,"Smith, 1894",,,,EN,
+6257,ANIMALIA,ARTHROPODA,BRANCHIOPODA,DIPLOSTRACA,DAPHNIIDAE,Daphnia,Daphnia coronata,"Sars, 1916",,,,VU,
+6279,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,DASYPROCTIDAE,Dasyprocta,Dasyprocta coibae,"Thomas, 1902",,,,NT,Coiban Agouti
+6291,ANIMALIA,CHORDATA,MAMMALIA,CINGULATA,DASYPODIDAE,Dasypus,Dasypus pilosus,"(Fitzinger, 1856)",,,,DD,Hairy Long-nosed Armadillo
+6304,ANIMALIA,ARTHROPODA,INSECTA,ORTHOPTERA,STENOPELMATIDAE,Deinacrida,Deinacrida fallai,"Salmon, 1950",,,,VU,Poor Knights Weta
+6331,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,LYCAENIDAE,Deloneura,Deloneura immaculata,"Trimen, 1868",,,,EX,Bashee River Buff
+6431,ANIMALIA,CHORDATA,MAMMALIA,DIPROTODONTIA,MACROPODIDAE,Dendrolagus,Dendrolagus inustus,"Müller, 1840",,,,VU,Grizzled Tree Kangaroo
+6442,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,NESOMYIDAE,Dendromus,Dendromus lovati,"(de Winton, 1900)",,,,LC,Lovat’s African Climbing Mouse
+6488,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,ELAPIDAE,Denisonia,Denisonia maculata,"(Steindachner, 1867)",,,,DD,Ornamental Snake
+6508,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Desmodilliscus,Desmodilliscus braueri,"Wettstein, 1916",,,,LC,Pouched Gerbil
+6557,ANIMALIA,CHORDATA,MAMMALIA,PERISSODACTYLA,RHINOCEROTIDAE,Diceros,Diceros bicornis,"(Linnaeus, 1758)",,,,CR,Black Rhino
+6622,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Diomys,Diomys crumpi,"Thomas, 1917",,,,DD,Crump's Mouse
+6638,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,DIPLOGLOSSIDAE,Diploglossus,Diploglossus montisserrati,"Underwood, 1964",,,,CR,Montserrat Galliwasp
+6660,ANIMALIA,MOLLUSCA,GASTROPODA,ARCHITAENIOGLOSSA,DIPLOMMATINIDAE,Diplommatina,Diplommatina circumstomata,"Kuroda &amp; Abe, 1980",,,,DD,
+6675,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,HETEROMYIDAE,Dipodomys,Dipodomys elator,"Merriam, 1894",,,,VU,Texas Kangaroo Rat
+6693,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,HETEROMYIDAE,Dipodomys,Dipodomys spectabilis,"Merriam, 1890",,,,NT,Banner-tailed Kangaroo Rat
+6723,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,GEOMITRIDAE,Wollastonaria,Wollastonaria turricula,"(R.T. Lowe, 1831)",,,,VU,Cima Discula
+6735,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,DISCIDAE,Atlantica,Atlantica guerinianus,"(R.T. Lowe, 1852)",,,,CR,Madeiran Land Snail
+6770,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PTEROPODIDAE,Dobsonia,Dobsonia minor,"(Dobson, 1879)",,,,LC,Lesser Bare-backed Fruit Bat
+6782,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,HELICARIONIDAE,Dolapex,Dolapex amiculus,"Iredale, 1945",,,,EN,
+6802,ANIMALIA,CHORDATA,MAMMALIA,DIPROTODONTIA,MACROPODIDAE,Dorcopsulus,Dorcopsulus vanheurni,"(Thomas, 1922)",,,,NT,Small Dorcopsis
+6822,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,SCIURIDAE,Dremomys,Dremomys pernyi,"(Milne-Edwards, 1867)",,,,LC,Perny's Long-nosed Squirrel
+6858,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,GLIRIDAE,Dryomys,Dryomys nitedula,"(Pallas, 1778)",,,,LC,Forest Dormouse
+6917,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,EUCONULIDAE,Dupontia,Dupontia proletaria,"Morelet, 1860",,,,EX,
+6930,ANIMALIA,ARTHROPODA,MAXILLOPODA,CALANOIDA,DIAPTOMIDAE,Dussartius,Dussartius baeticus,"(Dussart, 1967)",,,,VU,
+6981,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,ECHIMYIDAE,Toromys,Toromys grandis,"(Wagner, 1845)",,,,LC,Giant Tree Rat
+7011,ANIMALIA,ECHINODERMATA,ECHINOIDEA,CAMARODONTA,ECHINIDAE,Echinus,Echinus esculentus,"Linnaeus, 1758",,,,LR/nt,European Edible Sea Urchin
+7022,ANIMALIA,CHORDATA,ACTINOPTERYGII,GOBIIFORMES,GOBIIDAE,Economidichthys,Economidichthys pygmaeus,"(Holly, 1929)",,,,LC,Western Greece Goby
+7084,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PTEROPODIDAE,Eidolon,Eidolon helvum,"(Kerr, 1792)",,,,NT,African Straw-coloured Fruit-bat
+7123,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,ACHATINELLIDAE,Elasmias,Elasmias kitaiwojimanum,"(Pilsbry and Hirase, 1903)",,,,VU,
+7138,ANIMALIA,CHORDATA,MAMMALIA,MACROSCELIDEA,MACROSCELIDIDAE,Elephantulus,Elephantulus rupestris,"(A. Smith, 1831)",,,,LC,Western Rock Sengi
+7150,ANIMALIA,CHORDATA,AMPHIBIA,ANURA,ELEUTHERODACTYLIDAE,Eleutherodactylus,Eleutherodactylus eneidae,"Rivero, 1959",,,,CR,Eneida's Coqui
+7587,ANIMALIA,MOLLUSCA,GASTROPODA,SORBEOCONCHA,PLEUROCERIDAE,Elimia,Elimia vanuxemiana,"I. Lea, 1843",,,,EX,Cobble Elimia
+7597,ANIMALIA,MOLLUSCA,GASTROPODA,SORBEOCONCHA,PLEUROCERIDAE,Elimia,Elimia pygmaea,"(Smith, 1936)",,,,EX,Pygmy Elimia
+7607,ANIMALIA,MOLLUSCA,GASTROPODA,SORBEOCONCHA,PLEUROCERIDAE,Elimia,Elimia haysiana,"I. Lea, 1843",,,,VU,Silt Elimia
+7617,ANIMALIA,MOLLUSCA,GASTROPODA,SORBEOCONCHA,PLEUROCERIDAE,Elimia,Elimia troostiana,"(Lea, 1838)",,,,CR,Mossy Elimia
+7629,ANIMALIA,MOLLUSCA,BIVALVIA,UNIONIDA,UNIONIDAE,Ellipsaria,Ellipsaria lineolata,"Rafinesque, 1820",,,,LR/nt,
+7641,ANIMALIA,MOLLUSCA,BIVALVIA,UNIONIDA,UNIONIDAE,Elliptio,Elliptio congaraea,"I. Lea, 1831",,,,LR/nt,
+7651,ANIMALIA,MOLLUSCA,BIVALVIA,UNIONIDA,UNIONIDAE,Elliptio,Elliptio waltoni,"(Wright, 1888)",,,,DD,Florida Lance
+7668,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,EMBALLONURIDAE,Emballonura,Emballonura raffrayana,"Dobson, 1879",,,,LC,Raffray's Sheath-tailed Bat
+7720,ANIMALIA,ARTHROPODA,INSECTA,ODONATA,COENAGRIONIDAE,Enallagma,Enallagma recurvatum,"Davis, 1913",,,,LC,Pine Barrens Bluet
+7741,ANIMALIA,ARTHROPODA,MALACOSTRACA,DECAPODA,PARASTACIDAE,Engaeus,Engaeus spinicaudatus,"Horwitz, 1990",,,,CR,Scottsdale Burrowing Crayfish
+7778,ANIMALIA,CHORDATA,ACTINOPTERYGII,PERCIFORMES,BLENNIIDAE,Entomacrodus,Entomacrodus cadenati,"Springer, 1967",,,,LC,West African Rockhopper
+7798,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Eothenomys,Eothenomys custos,"(Thomas, 1912)",,,,LC,Southwest China Red-backed Vole
+7815,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,BOIDAE,Chilabothrus,Chilabothrus angulifer,"(Cocteau &amp; Bibron, 1840)",,,,LC,Cuban Boa
+7844,ANIMALIA,ARTHROPODA,INSECTA,HYMENOPTERA,FORMICIDAE,Epimyrma,Epimyrma ravouxi,"(André, 1896)",,,,VU,Ravoux's Slavemaker Ant
+7854,ANIMALIA,CHORDATA,ACTINOPTERYGII,PERCIFORMES,EPINEPHELIDAE,Hyporthodus,Hyporthodus drummondhayi,"(Goode &amp; Bean, 1878)",,,,DD,Speckled Hind
+7866,ANIMALIA,MOLLUSCA,BIVALVIA,UNIONIDA,UNIONIDAE,Epioblasma,Epioblasma capsaeformis,"(Lea, 1834)",,,,EN,Oyster Mussel
+7880,ANIMALIA,MOLLUSCA,BIVALVIA,UNIONIDA,UNIONIDAE,Epioblasma,Epioblasma propinqua,"(I. Lea, 1857)",,,,EX,Nearby Pearly Mussel
+7895,ANIMALIA,MOLLUSCA,BIVALVIA,UNIONIDA,UNIONIDAE,Epioblasma,Epioblasma stewardsonii,"(I. Lea, 1852)",,,,EX,Steward's Pearly Mussel
+7907,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PTEROPODIDAE,Epomops,Epomops buettikoferi,"(Matschie, 1899)",,,,LC,Buettikofer's Epauletted Fruit Bat
+7921,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Eptesicus,Eptesicus dimissus,"Thomas, 1916",,,,DD,Surat Serotine
+7933,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Eptesicus,Eptesicus kobayashii,"Mori, 1928",,,,DD,Kobayashi's Serotine
+7950,ANIMALIA,CHORDATA,MAMMALIA,PERISSODACTYLA,EQUIDAE,Equus,Equus grevyi,"Oustalet, 1882",,,,EN,Grevy's Zebra
+7963,ANIMALIA,CHORDATA,MAMMALIA,PERISSODACTYLA,EQUIDAE,Equus,Equus hemionus ssp. khur,"Lesson, 1827",ssp.,khur,,NT,Indian Wild Ass
+7990,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,HELMINTHOGLYPTIDAE,Eremarionta,Eremarionta indioensis ssp. cathedralis,"(Willett, 1930)",ssp.,cathedralis,,DD,Cathedral Desert Snail
+8004,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,ERETHIZONTIDAE,Erethizon,Erethizon dorsatum,"(Linnaeus, 1758)",,,,LC,North American Porcupine
+8035,ANIMALIA,ARTHROPODA,INSECTA,ODONATA,GOMPHIDAE,Erpetogomphus,Erpetogomphus lampropeltis ssp. lampropeltis,"Kennedy, 1918",ssp.,lampropeltis,,VU,Serpent Ringtail
+8113,ANIMALIA,CHORDATA,ACTINOPTERYGII,PERCIFORMES,PERCIDAE,Etheostoma,Etheostoma ditrema,"Ramsey &amp; Suttkus, 1965",,,,EN,Coldwater Darter
+8123,ANIMALIA,CHORDATA,ACTINOPTERYGII,PERCIFORMES,PERCIDAE,Etheostoma,Etheostoma okaloosae,"(Fowler, 1941)",,,,LC,Okaloosa Darter
+8134,ANIMALIA,CHORDATA,ACTINOPTERYGII,PERCIFORMES,PERCIDAE,Ammocrypta,Ammocrypta pellucida,"(Putnam, 1863)",,,,LC,Eastern Sand Darter
+8144,ANIMALIA,ARTHROPODA,MALACOSTRACA,DECAPODA,PARASTACIDAE,Euastacus,Euastacus monteithorum,"Morgan, 1989",,,,CR,
+8161,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,ENIDAE,Euchondrus,Euchondrus ramonensis,"(Granot, 1988)",,,,CR,
+8181,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,BRADYBAENIDAE,Euhadra,Euhadra murayamai,"Habe, 1976",,,,DD,
+8205,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,LEMURIDAE,Eulemur,Eulemur cinereiceps,"(A. Grandidier &amp; Milne-Edwards, 1890)",,,,CR,White-collared Lemur
+8241,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,MOLOSSIDAE,Eumops,Eumops auripendulus,"(Shaw, 1800)",,,,LC,Shaw’s Mastiff Bat
+8261,ANIMALIA,ANNELIDA,POLYCHAETA,EUNICIDA,EUNICIDAE,Eunice,Eunice viridis,"(Gray, 1847)",,,,DD,Samoan Palolo Worm
+8331,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,NYMPHALIDAE,Euploea,Euploea configurata,"Felder &amp; Felder, 1865",,,,LR/lc,Sulawesi Striped Blue Crow
+8341,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,NYMPHALIDAE,Euploea,Euploea magou,"Martin, 1912",,,,VU,Magou
+8351,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,NYMPHALIDAE,Euploea,Euploea algea ssp. schmeltzi,,ssp.,schmeltzi,,VU,
+8391,ANIMALIA,CHORDATA,AMPHIBIA,CAUDATA,PLETHODONTIDAE,Eurycea,Eurycea nana,"Bishop, 1941",,,,CR,San Marcos Salamander
+8431,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINIFORMES,LEUCISCIDAE,Evarra,Evarra bustamantei,"Navarro, 1955",,,,EX,Mexican Dace
+8489,ANIMALIA,ARTHROPODA,MALACOSTRACA,DECAPODA,CAMBARIDAE,Fallicambarus,Fallicambarus danielae,"Hobbs, 1975",,,,NT,Speckled Burrowing Crayfish
+8541,ANIMALIA,CHORDATA,MAMMALIA,CARNIVORA,FELIDAE,Felis,Felis margarita,"Loche, 1858",,,,LC,Sand Cat
+8576,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,HYDROBIIDAE,Fissuria,Fissuria boui,"Boeters, 1981",,,,NT,
+8633,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,TATEIDAE,Fonscochlea,Fonscochlea zeidleri,"Ponder, Hershler &amp; Jenkins 1989",,,,LR/nt,
+8656,ANIMALIA,ARTHROPODA,INSECTA,HYMENOPTERA,FORMICIDAE,Formicoxenus,Formicoxenus nitidulus,"(Nylander, 1846)",,,,VU,
+8706,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINODONTIFORMES,FUNDULIDAE,Fundulus,Fundulus albolineatus,"Gilbert, 1891",,,,EX,Whiteline Topminnow
+8761,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,SCIURIDAE,Funisciurus,Funisciurus leucogenys,"(Waterhouse, 1842)",,,,LC,Orange Headed Tree Squirrel
+8776,ANIMALIA,MOLLUSCA,BIVALVIA,UNIONIDA,UNIONIDAE,Fusconaia,Fusconaia askewi,"Marsh, 1896",,,,LR/nt,
+8786,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,GALAGIDAE,Galago,Galago gallarum,"Thomas, 1901",,,,LC,Somali Lesser Galago
+8810,ANIMALIA,CHORDATA,ACTINOPTERYGII,OSMERIFORMES,GALAXIIDAE,Galaxias,Galaxias fuscus,"Mack, 1936",,,,EN,Barred Galaxias
+8821,ANIMALIA,CHORDATA,ACTINOPTERYGII,OSMERIFORMES,GALAXIIDAE,Galaxiella,Galaxiella munda,"McDowall, 1978",,,,EN,Western Mud Minnow
+8889,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINODONTIFORMES,POECILIIDAE,Gambusia,Gambusia eurystoma,"Miller, 1975",,,,CR,Widemouth Gambusia
+8901,ANIMALIA,ARTHROPODA,MALACOSTRACA,AMPHIPODA,GAMMARIDAE,Gammarus,Gammarus bousfieldi,"Cole &amp; Minckley, 1961",,,,VU,Bousfield's Amphipod
+8953,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,VERTIGINIDAE,Gastrocopta,Gastrocopta chichijimana,"Pilsbry, 1916",,,,EX,
+8973,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,BOVIDAE,Eudorcas,Eudorcas rufifrons,"(Gray, 1846)",,,,VU,Red-fronted Gazelle
+8992,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,BOVIDAE,Eudorcas,Eudorcas albonotata,"(W. Rothschild, 1903)",,,,LC,Mongalla Gazelle
+9007,ANIMALIA,CHORDATA,REPTILIA,TESTUDINES,TESTUDINIDAE,Chelonoidis,Chelonoidis chilensis,"(Gray, 1870)",,,,VU,Chaco Tortoise
+9021,ANIMALIA,CHORDATA,REPTILIA,TESTUDINES,TESTUDINIDAE,Chelonoidis,Chelonoidis duncanensis,"(Pritchard, 1996)",,,,VU,Pinzón Giant Tortoise
+9032,ANIMALIA,CHORDATA,AMPHIBIA,ANURA,MYOBATRACHIDAE,Geocrinia,Geocrinia vitellina,"Wardell-Johnson &amp; Roberts, 1989",,,,VU,Orange-bellied Frog
+9056,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,GEOMYIDAE,Geomys,Geomys tropicalis,"Goldman, 1915",,,,EN,Tropical Pocket Gopher
+9092,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Gerbillurus,Gerbillurus paeba,"(A. Smith, 1836)",,,,LC,Hairy-footed Gerbil
+9104,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Gerbillus,Gerbillus amoenus,"(de Winton, 1902)",,,,LC,Pleasant Gerbil
+9120,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Gerbillus,Gerbillus famulus,"Yerbury &amp; Thomas, 1895",,,,LC,Black-tufted Gerbil
+9131,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Gerbillus,Gerbillus juliani,"(St Leger, 1935)",,,,LC,Julian's Gerbil
+9142,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Gerbillus,Gerbillus principulus,"(Thomas &amp; Hinton, 1923)",,,,DD,Principal Gerbil
+9175,ANIMALIA,MOLLUSCA,GASTROPODA,NEOGASTROPODA,MARGINELLIDAE,Gibberula,Gibberula cucullata,"Gofas &amp; Fernandes, 1987",,,,DD,
+9186,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINIFORMES,LEUCISCIDAE,Gila,Gila elegans,"Baird & Girard, 1853",,,,CR,Bonytail
+9199,ANIMALIA,MOLLUSCA,GASTROPODA,PYLOPULMONATA,GLACIDORBIDAE,Benthodorbis,Benthodorbis pawpela,"(Smith, 1979)",,,,DD,Great Lake Snail
+9251,ANIMALIA,ARTHROPODA,MALACOSTRACA,DECAPODA,POTAMONAUTIDAE,Globonautes,Globonautes macropus,"(Rathbun, 1898)",,,,EN,Tree Hole Crab
+9272,ANIMALIA,CHORDATA,ACTINOPTERYGII,ATHERINIFORMES,MELANOTAENIIDAE,Glossolepis,Glossolepis wanamensis,"Allen &amp; Kailola, 1979",,,,CR,Lake Wanam Rainbowfish
+9287,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CAMAENIDAE,Glyptorhagada,Glyptorhagada euglypta,"Tate, 1899",,,,VU,
+9299,ANIMALIA,CHORDATA,ACTINOPTERYGII,GOBIIFORMES,ELEOTRIDAE,Gobiomorphus,Gobiomorphus alpinus,"Stokell, 1962",,,,LC,Tarndale Bully
+9329,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,STREPTAXIDAE,Gonidomus,Gonidomus newtoni,"Adams, 1867",,,,EX,
+9392,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,STREPTAXIDAE,Gonospira,Gonospira nevilli,"Adams, 1867",,,,EX,
+9404,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,HOMINIDAE,Gorilla,Gorilla gorilla,"(Savage, 1847)",,,,CR,Western Gorilla
+9450,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Grammomys,Grammomys aridulus,"Thomas &amp; Hinton, 1923",,,,DD,Arid Thicket Rat
+9460,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Grammomys,Grammomys kuru,"(Thomas &amp; Wroughton, 1907)",,,,LC,Eastern Rainforest Grammomys
+9473,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,PAPILIONIDAE,Graphium,Graphium levassori,"Oberthür, 1890",,,,EN,White Graphium
+9484,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,GLIRIDAE,Graphiurus,Graphiurus lorraineus,"Dollman, 1910",,,,LC,Lorrain Dormouse
+9497,ANIMALIA,CHORDATA,REPTILIA,TESTUDINES,EMYDIDAE,Graptemys,Graptemys caglei,"Haynes &amp; McKown, 1974",,,,EN,Cagle's Map Turtle
+9529,ANIMALIA,ARTHROPODA,INSECTA,GRYLLOBLATTODEA,GRYLLOBLATTIDAE,Grylloblatta,Grylloblatta chirurgica,"Gurney, 1961",,,,VU,Mount St. Helens' Grylloblattid
+9540,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,STREPTAXIDAE,Gulella,Gulella cuspidata,Verdcourt,,,,DD,
+9550,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,STREPTAXIDAE,Gulella,Gulella ludwigi,Verdcourt &amp; Venmans,,,,DD,
+9560,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,ACHATINELLIDAE,Gulickia,Gulickia alexandri,"Cooke, 1915",,,,CR,
+9593,ANIMALIA,MOLLUSCA,GASTROPODA,HYGROPHILA,PLANORBIDAE,Gyraulus,Gyraulus cockburni,"(Godwin-Austen, 1883)",,,,EN,
+9610,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Habromys,Habromys lophurus,"(Osgood, 1904)",,,,NT,Crested-tailed Deer Mouse
+9660,ANIMALIA,CHORDATA,MAMMALIA,CARNIVORA,PHOCIDAE,Halichoerus,Halichoerus grypus,"(Fabricius, 1791)",,,,LC,Grey Seal
+9679,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Hapalomys,Hapalomys delacouri,"Thomas, 1927",,,,NT,Lesser Marmoset Rat
+9698,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,HELICARIONIDAE,Harmogenanina,Harmogenanina detecta,"Ferussac, 1827",,,,DD,
+9725,ANIMALIA,CHORDATA,ACTINOPTERYGII,CICHLIFORMES,CICHLIDAE,Haplochromis,Haplochromis michaeli,"Trewavas, 1928",,,,CR,
+9747,ANIMALIA,MOLLUSCA,GASTROPODA,ARCHITAENIOGLOSSA,PUPINIDAE,Hedleya,Hedleya macleayi,"Cox, 1892",,,,VU,
+9769,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CHAROPIDAE,Helenoconcha,Helenoconcha sexdentata,"(Smith, 1893)",,,,EX,
+9793,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,GEOMITRIDAE,Xerotricha,Xerotricha gasulli,"(Ortiz de Zarate, 1950)",,,,EN,
+9804,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,NYMPHALIDAE,Heliconius,Heliconius nattereri,"Felder, 1865",,,,CR,Natterer's Longwing
+9832,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,SCIURIDAE,Heliosciurus,Heliosciurus punctatus,"(Temminck, 1853)",,,,DD,Small Sun Squirrel
+9853,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,HELMINTHOGLYPTIDAE,Helminthoglypta,Helminthoglypta mohaveana,"S.S. Berry, 1927",,,,LR/nt,Victorville Shoulderband
+9865,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,HELODERMATIDAE,Heloderma,Heloderma suspectum,"Cope, 1869",,,,NT,Gila Monster
+9879,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,HELICIDAE,Hemicycla,Hemicycla pouchadan,"Ibanez &amp; Alonso, 2007 ",,,,EN,
+9894,ANIMALIA,ARTHROPODA,INSECTA,ORTHOPTERA,TETTIGONIIDAE,Hemisaga,Hemisaga vepreculae,"Rentz, 1993",,,,VU,
+9919,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,BOVIDAE,Hemitragus,Hemitragus jemlahicus,"(C.H. Smith, 1826)",,,,NT,Himalayan Tahr
+9973,ANIMALIA,ARTHROPODA,MAXILLOPODA,CALANOIDA,DIAPTOMIDAE,Hesperodiaptomus,Hesperodiaptomus augustaensis,"(Turner, 1910)",,,,VU,
+9987,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,BATHYERGIDAE,Heterocephalus,Heterocephalus glaber,"Rüppell, 1842",,,,LC,Naked Mole Rat
+10018,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,ASSIMINEIDAE,Heteropoma,Heteropoma pyramis,"(Quadras &amp; Möllendorff, 1894)",,,,DD,
+10050,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CHAROPIDAE,Himeroconcha,Himeroconcha lamlanensis,"Solem, 1982",,,,DD,
+10065,ANIMALIA,CHORDATA,ACTINOPTERYGII,SYNGNATHIFORMES,SYNGNATHIDAE,Hippocampus,Hippocampus coronatus,"Temminck &amp; Schlegel, 1850",,,,DD,High-crowned Seahorse
+10087,ANIMALIA,CHORDATA,ACTINOPTERYGII,SYNGNATHIFORMES,SYNGNATHIDAE,Hippocampus,Hippocampus trimaculatus,"Leach, 1814",,,,VU,Three-spot Seahorse
+10110,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,HIPPOSIDERIDAE,Hipposideros,Hipposideros armiger,"(Hodgson, 1835)",,,,LC,Great Himalayan Leaf-nosed Bat
+10123,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,HIPPOSIDERIDAE,Hipposideros,Hipposideros coxi,"Shelford, 1901",,,,EN,Cox's Leaf-nosed Bat
+10133,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,HIPPOSIDERIDAE,Hipposideros,Hipposideros edwardshilli,"Flannery &amp; Colgan, 1993",,,,VU,Hill's Leaf-nosed Bat
+10144,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,HIPPOSIDERIDAE,Hipposideros,Hipposideros lekaguli,"Thonglongya &amp; Hill, 1974",,,,NT,Large Asian Leaf-nosed Bat
+10155,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,HIPPOSIDERIDAE,Hipposideros,Hipposideros pratti,"Thomas, 1891",,,,LC,Pratt's Leaf-nosed Bat
+10168,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,BOVIDAE,Hippotragus,Hippotragus leucophaeus,"(Pallas, 1766)",,,,EX,Bluebuck
+10178,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,ENDODONTIDAE,Hirasea,Hirasea goniobasis,"Pilsbry, 1902",,,,DD,
+10188,ANIMALIA,MOLLUSCA,GASTROPODA,SORBEOCONCHA,PALUDOMIDAE,Hirthia,Hirthia globosa,"Ancey, 1898",,,,LC,
+10208,ANIMALIA,ARTHROPODA,MALACOSTRACA,DECAPODA,CAMBARIDAE,Hobbseus,Hobbseus petilus,"Fitzpatrick, 1977",,,,DD,Tombigbee Riverlet Crayfish
+10238,ANIMALIA,CHORDATA,REPTILIA,TESTUDINES,TESTUDINIDAE,Chersobius,Chersobius solus,"Branch, 2007",,,,VU,Nama Dwarf Tortoise
+10254,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,DIPLODACTYLIDAE,Hoplodactylus,Hoplodactylus delcourti,"Bauer &amp; Russell, 1986",,,,EX,Kawekaweau
+10274,ANIMALIA,CHORDATA,MAMMALIA,CARNIVORA,HYAENIDAE,Hyaena,Hyaena hyaena,"(Linnaeus, 1758)",,,,NT,Striped Hyaena
+10303,ANIMALIA,CHORDATA,MAMMALIA,SIRENIA,DUGONGIDAE,Hydrodamalis,Hydrodamalis gigas,"(Zimmermann, 1780)",,,,EX,Steller's Sea Cow
+10338,ANIMALIA,ARTHROPODA,INSECTA,COLEOPTERA,DYTISCIDAE,Hydrotarsus,Hydrotarsus compunctus,"(Wollaston, 1865)",,,,CR,
+10459,ANIMALIA,CHORDATA,AMPHIBIA,ANURA,HYLIDAE,Boana,Boana marianitae,"(Carrizo, 1992)",,,,LC,Salta Treefrog
+10590,ANIMALIA,CHORDATA,MAMMALIA,EULIPOTYPHLA,ERINACEIDAE,Neotetracus,Neotetracus sinensis,"Trouessart, 1909",,,,LC,Shrew Gymnure
+10605,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,SCIURIDAE,Hylopetes,Hylopetes phayrei,"(Blyth, 1859)",,,,LC,Indochinese Flying Squirrel
+10633,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Hyomys,Hyomys goliath,"(Milne-Edwards, 1900)",,,,LC,Eastern White-eared Giant Rat
+10644,ANIMALIA,CHORDATA,AMPHIBIA,ANURA,HYPEROLIIDAE,Hyperolius,Hyperolius pickersgilli,"Raw, 1982",,,,EN,Pickersgill's Reed Frog
+10730,ANIMALIA,CHORDATA,ACTINOPTERYGII,GOBIIFORMES,ELEOTRIDAE,Hypseleotris,Hypseleotris aurea,"(Shipway, 1950)",,,,EN,Golden Gudgeon
+10751,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,HYSTRICIDAE,Hystrix,Hystrix indica,"Kerr, 1792",,,,LC,Indian Crested Porcupine
+10768,ANIMALIA,CHORDATA,ACTINOPTERYGII,SILURIFORMES,ICTALURIDAE,Ictalurus,Ictalurus lupus,"(Girard, 1858)",,,,DD,Headwater Catfish
+10788,ANIMALIA,ARTHROPODA,MAXILLOPODA,CALANOIDA,DIAPTOMIDAE,Idiodiaptomus,Idiodiaptomus gracilipes,"(Douwe, 1911)",,,,DD,
+10803,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,COLUBRIDAE,Iguanognathus,Iguanognathus werneri,"Boulenger, 1898",,,,DD,Spatula-toothed Snake
+10825,ANIMALIA,CHORDATA,REPTILIA,TESTUDINES,TESTUDINIDAE,Indotestudo,Indotestudo forstenii,"(Schlegel &amp; Müller, 1845)",,,,CR,Forsten's Tortoise
+10842,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,LYCAENIDAE,Iolaus,Iolaus aphnaeoides,"Trimen, 1873",,,,LC,Yellow-banded Sapphire
+10860,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CAPROMYIDAE,Isolobodon,Isolobodon portoricensis,"Allen, 1916",,,,EX,Puerto Rican Hutia
+10909,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CAMAENIDAE,Jacksonena,Jacksonena rudis,"(Hedley, 1912)",,,,LR/nt,Atherton Tableland Keeled Snail
+10921,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,TATEIDAE,Jardinella,Jardinella coreena,"Ponder &amp; Clark, 1990",,,,VU,
+10940,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,LYCAENIDAE,Joiceya,Joiceya praeclarus,,,,,EN,
+10957,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,ECHIMYIDAE,Kannabateomys,Kannabateomys amblyonyx,"(Wagner, 1845)",,,,LC,Atlantic Bamboo Rat
+10971,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Kerivoula,Kerivoula cuprosa,"Thomas, 1912",,,,DD,Copper Woolly Bat
+10982,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Phoniscus,Phoniscus papuensis,"(Dobson, 1878)",,,,VU,Golden-tipped Bat
+10997,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CAMAENIDAE,Kimboraga,Kimboraga micromphala,"(Gude, 1907)",,,,VU,
+11011,ANIMALIA,CHORDATA,REPTILIA,TESTUDINES,KINOSTERNIDAE,Kinosternon,Kinosternon sonoriense,"(LeConte, 1854)",,,,NT,Sonora Mud Turtle
+11034,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,BOVIDAE,Kobus,Kobus megaceros,"(Fitzinger, 1855)",,,,EN,Nile Lechwe
+11044,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,BOVIDAE,Kobus,Kobus leche ssp. leche,"Gray, 1850",ssp.,leche,,NT,Red Lechwe
+11054,ANIMALIA,CHORDATA,ACTINOPTERYGII,CICHLIFORMES,CICHLIDAE,Konia,Konia dikume,"Trewavas, 1972",,,,CR,Dikume
+11069,ANIMALIA,ARTHROPODA,INSECTA,HYMENOPTERA,FORMICIDAE,Kyidris,Kyidris yaleogyna,"Wilson &amp; Brown, 1956",,,,VU,
+11117,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,LACERTIDAE,Darevskia,Darevskia clarkorum,"(Darevsky &amp; Vedederja, 1977)",,,,EN,Clarks' Lizard
+11138,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Laephotis,Laephotis wintoni,"Thomas, 1901",,,,LC,De Winton's Long-eared Bat
+11150,ANIMALIA,CHORDATA,ACTINOPTERYGII,TETRAODONTIFORMES,TETRAODONTIDAE,Lagocephalus,Lagocephalus gloveri,"Abe &amp; Tabeta, 1983",,,,DD,Brown-backed Toadfish
+11191,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,STROMBIDAE,Ophioglossolambis,Ophioglossolambis violacea,"(Swainson, 1821)",,,,DD,
+11202,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Lamottemys,Lamottemys okuensis,"F. Petter, 1986",,,,EN,Mount Oku Rat
+11222,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,EUCONULIDAE,Lamprocystis,Lamprocystis hahajimana,"(Pilsbry, 1902)",,,,EN,
+11244,ANIMALIA,MOLLUSCA,BIVALVIA,UNIONIDA,UNIONIDAE,Lampsilis,Lampsilis streckeri,"Frierson, 1927",,,,CR,Speckled Pocketbook
+11257,ANIMALIA,MOLLUSCA,BIVALVIA,UNIONIDA,UNIONIDAE,Lampsilis,Lampsilis ornata,"(Conrad, 1835)",,,,LC,Southern Pocketbook
+11280,ANIMALIA,MOLLUSCA,GASTROPODA,ARCHITAENIOGLOSSA,AMPULLARIIDAE,Lanistes,Lanistes bicarinatus,"Germain, 1907",,,,LC,
+11291,ANIMALIA,MOLLUSCA,GASTROPODA,ARCHITAENIOGLOSSA,AMPULLARIIDAE,Lanistes,Lanistes stuhlmanni,"Von Martens, 1897",,,,NT,
+11343,ANIMALIA,CHORDATA,MAMMALIA,DIPROTODONTIA,VOMBATIDAE,Lasiorhinus,Lasiorhinus krefftii,"(Owen, 1873)",,,,CR,Northern Hairy-nosed Wombat
+11357,ANIMALIA,MOLLUSCA,BIVALVIA,UNIONIDA,UNIONIDAE,Lasmigona,Lasmigona holstonia,"I. Lea, 1838",,,,LC,Tennessee Heelsplitter
+11378,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,MEGADERMATIDAE,Lavia,Lavia frons,"(É. Geoffroy, 1810)",,,,LC,Yellow-winged Bat
+11410,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,SCINCIDAE,Leiolopisma,Leiolopisma mauritiana,"(Günther, 1877)",,,,EX,
+11459,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,LAURIIDAE,Leiostyla,Leiostyla lamellosa,"Lowe, 1852",,,,EX,Madeiran Land Snail
+11470,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,LAURIIDAE,Leiostyla,Leiostyla relevata,"(Wollaston, 1878)",,,,NT,
+11484,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,GEOMITRIDAE,Caseolus,Caseolus galeatus,"(R.T. Lowe, 1862)",,,,CR,
+11494,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Lemniscomys,Lemniscomys roseveari,"Van der Straeten, 1980",,,,DD,Rosevear's Striped Grass Mouse
+11506,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,CALLITRICHIDAE,Leontopithecus,Leontopithecus rosalia,"(Linnaeus, 1766)",,,,EN,Golden Lion Tamarin
+11534,ANIMALIA,CHORDATA,REPTILIA,TESTUDINES,CHELONIIDAE,Lepidochelys,Lepidochelys olivacea,"(Eschscholtz, 1829)",,,,VU,Olive Ridley Turtle
+11546,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,LYCAENIDAE,Lepidochrysops,Lepidochrysops oosthuizeni,"Swanepoel &amp; Vári, 1983",,,,LC,Oosthuizen's Blue
+11556,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,LYCAENIDAE,Lepidochrysops,Lepidochrysops jamesi ssp. claassensi,"Dickson, 1982",ssp.,claassensi,,LC,Hantamsberg Nimble Blue
+11619,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,LEPILEMURIDAE,Lepilemur,Lepilemur microdon,"(Forsyth Major, 1894)",,,,EN,Small-toothed Sportive Lemur
+11655,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,HYGROMIIDAE,Leptaxis,Leptaxis wollastoni,"(R.T. Lowe, 1852)",,,,EN,
+11686,ANIMALIA,MOLLUSCA,BIVALVIA,UNIONIDA,UNIONIDAE,Leptodea,Leptodea ochracea,"(Say, 1817)",,,,NT,Tidewater Mucket
+11726,ANIMALIA,ARTHROPODA,INSECTA,PLECOPTERA,GRIPOPTERYGIDAE,Leptoperla,Leptoperla cacuminis,"Hynes, 1974",,,,VU,Mount Kosciusko Wingless Stonefly
+11774,ANIMALIA,MOLLUSCA,GASTROPODA,SORBEOCONCHA,PLEUROCERIDAE,Leptoxis,Leptoxis compacta,"(Anthony, 1854)",,,,EX,Oblong Rocksnail
+11785,ANIMALIA,MOLLUSCA,GASTROPODA,SORBEOCONCHA,PLEUROCERIDAE,Leptoxis,Leptoxis taeniata,"(Conrad, 1834)",,,,EN,Painted Rocksnail
+11796,ANIMALIA,CHORDATA,MAMMALIA,LAGOMORPHA,LEPORIDAE,Lepus,Lepus yarkandensis,"Günther, 1875",,,,NT,Yarkand Hare
+11875,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,ORTHALICIDAE,Leuchocharis,Leuchocharis pancheri,"(Cross, 1870)",,,,CR,
+11922,ANIMALIA,MOLLUSCA,BIVALVIA,UNIONIDA,UNIONIDAE,Pleuronaia,Pleuronaia dolabelloides,"(Lea, 1840)",,,,EN,Slab-sided Pearly Mussel
+11934,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,NYMPHALIDAE,Libythea,Libythea cinyras,"Trimen, 1866",,,,EX,
+11993,ANIMALIA,ARTHROPODA,OSTRACODA,PODOCOPIDA,CYPRIDIDAE,Liocypris,Liocypris grandis,"Sars, 1924",,,,EX,
+12006,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,LIOLAEMIDAE,Liolaemus,Liolaemus lutzae,"Mertens, 1938",,,,CR,
+12077,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,HETEROMYIDAE,Heteromys,Heteromys spectabilis,"(Genoways, 1971)",,,,EN,Jaliscan Spiny Pocket Mouse
+12124,ANIMALIA,CHORDATA,REPTILIA,TESTUDINES,TRIONYCHIDAE,Lissemys,Lissemys scutata,"(Peters, 1868)",,,,LC,Burmese Flapshell Turtle
+12134,ANIMALIA,MOLLUSCA,GASTROPODA,SORBEOCONCHA,PLEUROCERIDAE,Lithasia,Lithasia curta,"(I. Lea, 1868)",,,,DD,Knobby Rocksnail
+12152,ANIMALIA,CHORDATA,AMPHIBIA,ANURA,PELODRYADIDAE,Litoria,Litoria raniformis,"(Keferstein, 1867)",,,,VU,Green and Gold Frog
+12246,ANIMALIA,CHORDATA,MAMMALIA,CARNIVORA,PHOCIDAE,Lobodon,Lobodon carcinophaga,"(Hombron & Jacquinot, 1842)",,,,LC,Crabeater Seal
+12272,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PHYLLOSTOMIDAE,Lonchorhina,Lonchorhina marinkellei,"Hernandez-Camacho &amp; Cadena-G., 1978",,,,VU,Marinkelle's Sword-nosed Bat
+12311,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,CERCOPITHECIDAE,Lophocebus,Lophocebus aterrimus ssp. opdenboschi,"(Schouteden, 1944)",ssp.,opdenboschi,,VU,Southern Black Crested Mangabey
+12375,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,LORISIDAE,Loris,Loris tardigradus,"(Linnaeus, 1758)",,,,EN,Red Slender Loris
+12403,ANIMALIA,CHORDATA,ACTINOPTERYGII,GOBIIFORMES,GOBIIDAE,Luciogobius,Luciogobius albus,"Regan, 1940",,,,CR,Cave Goby
+12421,ANIMALIA,CHORDATA,MAMMALIA,CARNIVORA,MUSTELIDAE,Lutra,Lutra sumatrana,"(Gray, 1865)",,,,EN,Hairy-nosed Otter
+12519,ANIMALIA,CHORDATA,MAMMALIA,CARNIVORA,FELIDAE,Lynx,Lynx lynx,"(Linnaeus, 1758)",,,,LC,Eurasian Lynx
+12532,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,PUPILLIDAE,Lyropupa,Lyropupa mirabilis,"Ancey, 1890",,,,DD,
+12548,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,CERCOPITHECIDAE,Macaca,Macaca arctoides,"(I. Geoffroy, 1831)",,,,VU,Stump-tailed Macaque
+12559,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,CERCOPITHECIDAE,Macaca,Macaca silenus,"(Linnaeus, 1758)",,,,EN,Lion-tailed Macaque
+12574,ANIMALIA,CHORDATA,ACTINOPTERYGII,PERCIFORMES,PERCICHTHYIDAE,Maccullochella,Maccullochella macquariensis,"(Cuvier, 1829)",,,,VU,Trout Cod
+12591,ANIMALIA,ARTHROPODA,INSECTA,COLEOPTERA,CERAMBYCIDAE,Macrodontia,Macrodontia cervicornis,"(Linnaeus, 1758)",,,,VU,Sabertooth Longhorn Beetle
+12609,ANIMALIA,ONYCHOPHORA,UDEONYCHOPHORA,EUONYCHOPHORA,PERIPATIDAE,Macroperipatus,Macroperipatus insularis,"Clark, 1937",,,,EN,
+12650,ANIMALIA,CHORDATA,MAMMALIA,PERAMELEMORPHIA,THYLACOMYIDAE,Macrotis,Macrotis lagotis,"(Reid, 1837)",,,,VU,Bilby
+12664,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,LYCAENIDAE,Phengaris,Phengaris teleius,"(Bergsträsser, 1779)",,,,LR/nt,Scarce Large Blue
+12696,ANIMALIA,CHORDATA,REPTILIA,TESTUDINES,TESTUDINIDAE,Malacochersus,Malacochersus tornieri,"(Siebenrock, 1903)",,,,CR,Pancake Tortoise
+12726,ANIMALIA,CHORDATA,ACTINOPTERYGII,PERCIFORMES,OSPHRONEMIDAE,Malpulutta,Malpulutta kretseri,"Deraniyagala, 1937",,,,EN,Ornate Paradisefish
+12749,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CAMAENIDAE,Mandarina,Mandarina suenoae,"Minato, 1978",,,,DD,
+12763,ANIMALIA,CHORDATA,MAMMALIA,PHOLIDOTA,MANIDAE,Manis,Manis javanica,"Desmarest, 1822",,,,CR,Sunda Pangolin
+12797,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Margaretamys,Margaretamys parvus,"Musser, 1981",,,,DD,Lesser Margaretamys
+12812,ANIMALIA,CHORDATA,MAMMALIA,DIDELPHIMORPHIA,DIDELPHIDAE,Marmosa,Marmosa andersoni,"Pine, 1972",,,,DD,Anderson's Mouse Opossum
+12824,ANIMALIA,CHORDATA,MAMMALIA,DIDELPHIMORPHIA,DIDELPHIDAE,Marmosops,Marmosops parvidens,"(Tate, 1931)",,,,LC,Delicate Slender Mouse Opossum
+12842,ANIMALIA,MOLLUSCA,GASTROPODA,SORBEOCONCHA,PALUDOMIDAE,Martelia,Martelia tanganyicensis,"Dautzenberg, 1908",,,,DD,
+12868,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Mastomys,Mastomys natalensis,"(Smith, 1834)",,,,LC,Natal Multimammate Mouse
+12884,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CHAROPIDAE,Mautodontha,Mautodontha maupiensis,"Garrett, 1872",,,,EX,
+12894,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Maxomys,Maxomys dollmani,"(Ellerman, 1941)",,,,DD,Dollman’s Sulawesi Maxomys
+12904,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Maxomys,Maxomys rajah,"(Thomas, 1894)",,,,VU,Rajah Sundaic Maxomys
+12924,ANIMALIA,MOLLUSCA,BIVALVIA,UNIONIDA,UNIONIDAE,Medionidus,Medionidus acutissimus,"I. Lea, 1831",,,,EN,Alabama Moccasinshell
+12940,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Megadontomys,Megadontomys cryophilus,"(Musser, 1964)",,,,EN,Oaxaca Giant Deer Mouse
+12953,ANIMALIA,ARTHROPODA,INSECTA,ODONATA,COENAGRIONIDAE,Megalagrion,Megalagrion jugorum,"(Perkins, 1899)",,,,CR,Maui Upland Damselfly
+12976,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,STROPHOCHEILIDAE,Megalobulimus,Megalobulimus proclivis,"(Martens, 1888)",,,,CR,
+13032,ANIMALIA,CHORDATA,AMPHIBIA,ANURA,MICROHYLIDAE,Melanobatrachus,Melanobatrachus indicus,"Beddome, 1878",,,,VU,Orange Black Tubercled Indian Microhylid
+13056,ANIMALIA,CHORDATA,ACTINOPTERYGII,ATHERINIFORMES,MELANOTAENIIDAE,Melanotaenia,Melanotaenia angfa,"Allen, 1990",,,,LC,Yakati Rainbowfish
+13066,ANIMALIA,CHORDATA,ACTINOPTERYGII,ATHERINIFORMES,MELANOTAENIIDAE,Melanotaenia,Melanotaenia maylandi,"Allen, 1983",,,,VU,Mayland's Rainbowfish
+13076,ANIMALIA,CHORDATA,ACTINOPTERYGII,ATHERINIFORMES,MELANOTAENIIDAE,Melanotaenia,Melanotaenia sexlineata,"(Munro, 1964)",,,,EN,Fly River Rainbowfish
+13119,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Protochromys,Protochromys fellowsi,"(Hinton, 1943)",,,,LC,Red-bellied Protochromys
+13130,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Mammelomys,Mammelomys rattoides,"(Thomas, 1922)",,,,LC,Lowland Mammelomys
+13146,ANIMALIA,CHORDATA,ACTINOPTERYGII,ATHERINIFORMES,ATHERINOPSIDAE,Menidia,Menidia extensa,"Hubbs & Raney, 1946",,,,VU,Waccamaw Silverside
+13164,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Meriones,Meriones libycus,"Lichtenstein, 1823",,,,LC,Libyan Jird
+13198,ANIMALIA,CHORDATA,AMPHIBIA,CAUDATA,SALAMANDRIDAE,Mertensiella,Mertensiella caucasica,"(Waga, 1876)",,,,NT,Caucasian Salamander
+13221,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Mesocricetus,Mesocricetus newtoni,"(Nehring, 1898)",,,,NT,Romanian Hamster
+13232,ANIMALIA,CHORDATA,ACTINOPTERYGII,GOBIIFORMES,GOBIIDAE,Mesogobius,Mesogobius batrachocephalus,"(Pallas, 1814)",,,,LC,Toad Goby
+13242,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,ZIPHIIDAE,Mesoplodon,Mesoplodon bowdoini,"Andrews, 1908",,,,DD,Andrew's Beaked Whale
+13255,ANIMALIA,ARTHROPODA,ARACHNIDA,ARANEAE,TETRAGNATHIDAE,Meta,Meta dolloff,"Levi, 1980",,,,VU,Dolloff Cave Spider
+13277,ANIMALIA,ARTHROPODA,MALACOSTRACA,ISOPODA,CIROLANIDAE,Mexilana,Mexilana saluposi,"Bowman, 1975",,,,VU,
+13292,ANIMALIA,ARTHROPODA,MALACOSTRACA,ISOPODA,STENASELLIDAE,Mexistenasellus,Mexistenasellus wilkensi,"Magniez, 1972",,,,VU,Wilken's Stenasellid
+13320,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CAVIIDAE,Microcavia,Microcavia niata,"(Thomas, 1898)",,,,LC,Andean Mountain Cavy
+13373,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Micromys,Micromys minutus,"(Pallas, 1771)",,,,LC,Eurasian Harvest Mouse
+13383,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PHYLLOSTOMIDAE,Micronycteris,Micronycteris schmidtorum,"Sanborn, 1935",,,,LC,Schmidts's Big-eared Bat
+13403,ANIMALIA,CHORDATA,ACTINOPTERYGII,PERCIFORMES,CENTRARCHIDAE,Micropterus,Micropterus notius,"Bailey & Hubbs, 1949",,,,NT,Suwannee Bass
+13417,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Microtus,Microtus breweri,"(Baird, 1858)",,,,VU,Beach Vole
+13433,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Microtus,Microtus hyperboreus,"Vinogradov, 1934",,,,LC,North Siberian Vole
+13445,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Alexandromys,Alexandromys mongolicus,"(Radde, 1861)",,,,LC,Mongolian Vole
+13456,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Microtus,Microtus schelkovnikovi,"(Satunin, 1907)",,,,LC,Schelkovnikov's Pine Vole
+13489,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Microtus,Microtus subterraneus,"(de Selys-Longchamps, 1836)",,,,LC,European Pine Vole
+13555,ANIMALIA,CHORDATA,ACTINOPTERYGII,GOBIIFORMES,ELEOTRIDAE,Milyeringa,Milyeringa veritas,"Whitley, 1945",,,,EN,Blind Gudgeon
+13568,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,MINIOPTERIDAE,Miniopterus,Miniopterus minor,"Peters, 1867",,,,DD,Least Long-fingered Bat
+13586,ANIMALIA,CHORDATA,ACTINOPTERYGII,GOBIIFORMES,GOBIIDAE,Mistichthys,Mistichthys luzonensis,"Smith, 1902",,,,VU,
+13611,ANIMALIA,CHORDATA,ACTINOPTERYGII,GOBIIFORMES,ELEOTRIDAE,Mogurnda,Mogurnda lineata,"Allen &amp; Hoese, 1991",,,,EN,Kokoda Mogurnda
+13636,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,MOITESSIERIIDAE,Corseria,Corseria corsica,"(R. Bernasconi, 1994)",,,,CR,
+13648,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,MOLOSSIDAE,Molossus,Molossus molossus,"(Pallas, 1766)",,,,LC,Pallas's Mastiff Bat
+13664,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,HELMINTHOGLYPTIDAE,Monadenia,Monadenia mormonum ssp. hirsuta,"(Pilsbry, 1927)",ssp.,hirsuta,,DD,
+13704,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,MONODONTIDAE,Monodon,Monodon monoceros,"Linnaeus, 1758",,,,LC,Narwhal
+13715,ANIMALIA,ARTHROPODA,INSECTA,HYMENOPTERA,FORMICIDAE,Monomorium,Monomorium santschii,"(Forel, 1905)",,,,VU,
+13840,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,MOLOSSIDAE,Mops,Mops demonstrator,"(Thomas, 1903)",,,,LC,Mongalla Mops Bat
+13850,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,MOLOSSIDAE,Mops,Mops trevori,"J.A. Allen, 1917",,,,DD,Trevor's Mops Bat
+13881,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,MOLOSSIDAE,Mormopterus,Mormopterus doriae,"K. Andersen, 1907",,,,DD,Sumatran Mastiff Bat
+13901,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,MOSCHIDAE,Moschus,Moschus leucogaster,"Hodgson, 1839",,,,EN,Himalayan Muskdeer
+13921,ANIMALIA,CHORDATA,ACTINOPTERYGII,GOBIIFORMES,GOBIIDAE,Mugilogobius,Mugilogobius adeia,"Larson &amp; Kottelat, 1992",,,,EN,
+13933,ANIMALIA,MOLLUSCA,GASTROPODA,NEOGASTROPODA,MURICIDAE,Muricopsis,Muricopsis matildae,"Rolan &amp; Fernandes, 1991",,,,DD,
+13944,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Murina,Murina puta,"Kishida, 1924",,,,LC,Taiwanese Tube-nosed Bat
+13957,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Mus,Mus cervicolor,"Hodgson, 1845",,,,LC,Fawn-colored Mouse
+13968,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Mus,Mus mattheyi,"F. Petter, 1969",,,,LC,Matthey's Mouse
+13980,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Mus,Mus setulosus,"Peters, 1876",,,,LC,Peter's Mouse
+13992,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,GLIRIDAE,Muscardinus,Muscardinus avellanarius,"(Linnaeus, 1758)",,,,LC,Hazel Dormouse
+14027,ANIMALIA,CHORDATA,MAMMALIA,CARNIVORA,MUSTELIDAE,Mustela,Mustela strigidorsa,"Gray, 1853",,,,LC,Stripe-backed Weasel
+14055,ANIMALIA,CHORDATA,MAMMALIA,CARNIVORA,MEPHITIDAE,Mydaus,Mydaus marchei,"(Huet, 1887)",,,,LC,Palawan Stink-badger
+14102,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,MOLOSSIDAE,Myopterus,Myopterus daubentonii,"Desmarest, 1820",,,,DD,Daubenton's Free-tailed Bat
+14113,ANIMALIA,CHORDATA,MAMMALIA,EULIPOTYPHLA,SORICIDAE,Myosorex,Myosorex rumpii,"Heim de Balsac, 1968",,,,EN,Rumpi Mouse Shrew
+14126,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Myotis,Myotis capaccinii,"(Bonaparte, 1837)",,,,VU,Long-fingered Bat
+14142,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Myotis,Myotis annectans,"(Dobson, 1871)",,,,LC,Hairy-faced Bat
+14152,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Myotis,Myotis chinensis,"(Tomes, 1857)",,,,LC,Large Myotis
+14165,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Myotis,Myotis hermani,"Thomas, 1923",,,,DD,Herman's Myotis
+14177,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Myotis,Myotis macrodactylus,"(Temminck, 1840)",,,,LC,Big-footed Myotis
+14192,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Myotis,Myotis pruinosus,"Yoshiyuki, 1971",,,,EN,Frosted Myotis
+14203,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Myotis,Myotis siligorensis,"(Horsfield, 1855)",,,,LC,Himalayan Whiskered Bat
+14214,ANIMALIA,CHORDATA,ACTINOPTERYGII,SCORPAENIFORMES,COTTIDAE,Myoxocephalus,Myoxocephalus quadricornis,"(Linnaeus, 1758)",,,,LC,Fourhorn Sculpin
+14234,ANIMALIA,ARTHROPODA,INSECTA,HYMENOPTERA,FORMICIDAE,Myrmica,Myrmica lemasnei,"Bernard, 1967",,,,VU,
+14259,ANIMALIA,MOLLUSCA,GASTROPODA,SORBEOCONCHA,PALUDOMIDAE,Mysorelloides,Mysorelloides multisulcata,"(Bourguignat, 1888)",,,,LC,
+14316,ANIMALIA,ARTHROPODA,OSTRACODA,PODOCOPIDA,CANDONIDAE,Namibcypris,Namibcypris costata,"Martens, 1992",,,,EX,
+14330,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,TATEIDAE,Nanocochlea,Nanocochlea pupoidea,"Ponder &amp; Clark, 1993",,,,VU,
+14361,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,NATALIDAE,Chilonatalus,Chilonatalus tumidifrons,"Miller, 1903",,,,NT,Bahamian Lesser Funnel-eared Bat
+14483,ANIMALIA,ARTHROPODA,INSECTA,ORTHOPTERA,TETTIGONIIDAE,Neduba,Neduba extincta,"Rentz, 1977",,,,EX,Antioch Dunes Shieldback Katydid
+14505,ANIMALIA,CHORDATA,ACTINOPTERYGII,OSMERIFORMES,GALAXIIDAE,Neochanna,Neochanna burrowsius,"(Phillipps, 1926)",,,,CR,Canterbury Mudfish
+14524,ANIMALIA,CHORDATA,ACTINOPTERYGII,GOBIIFORMES,GOBIIDAE,Neogobius,Neogobius melanostomus,"(Pallas, 1814)",,,,LC,Round Goby
+14555,ANIMALIA,MOLLUSCA,GASTROPODA,HYGROPHILA,PLANORBIDAE,Neoplanorbis,Neoplanorbis umbilicatus,"Walker, 1908",,,,EX,Umbilicate Flat-top Snail
+14580,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Neotoma,Neotoma bryanti ssp. martinensis,"Goldman, 1905",ssp.,martinensis,,EX,San Martin Island Woodrat
+14592,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Neotoma,Neotoma nelsoni,"Goldman, 1905",,,,CR,Nelson's Woodrat
+14624,ANIMALIA,MOLLUSCA,GASTROPODA,CYCLONERITIDA,NERITILIIDAE,Neritilia,Neritilia hawaiiensis,"Kay, 1979",,,,DD,Anchialine Pool Snail
+14672,ANIMALIA,CHORDATA,MAMMALIA,EULIPOTYPHLA,NESOPHONTIDAE,Nesophontes,Nesophontes hypomicrus,"Miller, 1929",,,,EX,Atalaye Nesophontes
+14685,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,PUPILLIDAE,Nesopupa,Nesopupa baldwini,"Ancey, 1904",,,,DD,
+14695,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,PUPILLIDAE,Nesopupa,Nesopupa newcombi,"Cooke &amp; Pilsbry, 1920",,,,DD,
+14706,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Nesoryzomys,Nesoryzomys darwini,"Osgood, 1929",,,,EX,Darwin's Galapagos Mouse
+14745,ANIMALIA,ARTHROPODA,MAXILLOPODA,CALANOIDA,DIAPTOMIDAE,Neutrodiaptomus,Neutrodiaptomus formosus,"(K. Kikuchi, 1928)",,,,DD,
+14759,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CHAROPIDAE,Ngairea,Ngairea murphyi,"(Cox, 1864)",,,,DD,
+14794,ANIMALIA,ARTHROPODA,MALACOSTRACA,AMPHIPODA,NIPHARGIDAE,Niphargobatoides,Niphargobatoides lefkodemonaki,"(Sket, 1990)",,,,VU,
+14804,ANIMALIA,ARTHROPODA,MALACOSTRACA,AMPHIPODA,NIPHARGIDAE,Niphargus,Niphargus stygius ssp. stygius,"(Schiödte, 1847)",ssp.,stygius,,VU,
+14815,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Niviventer,Niviventer coninga,"(Swinhoe, 1864)",,,,LC,Spiny Taiwan Niviventer
+14825,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Niviventer,Niviventer rapit,"(Bonhote, 1903)",,,,LC,Montane Bornean Niviventer
+14854,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Notiomys,Notiomys edwardsii,"(Thomas, 1890)",,,,LC,Edwards's Long-clawed Mouse
+14867,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Notomys,Notomys alexis,"Thomas, 1922",,,,LC,Spinifex Hopping Mouse
+14882,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINIFORMES,LEUCISCIDAE,Notropis,Notropis aulidion,"Chernoff &amp; Miller, 1986",,,,EX,Durango Shiner
+14892,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINIFORMES,LEUCISCIDAE,Notropis,Notropis oxyrhynchus,"Hubbs & Bonham, 1951",,,,VU,Sharpnose Shiner
+14903,ANIMALIA,CHORDATA,ACTINOPTERYGII,SILURIFORMES,ICTALURIDAE,Noturus,Noturus lachneri,"Taylor, 1969",,,,EN,Ouachita Madtom
+14921,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Nyctalus,Nyctalus aviator,"(Thomas, 1911)",,,,NT,Japanese Large Noctule
+14932,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,NYCTERIDAE,Nycteris,Nycteris javanica,"É. Geoffroy, 1813",,,,VU,Javan Slit-faced Bat
+14944,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Nycticeius,Nycticeius humeralis,"(Rafinesque, 1818)",,,,LC,Evening Bat
+14960,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PTEROPODIDAE,Nyctimene,Nyctimene varius,"K. Andersen, 1910",,,,VU,Lesser Tube-nosed Fruit Bat
+14994,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,MOLOSSIDAE,Nyctinomops,Nyctinomops femorosaccus,"(Merriam, 1899)",,,,LC,Pocketed Free-tailed Bat
+15009,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Nyctophilus,Nyctophilus sherrini,"Thomas, 1915",,,,VU,Tasmanian Long-eared Bat
+15029,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,RHYTIDIDAE,Occirhenea,Occirhenea georgiana,"Quoy &amp; Gaimard, 1832",,,,EN,
+15090,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,OCTODONTIDAE,Octodon,Octodon pacificus,"R. Hutterer, 1994",,,,CR,
+15132,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Oecomys,Oecomys cleberi,"Locks, 1981",,,,DD,Cleber's Arboreal Rice Rat
+15143,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Oecomys,Oecomys trinitatis,"(J.A. Allen &amp; Chapman, 1893)",,,,LC,Long-furred Rice Rat
+15174,ANIMALIA,MOLLUSCA,GASTROPODA,CYCLONERITIDA,HELICINIDAE,Ogasawarana,Ogasawarana microtheca,"(Pilsbry, 1902)",,,,DD,
+15184,ANIMALIA,CHORDATA,ACTINOPTERYGII,OPHIDIIFORMES,BYTHITIDAE,Ogilbia,Ogilbia galapagosensis,"(Poll &amp; LeLeup, 1965)",,,,EN,Galápagos Cuskeel
+15241,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Oligoryzomys,Oligoryzomys andinus,"(Osgood, 1914)",,,,LC,Andean Pygmy Rice Rat
+15251,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Oligoryzomys,Oligoryzomys magellanicus,"(Bennett, 1836)",,,,LC,Magellanic Pygmy Rice Rat
+15263,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,SCINCIDAE,Oligosoma,Oligosoma fallai,"(McCann, 1955)",,,,VU,Falla's Skink
+15275,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,ASSIMINEIDAE,Omphalotropis,Omphalotropis elongatula,"Quadras &amp; Möllendorff, 1894",,,,DD,
+15287,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,ASSIMINEIDAE,Omphalotropis,Omphalotropis ochthogyra,"Quadras &amp; Möllendorff, 1894",,,,DD,
+15297,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,ASSIMINEIDAE,Omphalotropis,Omphalotropis plicosa,"Pfeiffer, 1852",,,,EX,
+15319,ANIMALIA,CHORDATA,ACTINOPTERYGII,SALMONIFORMES,SALMONIDAE,Oncorhynchus,Oncorhynchus masou ssp. ishikawae,"Jordan &amp; McGregor, 1925",ssp.,ishikawae,,EN,Red-spotted Masu Salmon
+15338,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Onychomys,Onychomys leucogaster,"(Wied-Neuwied, 1841)",,,,LC,Northern Grasshopper Mouse
+15357,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CHAROPIDAE,Opanara,Opanara perahuensis,"Solem, 1976",,,,CR,
+15387,ANIMALIA,CHORDATA,ACTINOPTERYGII,SYNBRANCHIFORMES,SYNBRANCHIDAE,Ophisternon,Ophisternon infernale,"(Hubbs, 1938)",,,,EN,Blind Swamp Eel
+15419,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,DELPHINIDAE,Orcaella,Orcaella brevirostris,"(Owen in Gray, 1866)",,,,EN,Irrawaddy Dolphin
+15430,ANIMALIA,ARTHROPODA,MALACOSTRACA,DECAPODA,CAMBARIDAE,Orconectes,Orconectes stannardi,"Page, 1985",,,,LC,Little Wabash Crayfish
+15440,ANIMALIA,ARTHROPODA,MALACOSTRACA,DECAPODA,CAMBARIDAE,Orconectes,Orconectes deanae,"Reimer &amp; Jester, 1975",,,,LC,Conchas Crayfish
+15450,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CAMAENIDAE,Ordtrachia,Ordtrachia elegans,"Solem, 1988",,,,VU,
+15466,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,OREOHELICIDAE,Oreohelix,Oreohelix strigosa ssp. goniogyra,"Pilsbry, 1933",ssp.,goniogyra,,DD,Carinated Striate Banded Mountain Snail
+15485,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,BOVIDAE,Oreotragus,Oreotragus oreotragus,"(Zimmermann, 1783)",,,,LC,Klipspringer
+15519,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,PAPILIONIDAE,Ornithoptera,Ornithoptera meridionalis,"(Rothschild, 1897)",,,,NT,Southern Tailed Birdwing
+15549,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,GEOMYIDAE,Orthogeomys,Orthogeomys hispidus,"(Le Conte, 1852)",,,,LC,Hispid Pocket Gopher
+15577,ANIMALIA,CHORDATA,ACTINOPTERYGII,BELONIFORMES,ADRIANICHTHYIDAE,Oryzias,Oryzias orthognathus,"Kottelat, 1990",,,,NT,Sharp-jawed Buntingi
+15592,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Oryzomys,Oryzomys couesi,"(Alston, 1877)",,,,LC,Coues's Rice Rat
+15605,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Euryoryzomys,Euryoryzomys macconnelli,"(O. Thomas, 1910)",,,,LC,Macconnell's Rice Rat
+15616,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Aegialomys,Aegialomys xanthaeolus,"(Thomas, 1894)",,,,LC,Yellowish Rice Rat
+15640,ANIMALIA,CHORDATA,MAMMALIA,CARNIVORA,FELIDAE,Otocolobus,Otocolobus manul,"(Pallas, 1776)",,,,LC,Pallas's Cat
+15651,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Otomys,Otomys anchietae,"(Bocage, 1882)",,,,LC,Angolan Vlei Rat
+15666,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Ototylomys,Ototylomys phyllotis,"Merriam, 1901",,,,LC,Big-eared Climbing Rat
+15769,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,OXYCHILIDAE,Oxychilus,Oxychilus basajauna,"Atlonaga, 1990",,,,EN,
+15783,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Oxymycterus,Oxymycterus angularis,"Thomas, 1909",,,,LC,Angular Hocicudo
+15803,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,CERVIDAE,Ozotoceros,Ozotoceros bezoarticus,"(Linnaeus, 1758)",,,,NT,Pampas Deer
+15870,ANIMALIA,CHORDATA,ACTINOPTERYGII,GOBIIFORMES,GOBIIDAE,Padogobius,Padogobius nigricans,"(Canestrini, 1867)",,,,VU,Arno Goby
+15885,ANIMALIA,ARTHROPODA,MALACOSTRACA,DECAPODA,PALAEMONIDAE,Palaemonetes,Palaemonetes antrorum,"Benedict, 1896",,,,EN,Balcones Cave Shrimp
+15897,ANIMALIA,MOLLUSCA,GASTROPODA,ARCHITAENIOGLOSSA,DIPLOMMATINIDAE,Palaina,Palaina ovatula,"von Möllendorff, 1897",,,,DD,
+15908,ANIMALIA,MOLLUSCA,GASTROPODA,ARCHITAENIOGLOSSA,DIPLOMMATINIDAE,Palaina,Palaina xiphidium,"Moellendorff, 1897",,,,DD,
+15921,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CHAROPIDAE,Palikirus,Palikirus ponapicus,"Möllendorff, 1900",,,,DD,
+15933,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,HOMINIDAE,Pan,Pan troglodytes,"(Blumenbach, 1799)",,,,EN,Chimpanzee
+15953,ANIMALIA,CHORDATA,MAMMALIA,CARNIVORA,FELIDAE,Panthera,Panthera onca,"(Linnaeus, 1758)",,,,NT,Jaguar
+15975,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Papagomys,Papagomys armandvillei,"Jentink, 1892",,,,NT,Armandville’s Papagomys
+15988,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,PAPILIONIDAE,Papilio,Papilio esperanza,"Beutelspacher, 1975",,,,EN,Esperanza Swallowtail
+15998,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,PAPILIONIDAE,Papilio,Papilio maraho,"(Shiraki &amp; Sonan, 1934)",,,,LR/nt,
+16010,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,PAPILLODERMATIDAE,Papilloderma,Papilloderma altonagai,"Wiktor, Martin &amp; Castillejo, 1990",,,,VU,
+16032,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CAMAENIDAE,Papuexul,Papuexul bidwilli,"(Reeve, 1853)",,,,LR/nt,Mottled Treesnail
+16104,ANIMALIA,CHORDATA,MAMMALIA,CARNIVORA,VIVERRIDAE,Paradoxurus,Paradoxurus jerdoni,"Blanford, 1885",,,,LC,Brown Palm Civet
+16123,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,LYCAENIDAE,Paralucia,Paralucia spinifera,"Edwards &amp; Common, 1978",,,,EN,Bathurst Copper
+16137,ANIMALIA,ARTHROPODA,MALACOSTRACA,ANASPIDACEA,ANASPIDIDAE,Paranaspides,Paranaspides lacustris,"Smith, 1909",,,,VU,Great Lake Shrimp
+16148,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,NYMPHALIDAE,Parantica,Parantica marcia,"(Joicey &amp; Talbot, 1916)",,,,EN,Biak Tiger
+16158,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,NYMPHALIDAE,Parantica,Parantica sulewattan,"(Fruhstorfer, 1896)",,,,EN,Bonthain Tiger
+16176,ANIMALIA,ARTHROPODA,INSECTA,ODONATA,THAUMATONEURIDAE,Paraphlebia,Paraphlebia zoe,"Hagen, 1861",,,,VU,Zoe Waterfall Damsel
+16199,ANIMALIA,CHORDATA,ACTINOPTERYGII,CICHLIFORMES,CICHLIDAE,Paratilapia,Paratilapia polleni,"Bleeker, 1868",,,,VU,Marakely
+16209,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,SCIURIDAE,Paraxerus,Paraxerus ochraceus,"(Huet, 1880)",,,,LC,Ochre Bush Squirrel
+16237,ANIMALIA,CHORDATA,ACTINOPTERYGII,CICHLIFORMES,CICHLIDAE,Paretroplus,Paretroplus petiti,"Pellegrin, 1929",,,,DD,Kotso
+16249,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,PAPILIONIDAE,Parnassius,Parnassius apollo,"(Linnaeus, 1758)",,,,LC,Apollo
+16278,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,PARTULIDAE,Partula,Partula mooreana,"Hartman, 1880",,,,EW,Moorean Viviparous Tree Snail
+16289,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,PARTULIDAE,Partula,Partula guamensis,"(L. Pfeiffer, 1846)",,,,EX,Pohnpei Ground Partula Snail
+16304,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,PARTULIDAE,Partula,Partula clara,"Pease, 1864",,,,CR,Pale Partula tree snail
+16322,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,PARTULIDAE,Partula,Partula producta,"Pease, 1865",,,,EX,Polynesian Tree Snail
+16337,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,PARTULIDAE,Partula,Partula cytherea,"Cooke &amp; Crampton, 1930",,,,CR,Polynesian Tree Snail
+16353,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,ACHATINELLIDAE,Partulina,Partulina montagui,"Pilsbry, 1850",,,,EX,
+16363,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,ACHATINELLIDAE,Partulina,Partulina porcellana,"(Newcomb, 1853)",,,,DD,
+16373,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,ACHATINELLIDAE,Partulina,Partulina virgulata,"(Mighels, 1845)",,,,DD,
+16458,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CTENODACTYLIDAE,Pectinator,Pectinator spekei,"Blyth, 1856",,,,LC,Speke's Pectinator
+16484,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,BOVIDAE,Pelea,Pelea capreolus,"(Forster, 1790)",,,,NT,Grey Rhebok
+16529,ANIMALIA,CHORDATA,REPTILIA,TESTUDINES,PELOMEDUSIDAE,Pelusios,Pelusios broadleyi,"Bour, 1986",,,,VU,Turkana Mud Turtle
+16570,ANIMALIA,CHORDATA,MAMMALIA,PERAMELEMORPHIA,PERAMELIDAE,Perameles,Perameles eremiana,"Spencer, 1897",,,,EX,Desert Bandicoot
+16589,ANIMALIA,CHORDATA,ACTINOPTERYGII,PERCIFORMES,PERCIDAE,Percina,Percina jenkinsi,"Thompson, 1985",,,,CR,Conasauga Logperch
+16599,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,ACHATINELLIDAE,Perdicella,Perdicella helena,"(Newcomb, 1853)",,,,EN,
+16620,ANIMALIA,ONYCHOPHORA,UDEONYCHOPHORA,EUONYCHOPHORA,PERIPATOPSIDAE,Peripatopsis,Peripatopsis leonina,"Purcell, 1899",,,,CR,Lion's Hill Velvet Worm
+16652,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Peromyscus,Peromyscus boylii,"(Baird, 1855)",,,,LC,Brush Mouse
+16662,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Peromyscus,Peromyscus grandis,"Goodwin, 1932",,,,NT,Big Deer Mouse
+16672,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Peromyscus,Peromyscus maniculatus,"(Wagner, 1845)",,,,LC,North American Deermouse
+16682,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Peromyscus,Peromyscus nasutus,"(J.A. Allen, 1891)",,,,LC,Northern Rock Mouse
+16692,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Peromyscus,Peromyscus stephani,"Townsend, 1912",,,,CR,San Esteban Deermouse
+16711,ANIMALIA,CHORDATA,MAMMALIA,PERAMELEMORPHIA,PERAMELIDAE,Peroryctes,Peroryctes raffrayana,"(Milne-Edwards, 1878)",,,,LC,Raffray's Bandicoot
+16722,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,SCIURIDAE,Petaurista,Petaurista nobilis,"(Gray, 1842)",,,,NT,Bhutan Giant Flying Squirrel
+16733,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,SCIURIDAE,Petinomys,Petinomys crinitus,"(Hollister, 1911)",,,,LC,Mindanao Flying Squirrel
+16750,ANIMALIA,CHORDATA,MAMMALIA,DIPROTODONTIA,MACROPODIDAE,Petrogale,Petrogale xanthopus,"Gray, 1855",,,,NT,Yellow-footed Rock Wallaby
+16781,ANIMALIA,CHORDATA,PETROMYZONTI,PETROMYZONTIFORMES,PETROMYZONTIDAE,Petromyzon,Petromyzon marinus,"Linnaeus, 1758",,,,LC,Sea Lamprey
+16855,ANIMALIA,CHORDATA,MAMMALIA,DIPROTODONTIA,PHALANGERIDAE,Phalanger,Phalanger sericeus,"Thomas, 1907",,,,LC,Silky Cuscus
+16887,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Pharotis,Pharotis imogene,"Thomas, 1914",,,,CR,Thomas's Big-eared Bat
+16899,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Craseomys,Craseomys andersoni,"(Thomas, 1905)",,,,LC,Anderson’s Red-backed Vole
+16910,ANIMALIA,ARTHROPODA,INSECTA,HYMENOPTERA,FORMICIDAE,Pheidole,Pheidole elecebra,"(Wheeler, 1904)",,,,VU,
+16996,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,HELICARIONIDAE,Philonesia,Philonesia pitcairnensis,Baker,,,,VU,
+17022,ANIMALIA,CHORDATA,MAMMALIA,CARNIVORA,PHOCIDAE,Phoca,Phoca vitulina ssp. richardii,"(Gray, 1864)",ssp.,richardii,,LC,North Pacific Harbor Seal
+17036,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Phodopus,Phodopus roborovskii,"(Satunin, 1903)",,,,LC,Desert Hamster
+17073,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,TATEIDAE,Phrantela,Phrantela richardsoni,"Ponder &amp; Clark, 1993",,,,DD,
+17096,ANIMALIA,CHORDATA,ACTINOPTERYGII,SYNGNATHIFORMES,SYNGNATHIDAE,Phycodurus,Phycodurus eques,"(Günther, 1865)",,,,LC,Leafy Seadragon
+17177,ANIMALIA,CHORDATA,ACTINOPTERYGII,SYNGNATHIFORMES,SYNGNATHIDAE,Phyllopteryx,Phyllopteryx taeniolatus,"(Lacepède, 1804)",,,,LC,Weedy Seadragon
+17225,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Phyllotis,Phyllotis definitus,"Osgood, 1915",,,,EN,Definitive Leaf-eared Mouse
+17240,ANIMALIA,MOLLUSCA,GASTROPODA,HYGROPHILA,PHYSIDAE,Physella,Physella microstriata,"(Chamberlain &amp;  E.G. Berry, 1930)",,,,EX,Fish Lake Physa
+17283,ANIMALIA,CHORDATA,ACTINOPTERYGII,SILURIFORMES,HEPTAPTERIDAE,Pimelodella,Pimelodella kronei,"(Miranda Ribeiro, 1907)",,,,EN,
+17326,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Pipistrellus,Pipistrellus angulatus,"Peters, 1880",,,,LC,New Guinea Pipistrelle
+17342,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Pipistrellus,Pipistrellus imbricatus,"(Horsfield, 1824)",,,,LC,Brown Pipistrelle
+17353,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Pipistrellus,Pipistrellus nanulus,"Thomas, 1904",,,,LC,Tiny Pipistrelle
+17366,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Perimyotis,Perimyotis subflavus,"F. Cuvier, 1832",,,,VU,Eastern Pipistrelle
+17407,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,PITHECIIDAE,Pithecia,Pithecia milleri,"J.A. Allen, 1914",,,,VU,Miller's Saki
+17452,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,ORTHALICIDAE,Placostylus,Placostylus porphyrostomus,"Pfeiffer, 1851",,,,VU,
+17474,ANIMALIA,CHORDATA,MAMMALIA,DASYUROMORPHIA,DASYURIDAE,Planigale,Planigale novaeguineae,"Tate &amp; Archbold, 1941",,,,LC,Papuan Planigale
+17516,ANIMALIA,MOLLUSCA,GASTROPODA,ARCHITAENIOGLOSSA,ACICULIDAE,Platyla,Platyla orthostoma,"Jankiewicz, 1979",,,,NT,
+17548,ANIMALIA,CHORDATA,AMPHIBIA,ANURA,CERATOBATRACHIDAE,Platymantis,Platymantis panayensis,"Brown, Brown and Alcala, 1997",,,,EN,Panay Forest Frog
+17572,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PHYLLOSTOMIDAE,Platyrrhinus,Platyrrhinus recifinus,"(Thomas, 1901)",,,,LC,Recife Broad-nosed Bat
+17604,ANIMALIA,CHORDATA,ACTINOPTERYGII,PERCIFORMES,ANTHIADIDAE,Plectranthias,Plectranthias chungchowensis,"Shen &amp; Lin, 1984",,,,VU,
+17628,ANIMALIA,CHORDATA,AMPHIBIA,CAUDATA,PLETHODONTIDAE,Plethodon,Plethodon stormi,"Highton &amp; Brame, 1965",,,,EN,Siskiyou Mountains Salamander
+17669,ANIMALIA,MOLLUSCA,BIVALVIA,UNIONIDA,UNIONIDAE,Pleurobema,Pleurobema plenum,"(Lea, 1840)",,,,CR,Rough Pigtoe Pearly Mussel
+17679,ANIMALIA,MOLLUSCA,BIVALVIA,UNIONIDA,UNIONIDAE,Pleurobema,Pleurobema decisum,"(Lea, 1831)",,,,EN,Southern Clubshell
+17689,ANIMALIA,MOLLUSCA,BIVALVIA,UNIONIDA,UNIONIDAE,Pleurobema,Pleurobema perovatum,"Conrad, 1834",,,,EX,Ovate Clubshell
+17699,ANIMALIA,MOLLUSCA,GASTROPODA,SORBEOCONCHA,PLEUROCERIDAE,Pleurocera,Pleurocera corpulenta,"Anthony, 1854",,,,CR,Corpulent Hornsnail
+17712,ANIMALIA,MOLLUSCA,GASTROPODA,CYCLONERITIDA,HELICINIDAE,Pleuropoma,Pleuropoma zigzac ssp. zigzac,,ssp.,zigzac,,DD,
+17795,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,LACERTIDAE,Podarcis,Podarcis lilfordi,"(Günther, 1874)",,,,NT,Lilford's Wall Lizard
+17829,ANIMALIA,CHORDATA,MAMMALIA,EULIPOTYPHLA,ERINACEIDAE,Podogymnura,Podogymnura aureospinula,"Heaney &amp; Morgan, 1982",,,,EN,Dinagat Gymnure
+17842,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,LYCAENIDAE,Chrysoritis,Chrysoritis lyncurium,"(Trimen, 1868)",,,,VU,Tsomo River Opal
+17855,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,LYCAENIDAE,Chrysoritis,Chrysoritis penningtoni,"(Riley, 1938)",,,,VU,Pennington's Opal
+17875,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINIFORMES,LEUCISCIDAE,Pogonichthys,Pogonichthys macrolepidotus,"(Ayres, 1854)",,,,LC,Sacramento Splittail
+17902,ANIMALIA,ARTHROPODA,INSECTA,COLEOPTERA,TENEBRIONIDAE,Polposipus,Polposipus herculeanus,"Solier, 1848",,,,VU,Frigate Island Giant Tenebrionid Beetle
+17940,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,LYCAENIDAE,Polyommatus,Polyommatus golgus,"(Hübner, 1813)",,,,VU,Nevada Blue
+18089,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CAMAENIDAE,Posorites,Posorites turneri,"(Shirley, 1921)",,,,LR/nt,Border Ranges Treesnail
+18107,ANIMALIA,CHORDATA,MAMMALIA,DIPROTODONTIA,POTOROIDAE,Potorous,Potorous gilbertii,"(Gould, 1841)",,,,CR,Gilbert's Potoroo
+18127,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,CERCOPITHECIDAE,Presbytis,Presbytis frontata,"(Müller, 1838)",,,,VU,White-fronted Langur
+18148,ANIMALIA,CHORDATA,MAMMALIA,CARNIVORA,FELIDAE,Prionailurus,Prionailurus planiceps,"(Vigors &amp; Horsfield, 1827)",,,,EN,Flat-headed Cat
+18181,ANIMALIA,ARTHROPODA,MALACOSTRACA,ISOPODA,ASELLIDAE,Proasellus,Proasellus slovenicus,"(Sket, 1957)",,,,VU,
+18195,ANIMALIA,ARTHROPODA,MALACOSTRACA,DECAPODA,CAMBARIDAE,Procambarus,Procambarus cometes,"Fitzpatrick, 1978",,,,EN,Mississippi Flatwoods Crayfish
+18205,ANIMALIA,ARTHROPODA,MALACOSTRACA,DECAPODA,CAMBARIDAE,Procambarus,Procambarus morrisi,"Hobbs &amp; Franz, 1991",,,,CR,Putnam County Cave Crayfish
+18215,ANIMALIA,ARTHROPODA,MALACOSTRACA,DECAPODA,CAMBARIDAE,Procambarus,Procambarus pogum,"Fitzpatrick, 1978",,,,DD,Bearded Red Crayfish
+18226,ANIMALIA,ARTHROPODA,MALACOSTRACA,DECAPODA,CAMBARIDAE,Procambarus,Procambarus rogersi ssp. campestris,"Hobbs, 1942",ssp.,campestris,,VU,
+18248,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,CERCOPITHECIDAE,Piliocolobus,Piliocolobus waldroni,"(Hayman, 1936)",,,,CR,Miss Waldron’s Red Colobus
+18272,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,ECHIMYIDAE,Trinomys,Trinomys albispinus,"(I. Geoffroy, 1838)",,,,LC,White-spined Spiny Rat
+18287,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,ECHIMYIDAE,Proechimys,Proechimys hoplomyoides,"(Tate, 1939)",,,,DD,Guyanan Spiny Rat
+18300,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,ECHIMYIDAE,Proechimys,Proechimys steerei,"Goldman, 1911",,,,LC,Steere's Spiny Rat
+18315,ANIMALIA,CHORDATA,ACTINOPTERYGII,CICHLIFORMES,CICHLIDAE,Haplochromis,Haplochromis gilberti,"Greenwood &amp; Gee, 1969",,,,DD,
+18326,ANIMALIA,CHORDATA,ACTINOPTERYGII,CICHLIFORMES,CICHLIDAE,Haplochromis,Haplochromis perrieri,"(Pellegrin, 1909)",,,,CR,
+18342,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,PUPILLIDAE,Pronesopupa,Pronesopupa acanthinula,"Ancey, 1892",,,,DD,
+18354,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,INDRIIDAE,Propithecus,Propithecus verreauxi,"A. Grandidier, 1867",,,,CR,Verreaux's Sifaka
+18365,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,SCIURIDAE,Prosciurillus,Prosciurillus weberi,"(Jentink, 1890)",,,,EN,Weber's Sulawesi Dwarf Squirrel
+18383,ANIMALIA,CHORDATA,ACTINOPTERYGII,OSMERIFORMES,RETROPINNIDAE,Prototroctes,Prototroctes maraena,"Günther, 1864",,,,VU,Australian Grayling
+18418,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Psammomys,Psammomys obesus,"Cretzschmar, 1828",,,,LC,Fat Sand Rat
+18470,ANIMALIA,ARTHROPODA,INSECTA,HYMENOPTERA,FORMICIDAE,Pseudoatta,Pseudoatta argentina,"Gallardo, 1916",,,,VU,
+18491,ANIMALIA,ARTHROPODA,OSTRACODA,PODOCOPIDA,CANDONIDAE,Fabaeformiscandona,Fabaeformiscandona aemonae,"(Klie, 1935)",,,,VU,
+18514,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,CORDYLIDAE,Pseudocordylus,Pseudocordylus langi,"Loveridge, 1944",,,,LC,Lang's Crag Lizard
+18545,ANIMALIA,CHORDATA,ACTINOPTERYGII,ATHERINIFORMES,PSEUDOMUGILIDAE,Pseudomugil,Pseudomugil furcatus,"Nichols, 1955",,,,DD,Forktail Blue-eye
+18557,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Pseudomys,Pseudomys shortridgei,"(Thomas, 1907)",,,,NT,Heath Mouse
+18568,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Pseudomys,Pseudomys johnsoni,"Kitchener, 1985",,,,LC,Central Pebble Mouse
+18597,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,BOVIDAE,Pseudoryx,Pseudoryx nghetinhensis,"Dung, Giao, Chinh, Touc, Arctander &amp; MacKinnon, 1993",,,,CR,Saola
+18656,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PTEROPODIDAE,Pteralopex,Pteralopex anceps,"K. Andersen, 1909",,,,EN,Bougainville Monkey-faced Bat
+18710,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,MORMOOPIDAE,Pteronotus,Pteronotus quadridens,"(Gundlach, 1840)",,,,LC,Sooty Mustached Bat
+18723,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PTEROPODIDAE,Pteropus,Pteropus faunulus,"Miller, 1902",,,,EN,Nicobar Flying Fox
+18734,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PTEROPODIDAE,Pteropus,Pteropus lylei,"K. Andersen, 1908",,,,VU,Lyle's Flying Fox
+18746,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PTEROPODIDAE,Pteropus,Pteropus ornatus,"Gray, 1870",,,,VU,Ornate Flying Fox
+18757,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PTEROPODIDAE,Pteropus,Pteropus samoensis,"Peale, 1848",,,,NT,Samoan Flying Fox
+18767,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PTEROPODIDAE,Pteropus,Pteropus vetula,"Jouan, 1863",,,,NT,New Caledonia Flying Fox
+18829,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINIFORMES,LEUCISCIDAE,Ptychocheilus,Ptychocheilus lucius,"Girard, 1856",,,,VU,Colorado Pikeminnow
+18877,ANIMALIA,CHORDATA,ACTINOPTERYGII,GASTEROSTEIFORMES,GASTEROSTEIDAE,Pungitius,Pungitius platygaster,"(Kessler, 1859)",,,,LC,Pontic Stickleback
+18889,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINIFORMES,CYPRINIDAE,Barbodes,Barbodes flavifuscus,"Herre, 1924",,,,EX,
+18903,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINIFORMES,CYPRINIDAE,Barbodes,Barbodes lindog,"Herre, 1924",,,,CR,
+18913,ANIMALIA,MOLLUSCA,GASTROPODA,ARCHITAENIOGLOSSA,PUPINIDAE,Pupina,Pupina coxeni,"Brazier, 1876",,,,LR/nt,
+18943,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,DIPODIDAE,Pygeretmus,Pygeretmus pumilio,"(Kerr, 1792)",,,,LC,Dwarf Fat-tailed Jerboa
+18958,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,HYDROBIIDAE,Marstonia,Marstonia agarhecta,"(Thompson, 1969)",,,,EN,Ocmulgee Marstonia
+18968,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,HYDROBIIDAE,Pyrgulopsis,Pyrgulopsis gilae,"(Taylor, 1987)",,,,VU,Gila Springsnail
+18979,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,HYDROBIIDAE,Marstonia,Marstonia olivacea,"Pilsbry, 1895",,,,EX,Olive Marstonia
+18989,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,HYDROBIIDAE,Pyrgulopsis,Pyrgulopsis thompsoni,"Hershler, 1988",,,,NT,Huachuca Springsnail
+19040,ANIMALIA,MOLLUSCA,BIVALVIA,UNIONIDA,UNIONIDAE,Quadrula,Quadrula fragosa,"Conrad, 1835",,,,CR,Rough Maple Leaf Pearly Mussel
+19050,ANIMALIA,MOLLUSCA,BIVALVIA,UNIONIDA,UNIONIDAE,Quadrula,Quadrula rumphiana,"(Lea, 1852)",,,,LC,Ridged Mapleleaf
+19067,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CHAROPIDAE,Radiodiscus,Radiodiscus compactus,"Suter, 1980",,,,VU,
+19176,ANIMALIA,CHORDATA,AMPHIBIA,ANURA,RANIDAE,Rana,Rana cascadae,"Slater, 1939",,,,LC,Cascades Frog
+19304,ANIMALIA,CHORDATA,AMPHIBIA,CAUDATA,HYNOBIIDAE,Ranodon,Ranodon sibiricus,"Kessler, 1866",,,,EN,Semirechensk Salamander
+19320,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Rattus,Rattus adustus,"Sody, 1940",,,,DD,Burnished Enggano Rat
+19330,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Rattus,Rattus exulans,"(Peale, 1848)",,,,LC,Polynesian Rat
+19341,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Rattus,Rattus losea,"(Swinhoe, 1871)",,,,LC,Losea Rat
+19351,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Rattus,Rattus nativitatis,"(Thomas, 1889)",,,,EX,Bulldog Rat
+19361,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Rattus,Rattus andamanensis,"(Blyth, 1860)",,,,LC,Indochinese Forest Rat
+19371,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Rattus,Rattus villosissimus,"(Waite, 1898)",,,,LC,Long-haired Rat
+19391,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,BOVIDAE,Redunca,Redunca fulvorufula,"(Afzelius, 1815)",,,,EN,Mountain Reedbuck
+19406,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Reithrodontomys,Reithrodontomys darienensis,"Pearson, 1939",,,,LC,Darien Harvest Mouse
+19416,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Reithrodontomys,Reithrodontomys spectabilis,"Jones &amp; Lawlor, 1965",,,,CR,Cozumel Harvest Mouse
+19432,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,OXYCHILIDAE,Retinella,Retinella stabilei,"(Pollonera, 1886)",,,,DD,
+19456,ANIMALIA,CHORDATA,ACTINOPTERYGII,SILURIFORMES,HEPTAPTERIDAE,Rhamdia,Rhamdia zongolicensis,"Wilkens, 1993",,,,VU,Zongolica Blind Catfish
+19478,ANIMALIA,CHORDATA,ACTINOPTERYGII,ATHERINIFORMES,BEDOTIIDAE,Rheocles,Rheocles alaotrensis,"(Pellegrin, 1914)",,,,EN,Katrana
+19488,ANIMALIA,CHORDATA,CHONDRICHTHYES,ORECTOLOBIFORMES,RHINCODONTIDAE,Rhincodon,Rhincodon typus,"Smith, 1828",,,,EN,Whale Shark
+19512,ANIMALIA,ARTHROPODA,INSECTA,ODONATA,CHLOROCYPHIDAE,Rhinocypha,Rhinocypha uenoi,"Asahina, 1964",,,,EN,
+19522,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,RHINOLOPHIDAE,Rhinolophus,Rhinolophus affinis,"Horsfield, 1823",,,,LC,Intermediate Horseshoe Bat
+19534,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,RHINOLOPHIDAE,Rhinolophus,Rhinolophus cornutus,"Temminck, 1835",,,,LR/nt,Little Japanese Horseshoe Bat
+19548,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,RHINOLOPHIDAE,Rhinolophus,Rhinolophus luctus,"Temminck, 1834",,,,LC,Great Woolly Horsehoe Bat
+19559,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,RHINOLOPHIDAE,Rhinolophus,Rhinolophus pearsonii,"Horsfield, 1851",,,,LC,Pearson's Horseshoe Bat
+19572,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,RHINOLOPHIDAE,Rhinolophus,Rhinolophus swinnyi,"Gough, 1908",,,,LC,Swinny's Horseshoe Bat
+19594,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,CERCOPITHECIDAE,Rhinopithecus,Rhinopithecus avunculus,"(Dollman, 1912)",,,,CR,Tonkin Snub-nosed Monkey
+19607,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Rhipidomys,Rhipidomys couesi,"(J.A. Allen &amp; Chapman, 1893)",,,,LC,Coues's Climbing Mouse
+19644,ANIMALIA,ARTHROPODA,INSECTA,COLEOPTERA,DYTISCIDAE,Rhithrodytes,Rhithrodytes agnus,"Foster, 1993",,,,EN,
+19680,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Rhogeessa,Rhogeessa genowaysi,"Baker, 1984",,,,EN,Genoways's Yellow Bat
+19693,ANIMALIA,ARTHROPODA,INSECTA,HYMENOPTERA,FORMICIDAE,Rhoptromyrmex,Rhoptromyrmex schmitzi,"(Forel, 1910)",,,,VU,
+19714,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,EMBALLONURIDAE,Rhynchonycteris,Rhynchonycteris naso,"(Wied-Neuwied, 1820)",,,,LC,Proboscis Bat
+19738,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CHAROPIDAE,Roimontis,Roimontis tolotomensis,"Solem, 1983",,,,DD,
+19756,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PTEROPODIDAE,Rousettus,Rousettus leschenaultii,"(Desmarest, 1820)",,,,NT,Leschenault’s Rousette
+19785,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINIFORMES,LEUCISCIDAE,Rutilus,Rutilus pigus,"(Lacepède, 1803)",,,,LC,Italian Roach
+19798,ANIMALIA,CHORDATA,ACTINOPTERYGII,OPHIDIIFORMES,BYTHITIDAE,Parasaccogaster,Parasaccogaster melanomycter,"(Cohen, 1981)",,,,DD,Black-nosed Brotula
+19809,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,NESOMYIDAE,Saccostomus,Saccostomus mearnsi,"Heller, 1910",,,,LC,East African Pouched Mouse
+19830,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,CALLITRICHIDAE,Leontocebus,Leontocebus weddelli ssp. crandalli,"Hershkovitz, 1966",ssp.,crandalli,,DD,Crandall‘s Saddleback Tamarin
+19852,ANIMALIA,CHORDATA,MAMMALIA,CARNIVORA,EUPLERIDAE,Salanoia,Salanoia concolor,"(I. Geoffroy Saint-Hilaire, 1837)",,,,VU,Brown-tailed Vontsira
+19864,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,DIPODIDAE,Salpingotus,Salpingotus heptneri,"Vorontsov &amp; Smirnov, 1969",,,,DD,Heptner's Pygmy Jerboa
+19880,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,PARTULIDAE,Samoana,Samoana diaphana,"(Crampton &amp; Cooke, 1953)",,,,EN,Delicate Samoana Tree Snail
+19898,ANIMALIA,CHORDATA,ACTINOPTERYGII,BATRACHOIDIFORMES,BATRACHOIDIDAE,Sanopus,Sanopus reticulatus,"Collette, 1983",,,,EN,Reticulated Toadfish
+19939,ANIMALIA,MOLLUSCA,GASTROPODA,NEOGASTROPODA,TURRIDAE,Scaevatula,Scaevatula pellisserpentis,"Gofas, 1990",,,,DD,
+19953,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,SCINCIDAE,Scelotes,Scelotes bourquini,"Broadley, 1994",,,,VU,Bourquin's Dwarf Burrowing Skink
+19998,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,SCIURIDAE,Sciurotamias,Sciurotamias davidianus,"(Milne-Edwards, 1867)",,,,LC,Pére David's Rock Squirrel
+20009,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,SCIURIDAE,Sciurus,Sciurus gilvigularis,"Wagner, 1842",,,,DD,Yellow-throated Squirrel
+20019,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,SCIURIDAE,Sciurus,Sciurus pyrrhinus,"Thomas, 1898",,,,DD,Junín Red Squirrel
+20037,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Scolomys,Scolomys ucayalensis,"Pacheco, 1991",,,,LC,Ucayali Spiny Mouse
+20058,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Scotomanes,Scotomanes ornatus,"(Blyth, 1851)",,,,LC,Harlequin Bat
+20073,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,VESPERTILIONIDAE,Scotophilus,Scotophilus viridis,"(Peters, 1852)",,,,LC,Lesser Yellow House Bat
+20108,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CAMAENIDAE,Semotrachia,Semotrachia euzyga,"(Tate, 1894)",,,,VU,
+20162,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CAMAENIDAE,Setobaudinia,Setobaudinia collingii,"(Smith, 1893)",,,,LR/lc,
+20190,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,SMINTHIDAE,Sicista,Sicista napaea,"Hollister, 1912",,,,LC,Altai Birch Mouse
+20212,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Sigmodon,Sigmodon fulviventer,"J.A. Allen, 1889",,,,LC,Tawny-bellied Cotton Rat
+20227,ANIMALIA,CHORDATA,ACTINOPTERYGII,SILURIFORMES,SILURIDAE,Silurus,Silurus mento,"Regan, 1904",,,,CR,Kunming-lake Catfish
+20254,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINIFORMES,CYPRINIDAE,Sinocyclocheilus,Sinocyclocheilus microphthalmus,"Li, 1989",,,,VU,
+20264,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CHAROPIDAE,Sinployea,Sinployea tenuicostata,"Garrett, 1872",,,,EX,
+20290,ANIMALIA,CHORDATA,MAMMALIA,DASYUROMORPHIA,DASYURIDAE,Sminthopsis,Sminthopsis douglasi,"Archer, 1979",,,,NT,Julia Creek Dunnart
+20316,ANIMALIA,CHORDATA,ACTINOPTERYGII,SYNGNATHIFORMES,SYNGNATHIDAE,Solegnathus,Solegnathus lettiensis,"Bleeker, 1860",,,,DD,Günther's Pipehorse
+20334,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Solomys,Solomys salamonis,"(Ramsay, 1883)",,,,DD,Florida Giant Rat
+20348,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,LITHOGLYPHIDAE,Somatogyrus,Somatogyrus tenax,"F.G. Thompson, 1969",,,,NT,Savannah Pebblesnail
+20358,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,LITHOGLYPHIDAE,Somatogyrus,Somatogyrus excavatus,"Walker, 1906",,,,DD,Ovate Pebblesnail
+20368,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,LITHOGLYPHIDAE,Somatogyrus,Somatogyrus strengi,"Pilsbry &amp; Walker, 1906",,,,CR,Rolling Pebblesnail
+20378,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,HELMINTHOGLYPTIDAE,Sonorella,Sonorella macrophallus,"Fairbanks &amp; Reeder, 1980",,,,LR/nt,
+20389,ANIMALIA,CHORDATA,MAMMALIA,EULIPOTYPHLA,SORICIDAE,Sorex,Sorex sinalis,"Thomas, 1912",,,,DD,Chinese Shrew
+20416,ANIMALIA,CHORDATA,MAMMALIA,EULIPOTYPHLA,SORICIDAE,Chodsigoa,Chodsigoa salenskii,"(Kastschenko, 1907)",,,,DD,Salenski's Shrew
+20444,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,SPELAEODISCIDAE,Spelaeodiscus,Spelaeodiscus triarius ssp. tatricus,"Hazay, 1883",ssp.,tatricus,,VU,
+20460,ANIMALIA,ONYCHOPHORA,UDEONYCHOPHORA,EUONYCHOPHORA,PERIPATIDAE,Speleoperipatus,Speleoperipatus spelaeus,"Peck, 1975",,,,CR,
+20475,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,SCIURIDAE,Urocitellus,Urocitellus washingtoni,"A.H. Howell, 1938",,,,NT,Washington Ground Squirrel
+20485,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,SCIURIDAE,Callospermophilus,Callospermophilus madrensis,"Merriam, 1901",,,,NT,Sierra Madre Ground Squirrel
+20495,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,SCIURIDAE,Otospermophilus,Otospermophilus variegatus,"(Erxleben, 1777)",,,,LC,Rock Squirrel
+20599,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PHYLLOSTOMIDAE,Sphaeronycteris,Sphaeronycteris toxophyllum,"Peters, 1882",,,,LC,Visored Bat
+20637,ANIMALIA,CHORDATA,MAMMALIA,DIPROTODONTIA,PHALANGERIDAE,Spilocuscus,Spilocuscus kraemeri,"(Schwartz, 1910)",,,,NT,Admiralty Cuscus
+20713,ANIMALIA,MOLLUSCA,GASTROPODA,SORBEOCONCHA,PALUDOMIDAE,Stanleya,Stanleya neritinoides,"Smith, 1880",,,,DD,
+20729,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,DELPHINIDAE,Stenella,Stenella attenuata,"(Gray, 1846)",,,,LC,Pantropical Spotted Dolphin
+20745,ANIMALIA,CHORDATA,ACTINOPTERYGII,SALMONIFORMES,SALMONIDAE,Stenodus,Stenodus leucichthys,"(Güldenstädt, 1772)",,,,EW,Caspian Inconnu
+20768,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,POLYGYRIDAE,Stenotrema,Stenotrema leai ssp. cheatumi,"(Fullington, 1974)",ssp.,cheatumi,,DD,
+20863,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Stochomys,Stochomys longicaudatus,"(Tullberg, 1893)",,,,LC,Target Rat
+20873,ANIMALIA,ARTHROPODA,BRANCHIOPODA,ANOSTRACA,STREPTOCEPHALIDAE,Streptocephalus,Streptocephalus dendyi,"Barnard, 1929",,,,EN,
+20915,ANIMALIA,ARTHROPODA,INSECTA,HYMENOPTERA,FORMICIDAE,Strongylognathus,Strongylognathus alboini,"(Finzi, 1924)",,,,VU,
+20926,ANIMALIA,ARTHROPODA,INSECTA,HYMENOPTERA,FORMICIDAE,Strongylognathus,Strongylognathus huberi,"Forel, 1874",,,,VU,
+20936,ANIMALIA,ARTHROPODA,INSECTA,HYMENOPTERA,FORMICIDAE,Strongylognathus,Strongylognathus rehbinderi,"(Forel, 1904)",,,,VU,
+20950,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PHYLLOSTOMIDAE,Sturnira,Sturnira bidens,"Thomas, 1915",,,,LC,Bidentate Yellow-shouldered Bat
+20973,ANIMALIA,ARTHROPODA,MALACOSTRACA,AMPHIPODA,CRANGONYCTIDAE,Stygobromus,Stygobromus araeus,"(Holsinger, 1969)",,,,VU,Tidewater Interstitial Amphipod
+20984,ANIMALIA,ARTHROPODA,MALACOSTRACA,AMPHIPODA,CRANGONYCTIDAE,Stygobromus,Stygobromus emarginatus,"(Hubricht, 1943)",,,,VU,Greenbrier Cave Amphipod
+20994,ANIMALIA,ARTHROPODA,MALACOSTRACA,AMPHIPODA,CRANGONYCTIDAE,Stygobromus,Stygobromus longipes,"(Holsinger, 1966)",,,,VU,Long-legged Cave Amphipod
+21005,ANIMALIA,ARTHROPODA,MALACOSTRACA,AMPHIPODA,CRANGONYCTIDAE,Stygobromus,Stygobromus pizzinii,"(Shoemaker, 1938)",,,,VU,Pizzini's Amphipod
+21015,ANIMALIA,ARTHROPODA,MAXILLOPODA,CALANOIDA,DIAPTOMIDAE,Stygodiaptomus,Stygodiaptomus kieferi,"Petkovski, 1981",,,,VU,
+21119,ANIMALIA,ARTHROPODA,INSECTA,ODONATA,GOMPHIDAE,Stylurus,Stylurus townesi,"Gloyd, 1936",,,,LC,Townes's Clubtail
+21130,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,SUCCINEIDAE,Succinea,Succinea piratarum,"Quadras and Moellendorff, 1894",,,,EN,
+21144,ANIMALIA,CHORDATA,MAMMALIA,EULIPOTYPHLA,SORICIDAE,Suncus,Suncus hosei,"Thomas, 1893",,,,DD,Bornean Pygmy Shrew
+21155,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,SCIURIDAE,Sundasciurus,Sundasciurus hippurus,"(I. Geoffroy, 1831)",,,,NT,Horse-tailed Squirrel
+21168,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINIFORMES,NEMACHEILIDAE,Speonectes,Speonectes tiomanensis,"(Kottelat, 1990)",,,,CR,
+21185,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PTEROPODIDAE,Syconycteris,Syconycteris australis,"(Peters, 1867)",,,,LC,Common Blossom Bat
+21220,ANIMALIA,CHORDATA,MAMMALIA,EULIPOTYPHLA,SORICIDAE,Sylvisorex,Sylvisorex isabellae,"Heim de Balsac, 1968",,,,VU,Bioko Forest Shrew
+21260,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,SCIURIDAE,Syntheosciurus,Syntheosciurus brochus,"Bangs, 1902",,,,DD,Bangs's Mountain Squirrel
+21308,ANIMALIA,ARTHROPODA,MEROSTOMATA,XIPHOSURA,LIMULIDAE,Tachypleus,Tachypleus gigas,"(Müller, 1785)",,,,DD,Horseshoe Crab
+21328,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Taeromys,Taeromys arcuatus,"(Tate &amp; Archbold, 1935)",,,,LC,Southeastern Mountain Taeromys
+21338,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CHAROPIDAE,Taipidon,Taipidon anceyana,"Garrett, 1887",,,,EX,
+21356,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,SCIURIDAE,Neotamias,Neotamias bulleri,"(J.A. Allen, 1889)",,,,VU,Buller's Chipmunk
+21382,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,SCIURIDAE,Tamiops,Tamiops swinhoei,"(Milne-Edwards, 1874)",,,,LC,Swinhoe's Striped Squirrel
+21458,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,EMBALLONURIDAE,Taphozous,Taphozous kapalgensis,"McKean &amp; Friend, 1979",,,,LC,Arnhem Sheath-tailed Bat
+21473,ANIMALIA,CHORDATA,MAMMALIA,PERISSODACTYLA,TAPIRIDAE,Tapirus,Tapirus pinchaque,"(Roulin, 1829)",,,,EN,Mountain Tapir
+21497,ANIMALIA,ARTHROPODA,ARACHNIDA,PSEUDOSCORPIONES,NEOBISIIDAE,Tartarocreagris,Tartarocreagris texana,"Muchmore, 1969",,,,DD,Tooth Cave Pseudoscorpion
+21512,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Gerbilliscus,Gerbilliscus guineae,"(Thomas, 1910)",,,,LC,Guinea Gerbil
+21522,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Taterillus,Taterillus congicus,"Thomas, 1915",,,,LC,Congo Tateril
+21533,ANIMALIA,CHORDATA,AMPHIBIA,ANURA,MYOBATRACHIDAE,Taudactylus,Taudactylus pleione,"Czechura, 1986",,,,CR,Kroombit Tinker Frog
+21569,ANIMALIA,ARTHROPODA,INSECTA,HYMENOPTERA,FORMICIDAE,Teleutomyrmex,Teleutomyrmex schneideri,"Klutter, 1950",,,,VU,
+21579,ANIMALIA,CHORDATA,ACTINOPTERYGII,ATHERINIFORMES,TELMATHERINIDAE,Telmatherina,Telmatherina sarasinorum,"Kottelat, 1991",,,,NT,
+21626,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,EUCONULIDAE,Tengchiena,Tengchiena euroxestus,"(Iredale, 1937)",,,,DD,
+21650,ANIMALIA,CHORDATA,REPTILIA,TESTUDINES,TESTUDINIDAE,Testudo,Testudo hermanni ssp. hermanni,"Gmelin, 1789",ssp.,hermanni,,EN,Western Hermann's Tortoise
+21668,ANIMALIA,ARTHROPODA,INSECTA,HYMENOPTERA,FORMICIDAE,Tetramorium,Tetramorium parasiticum,"Bolton, 1980",,,,VU,
+21694,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Thalpomys,Thalpomys cerradensis,"Hershkovitz, 1990",,,,LC,Cerrado Mouse
+21714,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,UROCYCLIDAE,Thapsia,Thapsia buraensis,Verdcourt,,,,EN,
+21733,ANIMALIA,ARTHROPODA,HEXANAUPLIA,CYCLOPOIDA,CYCLOPIDAE,Thermocyclops,Thermocyclops parvus,"Reid, 1989",,,,LR/cd,
+21743,ANIMALIA,ARTHROPODA,MALACOSTRACA,ISOPODA,SPHAEROMATIDAE,Thermosphaeroma,Thermosphaeroma macrura,"Bowman, 1985",,,,CR,
+21754,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,LYCAENIDAE,Thestor,Thestor pringlei,"Dickson, 1976",,,,LC,Pringle's Skolly
+21778,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Thomasomys,Thomasomys incanus,"(Thomas, 1894)",,,,LC,Inca Oldfield Mouse
+21791,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Thomasomys,Thomasomys silvestris,"Anthony, 1924",,,,LC,Forest Oldfield Mouse
+21839,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,ECHIMYIDAE,Thrichomys,Thrichomys apereoides,"(Lund, 1839)",,,,LC,Common Punare
+21860,ANIMALIA,CHORDATA,ACTINOPTERYGII,PERCIFORMES,SCOMBRIDAE,Thunnus,Thunnus thynnus,"(Linnaeus, 1758)",,,,LC,Atlantic Bluefin Tuna
+21877,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,THYROPTERIDAE,Thyroptera,Thyroptera discifera,"(Lichtenstein &amp; Peters, 1855)",,,,LC,Peters's Disk-winged Bat
+21895,ANIMALIA,CHORDATA,ACTINOPTERYGII,CICHLIFORMES,CICHLIDAE,Coptodon,Coptodon spongotroktis,"(Stiassny, Schliewen &amp; Dominey, 1992)",,,,CR,
+21917,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,NYMPHALIDAE,Tirumala,Tirumala gautama,"(Moore, 1877)",,,,LR/lc,Scarce Blue Tiger
+21981,ANIMALIA,CHORDATA,REPTILIA,CROCODYLIA,CROCODYLIDAE,Tomistoma,Tomistoma schlegelii,"(Müller, 1838)",,,,EN,False Gharial
+21996,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,ACHATINELLIDAE,Tornelasmias,Tornelasmias capricorni,"Iredale, 1944",,,,EX,
+22027,ANIMALIA,CHORDATA,REPTILIA,TESTUDINES,EMYDIDAE,Trachemys,Trachemys terrapen,"(Bonnatere, 1789)",,,,VU,Jamaican Slider
+22046,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,BOVIDAE,Tragelaphus,Tragelaphus buxtoni,"(Lydekker, 1910)",,,,EN,Mountain Nyala
+22058,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,BOVIDAE,Tragelaphus,Tragelaphus eurycerus ssp. eurycerus,"(Ogilbyi, 1837)",ssp.,eurycerus,,NT,Lowland Bongo
+22105,ANIMALIA,CHORDATA,MAMMALIA,SIRENIA,TRICHECHIDAE,Trichechus,Trichechus manatus ssp. manatus,"Linnaeus, 1758",ssp.,manatus,,EN,Greater Caribbean Manatee
+22124,ANIMALIA,CHORDATA,ACTINOPTERYGII,SILURIFORMES,TRICHOMYCTERIDAE,Trichomycterus,Trichomycterus rivulatus,"Valenciennes, 1846",,,,LC,Bagre de la Puna
+22140,ANIMALIA,MOLLUSCA,BIVALVIA,CARDIIDA,CARDIIDAE,Tridacna,Tridacna squamosa,"Lamarck, 1819",,,,LR/cd,Fluted Giant Clam
+22194,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,POLYGYRIDAE,Triodopsis,Triodopsis platysayoides,"(Brooks, 1933)",,,,DD,Flat-spired Three-toothed Snail
+22218,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,TATEIDAE,Trochidrobia,Trochidrobia inflata,"Ponder, Hershler &amp; Jenkins, 1989",,,,EN,
+22251,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,GEOMITRIDAE,Xerocrassa,Xerocrassa montserratensis ssp. betulonensis,"Bofill, 1879",ssp.,betulonensis,,LR/nt,
+22262,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,ZONITIDAE,Trochomorpha,Trochomorpha melvillensis,"Solem, 1989",,,,LR/nt,
+22305,ANIMALIA,ARTHROPODA,INSECTA,LEPIDOPTERA,PAPILIONIDAE,Troides,Troides dohertyi,"(Rippon, 1893)",,,,VU,Talaud Black Birdwing
+22347,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,AMASTRIDAE,Tropidoptera,Tropidoptera heliciformis,"Ancey, 1890",,,,CR,
+22375,ANIMALIA,ARTHROPODA,MAXILLOPODA,CALANOIDA,DIAPTOMIDAE,Tropodiaptomus,Tropodiaptomus simplex,"(G.O. Sars, 1909)",,,,VU,
+22417,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,COCHLIOPIDAE,Tryonia,Tryonia clathrata,"Stimpson, 1865",,,,DD,Grated Tryonia
+22428,ANIMALIA,MOLLUSCA,GASTROPODA,LITTORINIMORPHA,COCHLIOPIDAE,Tryonia,Tryonia quitobaquitae,"Hershler, 1988",,,,DD,Quitabaquito Tryonia
+22544,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CAMAENIDAE,Turgenitubulus,Turgenitubulus aslini,"Solem, 1985",,,,VU,
+22571,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Tylomys,Tylomys fulviventer,"Anthony, 1916",,,,DD,Fulvous-bellied Climbing Rat
+22593,ANIMALIA,ARTHROPODA,MALACOSTRACA,DECAPODA,ATYIDAE,Typhlatya,Typhlatya monae,"Chace, 1954",,,,LC,Mona Cave Shrimp
+22701,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,SCINCIDAE,Typhlosaurus,Typhlosaurus lomiae,"Haacke, 1986",,,,NT,Lomi's Blind Legless Skink
+22770,ANIMALIA,ARTHROPODA,MALACOSTRACA,ISOPODA,PHREATOICIDAE,Uramphisopus,Uramphisopus pearsoni,"Nicholls, 1943",,,,VU,
+22803,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Uromys,Uromys imperator,"(Thomas, 1888)",,,,CR,Emperor Rat
+22828,ANIMALIA,ARTHROPODA,INSECTA,ORTHOPTERA,RHAPHIDOPHORIDAE,Utabaenetes,Utabaenetes tanneri,"Tinkham, 1970",,,,VU,Tanner's Black Camel Cricket
+22838,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PHYLLOSTOMIDAE,Vampyriscus,Vampyriscus brocki,"(Peterson, 1968)",,,,LC,Brock's Yellow-eared Bat
+22918,ANIMALIA,CHORDATA,MAMMALIA,PRIMATES,LEMURIDAE,Varecia,Varecia variegata,"(Kerr, 1792)",,,,CR,Black-and-white Ruffed Lemur
+22940,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,VERTIGINIDAE,Vertigo,Vertigo geyeri,"Lindholm, 1925",,,,LC,Geyer’s Whorl Snail
+22951,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,RHYTIDIDAE,Victaphanta,Victaphanta compacta,"(Cox &amp; Hedley, 1912)",,,,EN,
+22971,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,CAMAENIDAE,Vidumelon,Vidumelon wattii,"Tate, 1894",,,,VU,
+22992,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,VIPERIDAE,Montivipera,Montivipera latifii,"(Mertens, Darevsky &amp; Klemmer, 1967)",,,,EN,Latifi's Viper
+23032,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,PRISTILOMATIDAE,Vitrea,Vitrea inae,"de Winter &amp; Ripken, 1991",,,,DD,
+23045,ANIMALIA,MOLLUSCA,GASTROPODA,NEOGASTROPODA,MARGINELLIDAE,Volvarina,Volvarina insulana,"Gofas &amp; Fernandes, 1988",,,,DD,
+23065,ANIMALIA,CHORDATA,ACTINOPTERYGII,GOBIIFORMES,GOBIIDAE,Mugilogobius,Mugilogobius amadi,"(Weber, 1913)",,,,CR,Poso Bungu
+23077,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Wilfredomys,Wilfredomys oenax,"(Thomas, 1928)",,,,EN,Greater Wilfred's Mouse
+23116,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINODONTIFORMES,GOODEIDAE,Xenoophorus,Xenoophorus captivus,"(Hubbs, 1924)",,,,EN,Relict Splitfin
+23142,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,GEOMITRIDAE,Xerosecta,Xerosecta adolfi,"Pfeiffer, 1854",,,,EN,
+23158,ANIMALIA,CHORDATA,ACTINOPTERYGII,CYPRINODONTIFORMES,POECILIIDAE,Xiphophorus,Xiphophorus meyeri,"Schartl &amp; Schröder, 1988",,,,EW,Marbled Swordtail
+23192,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,DIPODIDAE,Zapus,Zapus trinotatus,"Rhoads, 1895",,,,LC,Point Reyes Jumping Mouse
+23211,ANIMALIA,CHORDATA,MAMMALIA,ARTIODACTYLA,ZIPHIIDAE,Ziphius,Ziphius cavirostris,"G. Cuvier, 1823",,,,LC,Cuvier's Beaked Whale
+23324,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Zyzomys,Zyzomys pedunculatus,"(Waite, 1896)",,,,CR,Central Rock-rat
+26156,ANIMALIA,CHORDATA,AMPHIBIA,ANURA,RHACOPHORIDAE,Nyctixalus,Nyctixalus spinosus,"(Taylor, 1920)",,,,LC,Spiny Indonesian Treefrog
+29405,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Euryoryzomys,Euryoryzomys russatus,"(Wagner, 1848)",,,,LC,Russet Rice Rat
+29418,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,CRICETIDAE,Oligoryzomys,Oligoryzomys stramineus,"Bonvicino &amp; Weksler, 1998",,,,LC,
+29433,ANIMALIA,CHORDATA,AMPHIBIA,ANURA,MANTELLIDAE,Boophis,Boophis lichenoides,"Vallan, Glaw, Andreone &amp; Cadle, 1998",,,,LC,
+29448,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,SCINCIDAE,Ctenotus,Ctenotus rimacolus,"Horner &amp; Fisher, 1998",,,,LC,Black-Soil Ctenotus
+29458,ANIMALIA,CHORDATA,MAMMALIA,RODENTIA,MURIDAE,Crunomys,Crunomys suncoides,"Rickart, Heaney, Tabaranza Jr. &amp; Balete, 1998",,,,DD,Katanglad Shrew Mouse
+29470,ANIMALIA,CHORDATA,AMPHIBIA,ANURA,ELEUTHERODACTYLIDAE,Eleutherodactylus,Eleutherodactylus tonyi,"Estrada &amp; Hedges, 1997",,,,VU,Cabo Cruz Frog
+29482,ANIMALIA,CHORDATA,REPTILIA,SQUAMATA,LACERTIDAE,Iranolacerta,Iranolacerta zagrosica,"(Rastegar-Pouyani and Nilson, 1998)",,,,LC,Zagros Mountain Lacerta
+29600,ANIMALIA,ARTHROPODA,INSECTA,ODONATA,GOMPHIDAE,Epigomphus,Epigomphus verticicornis,"Calvert, 1908",,,,EN,Cartago Knobtail
+29613,ANIMALIA,MOLLUSCA,GASTROPODA,SORBEOCONCHA,HEMISINIDAE,Aylacostoma,Aylacostoma stigmaticum,"Hylton-Scot, 1953",,,,EW,
+29624,ANIMALIA,MOLLUSCA,GASTROPODA,STYLOMMATOPHORA,HELICIDAE,Hemicycla,Hemicycla glyceia ssp. glyceia,"(Mabille, 1882)",ssp.,glyceia,,LR/lc,
+29658,ANIMALIA,CHORDATA,MAMMALIA,EULIPOTYPHLA,SORICIDAE,Neomys,Neomys fodiens,"(Pennant, 1771)",,,,LC,Eurasian Water Shrew
+29668,ANIMALIA,CHORDATA,MAMMALIA,EULIPOTYPHLA,SORICIDAE,Sorex,Sorex raddei,"Satunin, 1895",,,,LC,Radde's Shrew
+29730,ANIMALIA,CHORDATA,MAMMALIA,CHIROPTERA,PTEROPODIDAE,Rousettus,Rousettus aegyptiacus,"(É. Geoffroy, 1810)",,,,LC,Egyptian Fruit Bat
+30315,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ROSALES,RHAMNACEAE,Rhamnus,Rhamnus intermedia,Steud. &amp; Hochst.,,,,LC,
+30326,PLANTAE,TRACHEOPHYTA,PINOPSIDA,PINALES,CUPRESSACEAE,Juniperus,Juniperus brevifolia,(Seub.) Antoine,,,,VU,Azores Juniper
+30337,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ROSALES,ROSACEAE,Sorbus,Sorbus aucuparia subsp. maderensis,(Lowe) McAll.,subsp.,maderensis,,CR,Madeira Mountain Ash
+30347,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALPIGHIALES,EUPHORBIACEAE,Euphorbia,Euphorbia zoutpansbergensis,R.A.Dyer,,,,LR/nt,
+30357,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,CELASTRALES,CELASTRACEAE,Pseudosalacia,Pseudosalacia streyi,Codd,,,,EN,Rock Lemon
+30367,PLANTAE,TRACHEOPHYTA,LILIOPSIDA,ARECALES,ARECACEAE,Roystonea,Roystonea dunlapiana,P.H.Allen,,,,LC,Palma real mexicana
+30380,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ASTERALES,ASTERACEAE,Bidens,Bidens hendersonensis var. hendersonensis,,var.,hendersonensis,,VU,
+30391,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,FABALES,FABACEAE,Sophora,Sophora masafuerana,(Phil.) Skottsb.,,,,CR,Leña Dura
+30401,PLANTAE,TRACHEOPHYTA,LILIOPSIDA,ARECALES,ARECACEAE,Medemia,Medemia argun,(Mart.) Württemb. ex H.Wendl.,,,,VU,
+30411,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,SAPINDALES,ANACARDIACEAE,Lannea,Lannea transulta,(Balf. f.) A.R. Smith,,,,NT,
+30421,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALPIGHIALES,EUPHORBIACEAE,Croton,Croton socotranus,Balf. f.,,,,LC,
+30434,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,LAMIALES,LAMIACEAE,Clerodendrum,Clerodendrum galeatum,Balf. f.,,,,VU,
+30445,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,SAPINDALES,RUTACEAE,Balsamocitrus,Balsamocitrus camerunensis,Letouzey,,,,DD,
+30456,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ASTERALES,ASTERACEAE,Dendroseris,Dendroseris litoralis,Skottsb.,,,,CR,
+30468,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,CANELLALES,WINTERACEAE,Drimys,Drimys confertifolia,Phil.,,,,EN,Canelo de Juan Fernández
+30479,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,APIALES,ARALIACEAE,Pseudopanax,Pseudopanax gilliesii,Kirk,,,,LR/nt,
+30489,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,FABALES,FABACEAE,Carmichaelia,Carmichaelia carmichaeliae,(Hook.f.) Heenan,,,,LR/nt,Pink broom
+30499,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,APIALES,ARALIACEAE,Polyscias,Polyscias sechellarum var. sechellarum,,var.,sechellarum,,EN,
+30509,PLANTAE,TRACHEOPHYTA,LILIOPSIDA,PANDANALES,PANDANACEAE,Pandanus,Pandanus multispicatus,Balf.f.,,,,NT,
+30519,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ERICALES,SAPOTACEAE,Northia,Northia seychellana,Hook.f.,,,,VU,Capucin Tree
+30529,PLANTAE,TRACHEOPHYTA,LILIOPSIDA,ASPARAGALES,ASPARAGACEAE,Dracaena,Dracaena floribunda,Baker,,,,EN,
+30539,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ERICALES,EBENACEAE,Diospyros,Diospyros egrettarum,I.Richardson,,,,EN,Bois d'ébène de l'île aux Aigrettes
+30549,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ERICALES,EBENACEAE,Diospyros,Diospyros neraudii,A.DC.,,,,VU,Bois d'ébène feuilles
+30559,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,SAPINDALES,RUTACEAE,Zanthoxylum,Zanthoxylum heterophyllum,(Lam.) Sm.,,,,CR,Bois de catafaille nois
+30570,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,LAMIALES,BIGNONIACEAE,Parmentiera,Parmentiera morii,A.H.Gentry,,,,DD,
+30581,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,BRASSICALES,CAPPARACEAE,Quadrella,Quadrella mirifica,(Standl.) Iltis &amp; Cornejo,,,,CR,
+30592,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALPIGHIALES,CLUSIACEAE,Clusia,Clusia cupulata,(Maguire) Maguire,,,,VU,
+30602,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,FABALES,FABACEAE,Browneopsis,Browneopsis excelsa,Pittier,,,,LC,Cruceto
+30613,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,FABALES,FABACEAE,Macrolobium,Macrolobium pittieri,(Rose) Schery,,,,LC,Guasca
+30623,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,RANUNCULALES,MENISPERMACEAE,Hyperbaena,Hyperbaena allenii,Standl.,,,,EN,
+30638,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ERICALES,PRIMULACEAE,Ardisia,Ardisia subsessilifolia,Lundell,,,,DD,Hoja Lisa
+30649,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ROSALES,RHAMNACEAE,Rhamnidium,Rhamnidium caloneurum,Standl.,,,,DD,
+30660,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,APIALES,ARALIACEAE,Oreopanax,Oreopanax oerstedianus,Marchal,,,,LC,
+30672,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ERICALES,SAPOTACEAE,Manilkara,Manilkara spectabilis,(Pittier) Standl.,,,,EN,
+30683,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,FABALES,FABACEAE,Inga,Inga micheliana,Harms,,,,LC,Chalúm
+30694,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,DIPSACALES,VIBURNACEAE,Viburnum,Viburnum subpubescens,Lundell,,,,CR,
+30708,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,GENTIANALES,RUBIACEAE,Allenanthus,Allenanthus hondurensis,Standley,,,,VU,
+30724,PLANTAE,TRACHEOPHYTA,PINOPSIDA,PINALES,TAXACEAE,Taxus,Taxus globosa,Schltdl.,,,,EN,Mesoamerican Yew
+30735,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,FAGALES,FAGACEAE,Quercus,Quercus peninsularis,Trel.,,,,NT,Pacific Emory Oak
+30747,PLANTAE,TRACHEOPHYTA,LILIOPSIDA,ASPARAGALES,ASPHODELACEAE,Aloe,Aloe eminens,Reynolds &amp; P.R.O.Bally,,,,EN,
+30758,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MAGNOLIALES,MAGNOLIACEAE,Magnolia,Magnolia schiedeana,Schltl.,,,,VU,
+30768,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ASTERALES,CAMPANULACEAE,Clermontia,Clermontia tuberculata,C.N.Forbes,,,,EN,Haleakala Clermontia
+30779,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,APIALES,PITTOSPORACEAE,Pittosporum,Pittosporum napaliense,Sherff,,,,CR,
+30790,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALPIGHIALES,CLUSIACEAE,Garcinia,Garcinia quaesita,Pierre,,,,VU,
+30800,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALPIGHIALES,CALOPHYLLACEAE,Calophyllum,Calophyllum cordato-oblongum,Thwaites,,,,VU,
+30810,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALVALES,DIPTEROCARPACEAE,Hopea,Hopea jucunda,Thwaites,,,,CR,
+30820,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALVALES,DIPTEROCARPACEAE,Shorea,Shorea disticha,(Thwaites) P.S.Ashton,,,,VU,
+30830,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALVALES,DIPTEROCARPACEAE,Stemonoporus,Stemonoporus elegans,(Thwaites) Alston,,,,EN,
+30840,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALVALES,DIPTEROCARPACEAE,Vatica,Vatica affinis,Thwaites,,,,EN,
+30851,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ERICALES,EBENACEAE,Diospyros,Diospyros rheophytica,Kosterm.,,,,CR,
+30861,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ERICALES,EBENACEAE,Diospyros,Diospyros moonii,Thwaites,,,,CR,
+30871,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MYRTALES,MYRTACEAE,Eugenia,Eugenia rotundata,Trimen,,,,VU,
+30881,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MYRTALES,MYRTACEAE,Syzygium,Syzygium umbrosum,Thwaites,,,,EN,
+30891,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MYRTALES,MYRTACEAE,Syzygium,Syzygium neesianum,Arn.,,,,VU,
+30901,PLANTAE,TRACHEOPHYTA,LILIOPSIDA,ASPARAGALES,ASPHODELACEAE,Aloe,Aloe ballyi,Reynolds,,,,EN,Rat Aloe
+30912,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ASTERALES,CAMPANULACEAE,Clermontia,Clermontia drepanomorpha,Rock,,,,EN,Kohala Clermontia
+30922,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,LAMIALES,GESNERIACEAE,Cyrtandra,Cyrtandra giffardii,Rock,,,,EN,Giffard's Cyrtandra
+30932,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALVALES,MALVACEAE,Kokia,Kokia cookei,O.Deg.,,,,EW,Molokai Koki`o
+30942,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ERICALES,PRIMULACEAE,Myrsine,Myrsine fernseei,(Mez) Hosaka,,,,EN,
+30952,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,GENTIANALES,APOCYNACEAE,Pteralyxia,Pteralyxia kauaiensis,Caum,,,,EN,Kauai Pteralyxia
+30962,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,SOLANALES,SOLANACEAE,Solanum,Solanum drymophilum,O.E. Schulz,,,,CR,
+30972,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALVALES,THYMELAEACEAE,Wikstroemia,Wikstroemia villosa,Hillebr.,,,,CR,Hairy Wikstroemia
+30984,PLANTAE,TRACHEOPHYTA,PINOPSIDA,PINALES,ARAUCARIACEAE,Araucaria,Araucaria laubenfelsii,Corbasson,,,,NT,Ouaoué
+30995,PLANTAE,TRACHEOPHYTA,PINOPSIDA,PINALES,CUPRESSACEAE,Libocedrus,Libocedrus chevalieri,Buchh.,,,,CR,
+31005,PLANTAE,TRACHEOPHYTA,PINOPSIDA,PINALES,PODOCARPACEAE,Acmopyle,Acmopyle pancheri,(Brongn. &amp; Gris) Pilg.,,,,NT,
+31015,PLANTAE,TRACHEOPHYTA,LILIOPSIDA,ASPARAGALES,ASPHODELACEAE,Aloe,Aloe khamiesensis,Pillans,,,,DD,Namaqua Aloe
+31026,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,OXALIDALES,CUNONIACEAE,Geissois,Geissois imthurnii,Turrill,,,,EN,
+31037,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,OXALIDALES,CUNONIACEAE,Weinmannia,Weinmannia vitiensis,Seem.,,,,VU,
+31047,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,LAURALES,LAURACEAE,Endiandra,Endiandra lecardii,Guillaumin,,,,VU,
+31058,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALPIGHIALES,SALICACEAE,Homalium,Homalium rubrocostatum,Sleumer,,,,EN,
+31068,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALPIGHIALES,SALICACEAE,Lasiochlamys,Lasiochlamys trichostemona,(Guillaumin) Sleumer,,,,LR/cd,
+31078,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALPIGHIALES,SALICACEAE,Xylosma,Xylosma kaalaensis,Sleumer,,,,EN,
+31089,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,LAMIALES,GESNERIACEAE,Cyrtandra,Cyrtandra tempestii,Horne ex C.B.Clarke,,,,VU,
+31112,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ERICALES,SAPOTACEAE,Pycnandra,Pycnandra kaalaensis,Aubrév.,,,,NT,
+31122,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,GENTIANALES,APOCYNACEAE,Neisosperma,Neisosperma thiollierei,(Montr.) Boit.,,,,CR,
+31132,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,LAMIALES,LAMIACEAE,Gmelina,Gmelina lignum-vitreum,Guillaumin,,,,CR,
+31142,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,GENTIANALES,APOCYNACEAE,Pachypodium,Pachypodium namaquanum,(Wyley ex Harv.) Welw.,,,,LC,Elephant's Trunk
+31153,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,GENTIANALES,RUBIACEAE,Thiollierea,Thiollierea lenormandii,Halle &amp; Jeremie,,,,EN,
+31165,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MAGNOLIALES,ANNONACEAE,Sageraea,Sageraea laurifolia,(J.Graham) Blatt.,,,,LR/nt,
+31175,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,SANTALALES,APTANDRACEAE,Anacolosa,Anacolosa densiflora,Bedd.,,,,EN,
+31185,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,FABALES,FABACEAE,Cynometra,Cynometra bourdillonii,Gamble,,,,EN,
+31195,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MYRTALES,MYRTACEAE,Meteoromyrtus,Meteoromyrtus wynaadensis,(Beddome) Gamble,,,,CR,
+31207,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,GENTIANALES,RUBIACEAE,Ixora,Ixora lawsoni,Gamble,,,,EN,
+31218,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ERICALES,SYMPLOCACEAE,Symplocos,Symplocos barberi,Gamble,,,,EN,
+31228,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,LAURALES,LAURACEAE,Litsea,Litsea travancorica,Gamble,,,,VU,
+31239,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,AQUIFOLIALES,AQUIFOLIACEAE,Ilex,Ilex khasiana,Purkay.,,,,CR,
+31250,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALPIGHIALES,SALICACEAE,Salix,Salix kusanoi,(Hayata) C.K.Schneid.,,,,EN,
+31261,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MAGNOLIALES,MAGNOLIACEAE,Magnolia,Magnolia kachirachirai,(Kaneh. &amp; Yamam.) Dandy,,,,EN,
+31273,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ROSALES,ROSACEAE,Sorbus,Sorbus wallichii,(Hook.f.) T.T.Yu,,,,LR/lc,
+31283,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,OXALIDALES,ELAEOCARPACEAE,Sloanea,Sloanea assamica,Rehder &amp; E. Wilson,,,,LR/lc,
+31293,PLANTAE,TRACHEOPHYTA,PINOPSIDA,PINALES,PINACEAE,Picea,Picea maximowiczii var. senanensis,Hayashi,var.,senanensis,,DD,
+31303,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ROSALES,ULMACEAE,Zelkova,Zelkova carpinifolia,(Pall.) K.Koch,,,,VU,Caucasian Zelkova
+31314,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALVALES,DIPTEROCARPACEAE,Hopea,Hopea sangal,Korth.,,,,VU,
+31325,PLANTAE,TRACHEOPHYTA,PINOPSIDA,PINALES,PINACEAE,Abies,Abies nordmanniana subsp. equi-trojani,(Asch. &amp; Sint. ex Boiss.) Coode &amp; Cullen,subsp.,equi-trojani,,EN,Kazdagi Fir
+31336,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,LAURALES,LAURACEAE,Cinnamomum,Cinnamomum kotoense,Kaneh. &amp; Sasaki,,,,CR,
+31348,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ERICALES,PENTAPHYLACACEAE,Anneslea,Anneslea fragrans var. lanceolata,Hayata,var.,lanceolata,,VU,
+31359,PLANTAE,TRACHEOPHYTA,PINOPSIDA,PINALES,CUPRESSACEAE,Austrocedrus,Austrocedrus chilensis,(D.Don) Pichi-Serm. &amp; Bizzarri,,,,NT,Chilean Cedar
+31371,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MAGNOLIALES,ANNONACEAE,Miliusa,Miliusa parviflora,Ridl.,,,,VU,
+31381,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ERICALES,EBENACEAE,Diospyros,Diospyros philippinensis,A.DC.,,,,NT,
+31392,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,SAPINDALES,ANACARDIACEAE,Mangifera,Mangifera foetida,Lour.,,,,LC,Horse Mango
+31403,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,SAPINDALES,ANACARDIACEAE,Mangifera,Mangifera caesia,Jack,,,,NT,
+31413,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,SAPINDALES,ANACARDIACEAE,Melanochyla,Melanochyla nitida,King,,,,EN,
+31423,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALVALES,DIPTEROCARPACEAE,Hopea,Hopea glaucescens,Symington,,,,VU,
+31433,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALVALES,DIPTEROCARPACEAE,Shorea,Shorea collina,Ridl.,,,,VU,Red Balau
+31443,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALVALES,DIPTEROCARPACEAE,Vatica,Vatica lobata,Foxw.,,,,EN,
+31455,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ERICALES,EBENACEAE,Diospyros,Diospyros foxworthyi,Bakh.,,,,LR/lc,
+31465,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ERICALES,ERICACEAE,Rhododendron,Rhododendron wrayi,King &amp; Gamble,,,,LC,
+31475,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALPIGHIALES,PHYLLANTHACEAE,Cleistanthus,Cleistanthus major,Airy Shaw,,,,CR,
+31487,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALPIGHIALES,EUPHORBIACEAE,Lasiococca,Lasiococca malaccensis,Airy Shaw,,,,VU,
+31498,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,FAGALES,FAGACEAE,Lithocarpus,Lithocarpus erythrocarpus,(Ridl.) A.Camus,,,,VU,
+31508,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALPIGHIALES,ACHARIACEAE,Hydnocarpus,Hydnocarpus cucurbitina,King,,,,LR/cd,
+31518,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALPIGHIALES,CLUSIACEAE,Garcinia,Garcinia costata,Hemsl. ex King,,,,VU,
+31529,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MALPIGHIALES,CALOPHYLLACEAE,Kayea,Kayea daphnifolia,Ridl.,,,,DD,
+31539,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,ERICALES,LECYTHIDACEAE,Barringtonia,Barringtonia maxwelliana,(Whitmore) Prance,,,,VU,
+31549,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,FABALES,FABACEAE,Millettia,Millettia decipiens,Prain,,,,VU,
+31559,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MAGNOLIALES,MYRISTICACEAE,Knema,Knema oblongifolia,(King) Warb.,,,,LR/cd,
+31569,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MYRTALES,MYRTACEAE,Eugenia,Eugenia cyrtophylloides,Ridley,,,,VU,
+31579,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MYRTALES,MYRTACEAE,Eugenia,Eugenia koordersiana,King,,,,LR/lc,
+31589,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MYRTALES,MYRTACEAE,Eugenia,Eugenia pergamentacea,King,,,,LR/lc,
+31599,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MYRTALES,MYRTACEAE,Syzygium,Syzygium setosum,(King) I.M. Turner,,,,EN,
+31609,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MYRTALES,MYRTACEAE,Eugenia,Eugenia wrayi,King,,,,LR/lc,
+31619,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,MAGNOLIALES,ANNONACEAE,Xylopia,Xylopia ekmanii,R.E.Fr.,,,,EN,Yararey
+31629,PLANTAE,TRACHEOPHYTA,MAGNOLIOPSIDA,CARYOPHYLLALES,NYCTAGINACEAE,Neea,Neea ekmanii,Heimerl,,,,EN,
