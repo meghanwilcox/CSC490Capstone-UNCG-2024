@@ -14,6 +14,8 @@ class Admin(models.Model):
     password = models.CharField(max_length=128, null=False,)
     name = models.CharField(max_length=100, null=False,)
 
+from django.db import models
+
 class Species(models.Model):
     taxonid = models.IntegerField(primary_key=True)
     kingdom_name = models.CharField(max_length=100)
@@ -31,7 +33,8 @@ class Species(models.Model):
     main_common_name = models.CharField(max_length=255, blank=True, null=True)
 
     class Meta:
-        db_table = 'species'
-        managed = False
+        db_table = 'species'  
+        managed = False  
+
 
 

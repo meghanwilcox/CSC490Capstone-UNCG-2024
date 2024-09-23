@@ -15,7 +15,7 @@ const SpeciesSearchPage = () => {
       try {
         const response = await fetch('http://localhost:8000/api/species/');
         const data = await response.json();
-        setSpecies(data.results);
+        setSpecies(data.slice(0, 100)); // Set only the first 100 records
       } catch (error) {
         console.error('Error fetching species data:', error);
       }
@@ -38,7 +38,6 @@ const SpeciesSearchPage = () => {
   }, [searchTerm, categoryFilter, species]);
 
   return (
-    
     <div>
       <Navbar />
       <div>

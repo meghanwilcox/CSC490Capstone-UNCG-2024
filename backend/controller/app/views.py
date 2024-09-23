@@ -11,6 +11,10 @@ from pagination import SpeciesLimitOffsetPagination
 import requests
 from django.http import JsonResponse, HttpResponseBadRequest
 from django.views import View
+import csv
+import os
+from django.conf import settings
+
 
 class UsersListView(ListAPIView):
     queryset = User.objects.all()
@@ -133,21 +137,39 @@ class AdminLoginView(APIView):
         else:
             return Response({'error': 'Invalid email or password.'}, status=status.HTTP_401_UNAUTHORIZED)
         
-class SpeciesListView(generics.ListAPIView):
-    queryset = Species.objects.all()
-    serializer_class = SpeciesSerializer
-    filter_backends = (SearchFilter, OrderingFilter)
-    search_fields = ('scientific_name', 'main_common_name')
-    ordering_fields = ('scientific_name', 'category')
-    ordering = ('scientific_name',)  
-    pagination_class = SpeciesLimitOffsetPagination  
+class SpeciesListView(APIView):
+    def get(self, request, *args, **kwargs):
+        species_data = []
+        csv_file_path = "C:\\Users\\megwi\\UNCG\\Fall 2024\\CSC490\\Capstone-Wildguard\\CSC490Capstone-UNCG-2024\\backend\\controller\\app\\species_list.csv"
+        
+        try:
+            with open(csv_file_path, newline='', encoding='utf-8') as csvfile:
+                reader = csv.DictReader(csvfile)
+                for index, row in enumerate(reader):
+                    # Modify this if you want to filter or select specific records
+                    species_info = {
+                        "taxonid": row["taxonid"],
+                        "kingdom_name": row["kingdom_name"],
+                        "phylum_name": row["phylum_name"],
+                        "class_name": row["class_name"],
+                        "order_name": row["order_name"],
+                        "family_name": row["family_name"],
+                        "genus_name": row["genus_name"],
+                        "scientific_name": row["scientific_name"],
+                        "taxonomic_authority": row["taxonomic_authority"],
+                        "infra_rank": row["infra_rank"],
+                        "infra_name": row["infra_name"],
+                        "population": row["population"],
+                        "category": row["category"],
+                        "main_common_name": row["main_common_name"]
+                    }
+                    species_data.append(species_info)
 
-    def get_queryset(self):
-        queryset = super().get_queryset()
-        category = self.request.query_params.get('category', None)
-        if category:
-            queryset = queryset.filter(category=category)
-        return queryset
+            return JsonResponse(species_data, safe=False)
+        except FileNotFoundError:
+            return JsonResponse({"error": "CSV file not found"}, status=404)
+        except Exception as e:
+            return JsonResponse({"error": str(e)}, status=500)
 
 class SpeciesDataView(View):
     def get(self, request, *args, **kwargs):
