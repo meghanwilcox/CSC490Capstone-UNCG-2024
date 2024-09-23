@@ -11,6 +11,7 @@ import AboutUs from './AboutUs';
 import WildlifeSightingForm from './WildlifeSightingForm'; 
 import UserProfile from './UserProfile'; 
 import MapPage from './MapPage';
+import DataView from './DataView';
 import { AuthProvider } from './AuthContext'; 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -28,6 +29,7 @@ root.render(
         <Route path="/wildlife-sighting-form" element={<WildlifeSightingForm />} /> 
         <Route path="/user-profile" element={<UserProfile />} /> 
         <Route path="/map-page" element={<MapPage />} /> 
+        <Route path="/data-view" element={<DataView />} />
       </Routes>
     </Router>
   </AuthProvider>
