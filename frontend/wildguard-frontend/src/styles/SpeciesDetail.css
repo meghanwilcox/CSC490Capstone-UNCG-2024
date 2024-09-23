@@ -16,15 +16,12 @@ body {
 .species-detail {
   display: flex;
   flex-direction: column;
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  /* Remove the following line */
+  /* position: fixed; */
   width: 80%;
-  margin: 0;
+  margin: 20px auto; /* Center it horizontally with some margin from the top */
   padding: 20px;
   box-sizing: border-box;
-  z-index: 1000;
   background-color: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 8px;

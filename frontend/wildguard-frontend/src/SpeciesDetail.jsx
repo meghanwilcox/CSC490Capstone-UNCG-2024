@@ -43,19 +43,22 @@ const SpeciesDetail = () => {
   }
 
   return (
-    <div className="species-detail">
+    <div>
       <Navbar />
-      <h2>Species Details</h2>
-      <p><strong>Scientific Name:</strong> {speciesData.scientificName}</p>
-      <p><strong>Kingdom:</strong> {speciesData.kingdom}</p>
-      <p><strong>Phylum:</strong> {speciesData.phylum}</p>
-      <p><strong>Class:</strong> {speciesData.class}</p>
-      <p><strong>Order:</strong> {speciesData.order}</p>
-      <p><strong>Family:</strong> {speciesData.family}</p>
-      <p><strong>Genus:</strong> {speciesData.genus}</p>
-      <p><strong>Species:</strong> {speciesData.species}</p>
-      <p><strong>Threat Status:</strong> {speciesData.threatStatus || 'N/A'}</p>
+      <div className="species-detail">
+        <h2>Species Details</h2>
+        <p><strong>Scientific Name:</strong> {speciesData.scientificName}</p>
+        <p><strong>Kingdom:</strong> {speciesData.kingdom}</p>
+        <p><strong>Phylum:</strong> {speciesData.phylum}</p>
+        <p><strong>Class:</strong> {speciesData.class}</p>
+        <p><strong>Order:</strong> {speciesData.order}</p>
+        <p><strong>Family:</strong> {speciesData.family}</p>
+        <p><strong>Genus:</strong> {speciesData.genus}</p>
+        <p><strong>Species:</strong> {speciesData.species}</p>
+        <p><strong>Threat Status:</strong> {speciesData.threatStatus || 'N/A'}</p>
+      </div>
     </div>
+    
   );
 };
 
