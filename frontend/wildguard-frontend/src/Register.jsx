@@ -2,8 +2,8 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import './styles/Register.css';
-
-import logo from './assets/logo 2 transparent.png'; 
+import Navbar from './Navbar';
+ 
 
 const Register = () => {
   const [email, setEmail] = useState('');
@@ -38,14 +38,10 @@ const Register = () => {
   };
 
   return (
-    <div className="register-page">
-      {/* Header/Banner */}
-      <header className="register-header">
-        <Link to="/" className="logo">
-          <img src={logo} alt="WildGuard Logo" className="logo-image" />
-        </Link>
-      </header>
+    <>
+      <Navbar />
 
+      {/* Main Content */}
       <div className="register-container">
         <h1>Create an Account</h1>
         <form onSubmit={handleSubmit}>
@@ -86,7 +82,7 @@ const Register = () => {
           Already have an account? <Link to="/login">Login here</Link>
         </p>
       </div>
-    </div>
+    </>
   );
 };
 

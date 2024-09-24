@@ -1,4 +1,5 @@
 /* src/styles/Register.css */
+
 /* Import Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
@@ -11,28 +12,7 @@
 /* Body Styling */
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #f0f8f5; /* Light background color */
-}
-
-/* Header/Banner Styles */
-.register-header {
-  background-color: #f6faf700;
-  padding: 1rem 2rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
-}
-
-.register-header .logo {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #0f9b4a;
-  text-decoration: none;
-}
-
-.logo-image {
-  width: 150px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+  background-color: #f0f8f5;
 }
 
 /* Page Layout */
@@ -46,7 +26,7 @@ body {
 .register-container {
   width: 100%;
   max-width: 500px;
-  margin-top: 4rem;
+  margin: 100px auto 0 auto;
   padding: 2.5rem;
   background-color: #fff;
   border-radius: 10px;
@@ -60,6 +40,7 @@ body {
   font-size: 2rem;
 }
 
+/* Form Styling */
 .form-group {
   margin-bottom: 1.5rem;
 }
@@ -84,6 +65,7 @@ body {
   outline: none;
 }
 
+/* Button Styling */
 button[type="submit"] {
   width: 100%;
   padding: 0.75rem;
@@ -133,10 +115,6 @@ button[type="submit"]:hover {
     padding: 1.5rem;
   }
 
-  .register-header .logo {
-    font-size: 1.5rem;
-  }
-
   .register-container h1 {
     font-size: 1.8rem;
   }
@@ -153,13 +131,5 @@ button[type="submit"]:hover {
 
   .login-prompt {
     font-size: 0.85rem;
-  }
-
-  .bear-gif {
-    display: block;
-    margin: 0 auto;
-    width: 150px;
-    height: auto;
-    margin-bottom: 20px;
   }
 }
