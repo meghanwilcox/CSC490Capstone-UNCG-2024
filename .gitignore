@@ -26,4 +26,5 @@ dist-ssr
 # Python virtual environment
 .venv/
 
-**/__pycache__/
+# ML data
+animal_classifier/Data
