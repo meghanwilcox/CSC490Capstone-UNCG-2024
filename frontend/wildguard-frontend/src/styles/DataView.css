@@ -1,0 +1,24 @@
+/* Centering the buttons and adding space between them */
+.plot-navigation {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    flex-wrap: wrap; /* Wrap the buttons if they overflow */
+    gap: 10px; /* Space between the buttons */
+    margin: 20px 0; /* Add some space above and below the buttons */
+  }
+  
+  .plot-button {
+    padding: 10px 20px; /* Increase padding for bigger buttons */
+    background-color: #54c46c;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: capitalize; /* Capitalize only the first letter */
+    transition: background-color 0.3s;
+  }
+  
+  .plot-button:hover {
+    background-color: #478a47; /* Darken button on hover */
+  }
