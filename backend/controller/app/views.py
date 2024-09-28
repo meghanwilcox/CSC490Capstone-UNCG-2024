@@ -14,6 +14,7 @@ from django.views import View
 import csv
 import os
 from django.conf import settings
+from django.contrib.auth import login
 
 
 class UsersListView(ListAPIView):
@@ -59,7 +60,15 @@ class UserLoginView(APIView):
             return Response({'error': 'Invalid email or password.'}, status=status.HTTP_401_UNAUTHORIZED)
 
         if check_password(password, user.password):
-            # Add the bio to the response so the frontend can store it
+            # Log the user in and create a session
+            request.session['user_id'] = user.user_id  # Manually store user_id in the session
+
+            # If you are using Django's built-in login system, you can also call:
+            login(request, user)  # This will handle session creation
+
+            print(f"User logged in: {user.email} (ID: {user.user_id})")
+
+
             return Response({
                 'message': 'Login successful',
                 'user': {
@@ -68,7 +77,7 @@ class UserLoginView(APIView):
                     'name': user.name,
                     'is_researcher': user.is_researcher,
                     'role': 'Researcher' if user.is_researcher else 'Volunteer',
-                    'bio': user.bio  
+                    'bio': user.bio
                 }
             }, status=status.HTTP_200_OK)
         else:

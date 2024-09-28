@@ -6,7 +6,10 @@ class User(models.Model):
     password = models.CharField(max_length=128, null=False)
     name = models.CharField(max_length=100, null=False)
     is_researcher = models.BooleanField(null=False, default=False)
-    bio = models.TextField(blank=True, null=True)  # Text field allows larger inputs
+    bio = models.TextField(blank=True, null=True)
+    
+    # Track the last time the user logged in
+    last_login = models.DateTimeField(auto_now=True)  # This field will update each time the user logs in
     
 class Admin(models.Model):
     admin_id = models.AutoField(primary_key=True)   
