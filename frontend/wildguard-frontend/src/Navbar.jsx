@@ -1,6 +1,8 @@
+// Navbar.jsx
+
 import React from 'react';
-import { Link } from 'react-router-dom'; // If you're using React Router
-import logo from './assets/logo 2 transparent.png'; // Replace with the path to your logo image
+import { Link } from 'react-router-dom';
+import logo from './assets/logo 2 transparent.png';
 
 const Navbar = () => {
   return (
@@ -18,7 +20,10 @@ const Navbar = () => {
           <Link to="/species-search" style={styles.link}>Educational Content</Link>
         </li>
         <li style={styles.navItem}>
-          <Link to="/wildlife-sighting-form" style={styles.link}>Map Sightings</Link>
+          <Link to="/wildlife-sighting-form" style={styles.link}>Report Sighting</Link>
+        </li>
+        <li style={styles.navItem}>
+          <Link to="/map-page" style={styles.link}>Map Sightings</Link>
         </li>
         <li style={styles.navItem}>
           <Link to="/login" style={styles.link}>Login</Link>
@@ -43,15 +48,15 @@ const styles = {
     alignItems: 'center',
   },
   logoImage: {
-    height: '100px', // Adjust the height as needed
+    height: '100px',
   },
   navLinks: {
     listStyleType: 'none',
     display: 'flex',
     margin: 0,
     padding: 0,
-    flexGrow: 1, // Allow nav links to grow
-    justifyContent: 'flex-end', // Align links to the right
+    flexGrow: 1,
+    justifyContent: 'flex-end',
   },
   navItem: {
     marginLeft: '20px',
@@ -63,18 +68,5 @@ const styles = {
     fontSize: '15pt',
   },
 };
-
-// Media query styles for better responsiveness
-const mediaStyles = `
-  @media (max-width: 600px) {
-    .navLinks {
-      flex-direction: column; // Stack items on small screens
-      align-items: center; // Center items
-    }
-    .navItem {
-      margin: 10px 0; // Add margin for vertical spacing
-    }
-  }
-`;
 
 export default Navbar;

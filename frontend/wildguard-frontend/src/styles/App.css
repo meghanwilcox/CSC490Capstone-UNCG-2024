@@ -70,11 +70,10 @@ nav {
   background-color: #0c7a3f;
 }
 
-/* Hero Section */
 .hero-section {
   background-size: cover;
   background-position: center;
-  min-height: 100vh;
+  min-height: auto; 
   position: relative;
   display: flex;
   flex-direction: column;
@@ -147,14 +146,15 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  position: absolute;
+  /* Removed absolute positioning */
+  /* position: absolute;
   bottom: 2rem;
   left: 0;
   right: 0;
-  margin: 0 auto;
+  margin: 0 auto; */
+  margin-top: 2rem; /* Optional */
 }
 
-/* Adjust the feature styles to make them smaller */
 .feature {
   background-color: #025f3b59;
   padding: 1rem;
@@ -169,7 +169,6 @@ nav {
 .feature:hover {
   transform: translateY(-5px);
 }
-
 .feature-icon {
   font-size: 2rem;
   margin-bottom: 0.5rem;

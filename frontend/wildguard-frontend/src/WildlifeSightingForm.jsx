@@ -32,10 +32,9 @@ const WildlifeSightingForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    
     console.log('Form data:', formData);
     alert('Sighting submitted successfully!');
-    
+
     setFormData({
       description: '',
       date: '',
@@ -46,9 +45,9 @@ const WildlifeSightingForm = () => {
   };
 
   return (
-    <div className="wildlife-sighting-form-page">
-      {/* Header/Banner */}
-      <Navbar/>
+    <>
+      <Navbar />
+  
 
       {/* Main Content */}
       <div className="wildlife-sighting-form-content">
@@ -111,9 +110,8 @@ const WildlifeSightingForm = () => {
           <button type="submit">Submit Sighting</button>
         </form>
       </div>
-    </div>
+    </>
   );
 };
 
 export default WildlifeSightingForm;
-
