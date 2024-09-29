@@ -68,7 +68,6 @@ class UserLoginView(APIView):
 
             print(f"User logged in: {user.email} (ID: {user.user_id})")
 
-
             return Response({
                 'message': 'Login successful',
                 'user': {
