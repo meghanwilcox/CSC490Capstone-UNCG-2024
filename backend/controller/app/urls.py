@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import UsersListView, CreateUserView, UserLoginView, SpeciesListView, SpeciesDataView, AdminLoginView, UpdateUserProfileView
+from .views import UsersListView, CreateUserView, UserLoginView, SpeciesListView, SpeciesDataView, AdminLoginView, UpdateUserProfileView, AddSightingView, SightingListView, IsAuthenticatedView
 
 urlpatterns = [
     path('users/', UsersListView.as_view(), name='user-list'),
@@ -9,4 +9,8 @@ urlpatterns = [
     path('admin/login/', AdminLoginView.as_view(), name='admin-login'),
     path('api/species/', SpeciesListView.as_view(), name='species-list'),
     path('species/', SpeciesDataView.as_view(), name='species_data'),
+    path('api/sightings/add/', AddSightingView.as_view(), name='add_sighting'),
+    path('api/sightings/', SightingListView.as_view(), name='list_sightings'),
+    path('api/auth/check/', IsAuthenticatedView.as_view(), name='check_auth'),
+
 ]

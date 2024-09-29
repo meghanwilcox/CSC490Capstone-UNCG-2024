@@ -1,21 +1,17 @@
-from rest_framework.generics import ListAPIView, CreateAPIView
-from .serializers import UserSerializer, CreateUserSerializer, SpeciesSerializer, AdminSerializer
-from .models import User, Species, Admin
+from rest_framework.generics import ListAPIView
+from .serializers import UserSerializer, CreateUserSerializer, SightingSerializer
+from .models import User, Admin, Sighting
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from rest_framework.filters import SearchFilter, OrderingFilter
 from rest_framework import generics, status
-from django.shortcuts import render
 from django.contrib.auth.hashers import make_password, check_password
-from pagination import SpeciesLimitOffsetPagination  
 import requests
 from django.http import JsonResponse, HttpResponseBadRequest
 from django.views import View
 import csv
-import os
-from django.conf import settings
 from django.contrib.auth import login
-
+from rest_framework.permissions import IsAuthenticated
+from django.views.decorators.csrf import csrf_exempt
 
 class UsersListView(ListAPIView):
     queryset = User.objects.all()
@@ -55,23 +51,22 @@ class UserLoginView(APIView):
             return Response({'error': 'Email and password are required.'}, status=status.HTTP_400_BAD_REQUEST)
 
         try:
-            user = User.objects.get(email=email)
+            user = User.objects.get(email=email)  # Use your custom user model here
         except User.DoesNotExist:
             return Response({'error': 'Invalid email or password.'}, status=status.HTTP_401_UNAUTHORIZED)
 
+        # Use Django's built-in password verification
         if check_password(password, user.password):
-            # Log the user in and create a session
-            request.session['user_id'] = user.user_id  # Manually store user_id in the session
-
-            # If you are using Django's built-in login system, you can also call:
-            login(request, user)  # This will handle session creation
+            # Use Django's login to create a session
+            login(request, user)  # This will handle session creation automatically
 
             print(f"User logged in: {user.email} (ID: {user.user_id})")
+            print(f"Session data: {request.session.items()}")
 
             return Response({
                 'message': 'Login successful',
                 'user': {
-                    'user_id': user.user_id,
+                    'user_id': user.user_id,  # Adjust fields based on your custom model
                     'email': user.email,
                     'name': user.name,
                     'is_researcher': user.is_researcher,
@@ -108,24 +103,6 @@ class UpdateUserProfileView(APIView):
             'bio': user.bio
         }, status=status.HTTP_200_OK)
 
-        
-class AdminLoginView(APIView):
-    def post(self, request):
-        email = request.data.get('email')
-        password = request.data.get('password')
-
-        if not email or not password:
-            return Response({'error': 'Email and password are required.'}, status=status.HTTP_400_BAD_REQUEST)
-
-        try:
-            admin = Admin.objects.get(email=email)
-        except Admin.DoesNotExist:
-            return Response({'error': 'Invalid email or password.'}, status=status.HTTP_401_UNAUTHORIZED)
-
-        if check_password(password, admin.password):
-            return Response({'message': 'Login successful', 'user': {'email': admin.email, 'name': admin.name}}, status=status.HTTP_200_OK)
-        else:
-            return Response({'error': 'Invalid email or password.'}, status=status.HTTP_401_UNAUTHORIZED)
         
 class AdminLoginView(APIView):
     def post(self, request):
@@ -214,7 +191,42 @@ class SpeciesDataView(View):
         }
         
         return JsonResponse(species_info)
+    
 
+class AddSightingView(APIView):
+    permission_classes = []  # You may want to set permissions later
 
+    @csrf_exempt  # Disable CSRF for this view
+    def post(self, request, *args, **kwargs):
+        serializer = SightingSerializer(data=request.data, context={'request': request})
+        
+        # Ensure the serializer is valid
+        if serializer.is_valid():
+            serializer.save()  # The sighted_by field is no longer being assigned
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+class SightingListView(generics.ListAPIView):
+    queryset = Sighting.objects.all()
+    serializer_class = SightingSerializer
+
+    def get_queryset(self):
+        # Optionally, filter sightings by user or other criteria if needed
+        return super().get_queryset()
+
+class IsAuthenticatedView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        return Response({
+            'is_authenticated': True,
+            'user': {
+                'user_id': request.user.user_id,
+                'email': request.user.email,
+                'name': request.user.name,
+                'is_researcher': request.user.is_researcher,
+            }
+        })
 
 
