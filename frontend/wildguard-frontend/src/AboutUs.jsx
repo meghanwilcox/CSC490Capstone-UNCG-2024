@@ -1,14 +1,17 @@
 import React from 'react';
 import Navbar from './Navbar'; // Adjust the import path if necessary
+import './styles/AboutUs.css'; // Import the CSS file
 
 const AboutUs = () => {
   return (
     <div>
       <Navbar />
-      <div style={styles.container}>
+      <section className="hero-section">
         <h1>About Us</h1>
+      </section>
+      <section className="content-section">
         <p>
-          Welcome to WildGuard! Our mission is to protect endangered species
+          Welcome to <strong>WildGuard</strong>! Our mission is to protect endangered species
           and educate the public about wildlife conservation. We are a team
           dedicated to making a positive impact on the environment and
           ensuring that future generations can enjoy the beauty of nature.
@@ -24,18 +27,9 @@ const AboutUs = () => {
           Get involved in our initiatives and help us make a difference.
           Together, we can create a better future for wildlife.
         </p>
-      </div>
+      </section>
     </div>
   );
-};
-
-const styles = {
-  container: {
-    padding: '20px',
-    maxWidth: '800px',
-    margin: '0 auto',
-    textAlign: 'left',
-  },
 };
 
 export default AboutUs;
