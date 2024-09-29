@@ -1,5 +1,6 @@
 /* Import Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
 /* Reset default styles */
 * {
   margin: 0;
@@ -10,178 +11,181 @@
 /* Body Styling */
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #f0f8f5;
+  background-color: #f9fafb; /* Lighter background for a cleaner look */
   color: #333;
-}
-
-/* Header/Banner Styles */
-.user-profile-header {
-  background-color: #ece6e6;
-  padding: 1rem 2rem;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.user-profile-header .logo {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #0f9b4a;
-  text-decoration: none;
+  line-height: 1.6;
 }
 
 /* Main Page Layout */
 .user-profile-page {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; /* Center content horizontally */
+  padding: 2rem 1rem; /* Add padding for better spacing */
 }
 
 .user-profile-content {
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; /* Centers child horizontally */
+  align-items: center; /* Centers child vertically */
+  flex-direction: column; /* Stacks children vertically */
+  flex: 1;
   width: 100%;
-  max-width: 800px;
-  margin-top: 6rem;
+  max-width: 900px;
+  margin: 80px auto 0 auto; /* Centers the container itself */
   padding: 2rem;
 }
 
 /* Profile Card */
 .profile-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 2rem;
+  border: none; /* Removed border for a cleaner look */
+  border-radius: 15px;
+  padding: 3rem 2rem;
   text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Added subtle shadow */
   margin-bottom: 3rem;
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+  width: 100%; /* Ensures it takes full width of the parent */
+  max-width: 600px; /* Limits the width for better appearance */
+}
+
+.profile-card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+/* Profile Image */
+.profile-image {
+  width: 160px; /* Slightly larger image */
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 1.5rem;
+  border: 4px solid #0f9b4a; /* Added border for emphasis */
 }
 
 .profile-image img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  margin-bottom: 1rem;
+  transition: transform 0.3s; /* Smooth zoom effect */
 }
 
+.profile-image img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Profile Info */
 .profile-info h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #0f9b4a;
   margin-bottom: 0.5rem;
+  font-weight: 700;
 }
 
-.profile-info .email {
-  font-size: 1rem;
-  color: #555;
-  margin-bottom: 1rem;
-}
-
+.profile-info .email,
+.profile-info .role,
 .profile-info .bio {
   font-size: 1.1rem;
-  color: #666;
-  margin-bottom: 1.5rem;
+  color: #555;
+  margin-bottom: 1rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-wrap: break-word; 
+  white-space: pre-line;     
 }
 
-.edit-profile-button {
-  padding: 0.75rem 1.5rem;
+/* Common Button Styles */
+.button {
+  display: inline-block;
+  padding: 0.75rem 2rem;
   background-color: #0f9b4a;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 30px; /* Pill-shaped buttons */
   font-size: 1rem;
   cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.edit-profile-button:hover {
-  background-color: #0c7a3f;
-}
-/* Submit Sighting Button */
-.submit-sighting-button {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  font-size: 1rem;
-  cursor: pointer;
-  margin-top: 1rem;
+  margin: 0.5rem;
   text-decoration: none;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.submit-sighting-button:hover {
+.button:hover {
+  background-color: #0c7a3f;
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Submit Sighting Button Modifier */
+.button.submit-sighting-button {
+  background-color: #ffa500;
+}
+
+.button.submit-sighting-button:hover {
   background-color: #e69500;
 }
 
-
-/* User's Sightings */
-.user-sightings {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 2rem;
+/* Map Page Button Modifier */
+.button.map-page-button {
+  background-color: #1e90ff;
 }
 
-.user-sightings h2 {
-  font-size: 1.8rem;
-  color: #0f9b4a;
-  margin-bottom: 1rem;
+.button.map-page-button:hover {
+  background-color: #187bcd;
 }
 
-.user-sightings p {
-  font-size: 1rem;
-  color: #555;
+/* Edit Profile Button Modifier */
+.button.edit-profile-button {
+  background-color: #6a5acd;
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
-  .profile-card {
-    padding: 1.5rem;
-  }
-
-  .profile-info h1 {
-    font-size: 1.8rem;
-  }
-
-
-  .edit-profile-button,
-  .submit-sighting-button {
-    width: 100%;
-  }
+.button.edit-profile-button:hover {
+  background-color: #5a4bb5;
 }
 
-/* Navigation Styles */
-.user-profile-header nav {
-  display: flex;
-  align-items: center;
+/* Logout Button Modifier */
+.button.logout-button {
+  background-color: #ff4d4d;
 }
 
-.nav-button {
-  margin-left: auto;
-  padding: 0.5rem 1rem;
+.button.logout-button:hover {
+  background-color: #e04343;
+}
+
+/* Save Button Modifier */
+.button.save-button {
   background-color: #0f9b4a;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
 }
 
-.nav-button:hover {
+.button.save-button:hover {
   background-color: #0c7a3f;
+}
+
+/* Cancel Button Modifier */
+.button.cancel-button {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.button.cancel-button:hover {
+  background-color: #bdbdbd;
 }
 
 /* Edit Profile Form */
 .edit-profile-form {
   width: 100%;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 3rem;
 }
 
 .edit-profile-form .form-group {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   text-align: left;
 }
 
@@ -189,98 +193,93 @@ body {
   display: block;
   margin-bottom: 0.5rem;
   color: #333;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .edit-profile-form input,
 .edit-profile-form textarea {
   width: 100%;
-  padding: 0.75rem;
+  padding: 0.75rem 1rem;
   border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.edit-profile-form textarea {
-  resize: vertical;
-  min-height: 100px;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 .edit-profile-form input:focus,
 .edit-profile-form textarea:focus {
   border-color: #0f9b4a;
+  box-shadow: 0 0 5px rgba(15, 155, 74, 0.3);
   outline: none;
 }
 
-.save-button,
-.cancel-button {
-  width: 48%;
-  padding: 0.75rem;
-  margin-top: 1rem;
-  font-size: 1rem;
-  cursor: pointer;
-  border: none;
-  border-radius: 5px;
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
 }
 
-.save-button {
-  background-color: #0f9b4a;
-  color: #fff;
-  margin-right: 4%;
-}
-
-.save-button:hover {
-  background-color: #0c7a3f;
-}
-
-.cancel-button {
-  background-color: #ccc;
-  color: #333;
-}
-
-.cancel-button:hover {
-  background-color: #999;
-}
-
-/* Role-specific Content */
-.researcher-content,
-.volunteer-content {
+/* Modal Content */
+.modal-content {
+  position: relative;
   background-color: #fff;
-  border: 1px solid #ddd;
+  padding: 1rem;
   border-radius: 10px;
-  padding: 2rem;
-  margin-top: 2rem;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
 }
 
-.researcher-content h2,
-.volunteer-content h2 {
-  font-size: 1.8rem;
-  color: #0f9b4a;
-  margin-bottom: 1rem;
+.modal-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
-.researcher-content p,
-.volunteer-content p {
-  font-size: 1rem;
-  color: #555;
+/* Close Button */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
 }
 
-.map-page-button,
-.species-options-button {
-  display: block;
-  margin: 10px 0;
-  padding: 10px 20px;
-  background-color: #007BFF; /* Change to your preferred color */
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.map-page-button:hover,
-.species-options-button:hover {
-  background-color: #0056b3; /* Darken on hover */
-}
-
-  .edit-profile-button {
-    width: 100%;
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .profile-card {
+    padding: 2rem 1.5rem;
   }
+
+  .profile-info h1 {
+    font-size: 2rem;
+  }
+
+  .button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .edit-profile-form {
+    padding: 1.5rem;
+  }
+
+  .modal-content {
+    padding: 0.5rem;
+  }
+
+  .close-button {
+    top: 5px;
+    right: 10px;
+    font-size: 1.5rem;
+  }
+}

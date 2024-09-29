@@ -1,16 +1,17 @@
-// UserProfile.jsx
 import React, { useState, useEffect, useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './styles/UserProfile.css';
 import placeholderImage from './assets/neon-demon-slayer-tengen-uzui-cw5wj06w8h06hkao.jpg';
-import { AuthContext } from './AuthContext'; // Import AuthContext
+import { AuthContext } from './AuthContext';
+import Navbar from './Navbar';
 
 const UserProfile = () => {
   const navigate = useNavigate();
-  const { user, logout, updateUser } = useContext(AuthContext); // Use AuthContext
+  const { user, logout, updateUser } = useContext(AuthContext);
 
   const [isEditing, setIsEditing] = useState(false);
   const [editedUser, setEditedUser] = useState({ ...user });
+  const [isModalOpen, setIsModalOpen] = useState(false); // State for modal
 
   useEffect(() => {
     if (!user) {
@@ -19,32 +20,42 @@ const UserProfile = () => {
   }, [user, navigate]);
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setEditedUser({
-      ...editedUser,
-      [name]: value,
-    });
+    const { name, value, files } = e.target;
+
+    if (name === 'profilePicture') {
+      setEditedUser({
+        ...editedUser,
+        profilePicture: files[0],
+      });
+    } else {
+      setEditedUser({
+        ...editedUser,
+        [name]: value,
+      });
+    }
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    const formData = new FormData();
+    formData.append('user_id', user.user_id);
+    formData.append('name', editedUser.name);
+    formData.append('email', editedUser.email);
+    formData.append('bio', editedUser.bio);
+
+    if (editedUser.profilePicture) {
+      formData.append('profilePicture', editedUser.profilePicture);
+    }
+
     const response = await fetch('http://localhost:8000/users/update-profile/', {
       method: 'PUT',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        user_id: user.user_id,
-        name: editedUser.name,
-        email: editedUser.email,
-        bio: editedUser.bio,
-      }),
+      body: formData,
     });
 
     if (response.ok) {
       const updatedUser = await response.json();
-      updateUser(updatedUser); // Update user in AuthContext
+      updateUser(updatedUser);
       setIsEditing(false);
     } else {
       console.error('Error saving profile:', response.statusText);
@@ -53,32 +64,26 @@ const UserProfile = () => {
   };
 
   const handleLogout = () => {
-    logout();      // Update AuthContext
-    navigate('/'); // Redirect to homepage
+    logout();
+    navigate('/');
   };
 
   if (!user) {
-    return null; // Or a loading indicator
+    return null; 
   }
 
   return (
-    <div className="user-profile-page">
-      {/* Header/Banner */}
-      <header className="user-profile-header">
-        <Link to="/" className="logo">
-          WildGuard
-        </Link>
-        <nav>
-          <button onClick={handleLogout} className="nav-button">
-            Logout
-          </button>
-        </nav>
-      </header>
+    <>
+      <Navbar />
 
       {/* Main Content */}
       <div className="user-profile-content">
         <div className="profile-card">
-          <div className="profile-image">
+          <div 
+            className="profile-image" 
+            onClick={() => setIsModalOpen(true)} 
+            style={{ cursor: 'pointer' }}
+          >
             <img
               src={user.profilePicture || placeholderImage}
               alt={`${user.name}'s profile`}
@@ -91,22 +96,23 @@ const UserProfile = () => {
               <p className="role">Role: {user.role}</p>
               <p className="bio">{user.bio}</p>
               <button
-                className="edit-profile-button"
+                className="button edit-profile-button"
                 onClick={() => setIsEditing(true)}
               >
                 Edit Profile
               </button>
               {/* Link to Wildlife Sighting Form */}
-              <Link to="/wildlife-sighting-form" className="submit-sighting-button">
+              <Link to="/wildlife-sighting-form" className="button submit-sighting-button">
                 Submit Wildlife Sighting
               </Link>
-              {/* Add buttons to Map Page and Species Options */}
-              <Link to="/map-page" className="map-page-button">
+              {/* Add button to Map Page */}
+              <Link to="/map-page" className="button map-page-button">
                 View Map
               </Link>
-              <Link to="/species-options" className="species-options-button">
-                Explore Species
-              </Link>
+              {/* Logout Button */}
+              <button className="button logout-button" onClick={handleLogout}>
+                Logout
+              </button>
             </div>
           ) : (
             <form className="edit-profile-form" onSubmit={handleSubmit}>
@@ -138,12 +144,21 @@ const UserProfile = () => {
                   onChange={handleChange}
                 ></textarea>
               </div>
-              <button type="submit" className="save-button">
+              <div className="form-group">
+                <label>Profile Picture:</label>
+                <input
+                  type="file"
+                  name="profilePicture"
+                  accept="image/*"
+                  onChange={handleChange}
+                />
+              </div>
+              <button type="submit" className="button save-button">
                 Save Changes
               </button>
               <button
                 type="button"
-                className="cancel-button"
+                className="button cancel-button"
                 onClick={() => {
                   setIsEditing(false);
                   setEditedUser({ ...user });
@@ -155,7 +170,23 @@ const UserProfile = () => {
           )}
         </div>
       </div>
-    </div>
+
+      {/* Modal for Enlarged Profile Picture */}
+      {isModalOpen && (
+        <div className="modal-overlay" onClick={() => setIsModalOpen(false)}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <span className="close-button" onClick={() => setIsModalOpen(false)}>
+              &times;
+            </span>
+            <img
+              src={user.profilePicture || placeholderImage}
+              alt={`${user.name}'s enlarged profile`}
+              className="modal-image"
+            />
+          </div>
+        </div>
+      )}
+    </>
   );
 };
 

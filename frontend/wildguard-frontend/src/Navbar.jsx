@@ -1,10 +1,11 @@
-// Navbar.jsx
-
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import logo from './assets/logo 2 transparent.png';
+import { AuthContext } from './AuthContext'; // Import AuthContext
 
 const Navbar = () => {
+  const { isLoggedIn, user, logout } = useContext(AuthContext); // Use AuthContext
+
   return (
     <nav style={styles.navbar}>
       <div style={styles.logo}>
@@ -25,9 +26,22 @@ const Navbar = () => {
         <li style={styles.navItem}>
           <Link to="/map-page" style={styles.link}>Map Sightings</Link>
         </li>
-        <li style={styles.navItem}>
-          <Link to="/login" style={styles.link}>Login</Link>
-        </li>
+        {isLoggedIn ? (
+          <>
+            <li style={styles.navItem}>
+              <Link to="/user-profile" style={styles.link}>
+                {'Profile'}
+              </Link>
+            </li>
+            <li style={styles.navItem}>
+              <button onClick={logout} style={styles.buttonLink}>Logout</button>
+            </li>
+          </>
+        ) : (
+          <li style={styles.navItem}>
+            <Link to="/login" style={styles.link}>Login</Link>
+          </li>
+        )}
       </ul>
     </nav>
   );
@@ -66,6 +80,16 @@ const styles = {
     color: 'black',
     textDecoration: 'none',
     fontSize: '15pt',
+  },
+  buttonLink: {
+    background: 'none',
+    border: 'none',
+    color: 'black',
+    textDecoration: 'none',
+    fontSize: '15pt',
+    cursor: 'pointer',
+    padding: 0,
+    margin: 0,
   },
 };
 
