@@ -4,8 +4,10 @@ import './styles/MapPage.css';
 import 'leaflet/dist/leaflet.css';
 import { Link } from 'react-router-dom';
 import L from 'leaflet';
+import Navbar from './Navbar'; 
 
 
+// Configure Leaflet icons
 delete L.Icon.Default.prototype._getIconUrl;
 
 import iconRetinaUrl from 'leaflet/dist/images/marker-icon-2x.png';
@@ -37,13 +39,8 @@ const MapPage = () => {
   }, []);
 
   return (
-    <div className="map-page">
-      {/* Header/Banner */}
-      <header className="map-page-header">
-        <Link to="/" className="logo">
-          WildGuard
-        </Link>
-      </header>
+    <>
+      <Navbar />
 
       {/* Map Container */}
       <div className="map-container">
@@ -68,7 +65,7 @@ const MapPage = () => {
           ))}
         </MapContainer>
       </div>
-    </div>
+    </>
   );
 };
 

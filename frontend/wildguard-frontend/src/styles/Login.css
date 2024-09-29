@@ -10,22 +10,6 @@ body {
   background-color: #f0f8f5;
 }
 
-/* Header styling */
-.login-image {
-  display: flex;
-  justify-content: center;
-  padding: 1rem 0;
-  background-color: #f6faf760;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.596);
-}
-
-.login-header .logo {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #0f9b4a;
-  text-decoration: none;
-}
-
 /* Main layout */
 .login-page {
   display: flex;
@@ -34,14 +18,14 @@ body {
   min-height: 100vh;
 }
 
-/* Wrapper for login container */
 .login-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 4rem;
+  margin-top: 100px; 
   width: 100%;
 }
+
 
 /* Login container styling */
 .login-container {

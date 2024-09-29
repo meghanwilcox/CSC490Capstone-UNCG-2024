@@ -2,15 +2,15 @@
 import React, { useState, useContext } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import './styles/Login.css';
-import logo from './assets/logo 2 transparent.png'; 
-import { AuthContext } from './AuthContext'; 
+import { AuthContext } from './AuthContext';
+import Navbar from './Navbar'; 
 
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();
-  const { login } = useContext(AuthContext); 
+  const { login } = useContext(AuthContext);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -30,7 +30,6 @@ const Login = () => {
         
         login(data.user);
         
-        // Redirect to Landing page
         navigate('/');
       } else {
         const errorData = await response.json();
@@ -45,19 +44,17 @@ const Login = () => {
   };
 
   return (
-    <div className="login-page">
-      <header className="login-header">
-        <Link to="/">
-          <img src={logo} alt="WildGuard Logo" className="logo-image" />
-        </Link>
-      </header>
+    <>
+      <Navbar />
 
+      {/* Main Content */}
       <div className="login-wrapper">
         <div className="login-container">
           <div className="login-header-with-gif">
             <h1>Login</h1>
           </div>
           <form onSubmit={handleSubmit}>
+            {/* ... form fields ... */}
             <div className="form-group">
               <label>Email:</label>
               <input
@@ -86,7 +83,7 @@ const Login = () => {
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

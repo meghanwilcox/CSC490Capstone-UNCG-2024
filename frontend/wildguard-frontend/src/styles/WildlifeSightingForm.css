@@ -1,39 +1,10 @@
 /* src/styles/WildlifeSightingForm.css */
-/* Import Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-/* Reset default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-/* Body Styling */
-body {
-  font-family: "Roboto", sans-serif;
-  background-color: #f0f8f5;
-  color: #333;
-}
+/* Import Google Fonts
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); */
 
 /* Header/Banner Styles */
-.wildlife-sighting-form-header {
-  background-color: #fff;
-  padding: 1rem 2rem;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.wildlife-sighting-form-header .logo {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #0f9b4a;
-  text-decoration: none;
-}
-
-/* Main Page Layout */
+/* WildlifeSightingForm.css */
 .wildlife-sighting-form-page {
   display: flex;
   flex-direction: column;
@@ -41,9 +12,8 @@ body {
 }
 
 .wildlife-sighting-form-content {
-  width: 100%;
   max-width: 800px;
-  margin-top: 6rem; /* To offset the fixed header */
+  margin: 6rem auto 0 auto; /* Centers content horizontally */
   padding: 2rem;
 }
 
