@@ -1,21 +1,23 @@
 /* src/styles/WildlifeSightingForm.css */
 
 /* Import Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); 
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 #main-content {
   text-align: center;
   background-color: #f0f8f5; /* Light background for better contrast */
   padding: 2rem;
+  background-image: url('/background.png'); /* Replace with your image path */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  height: auto; /* Allow the height to adjust automatically */
+  min-height: 100vh; /* Minimum height to cover the viewport */
+  width: 100%; /* Full width */
+  position: relative; /* Set position for child elements */
+  z-index: 0; /* Send it to the back */
 }
 
-/* Header/Banner Styles */
-.wildlife-sighting-form-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
+/* Other styles remain unchanged */
 .wildlife-sighting-form-content {
   max-width: 800px;
   margin: 2rem auto;

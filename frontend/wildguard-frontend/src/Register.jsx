@@ -47,62 +47,64 @@ const Register = () => {
   return (
     <div>
       <Navbar />
-
-      {/* Main Content */}
-      <div className="register-container">
-        <h1>Create an Account</h1>
-        <h3 id='info-reg'>
-          Create an account with us to be able to submit wildlife sightings, and contribute to monitoring populations!
-          If you are a verified researcher and can register with your university email, you will gain access to viewing machine learning powered predictive population data!
-        </h3>
-        <br />
-        <form onSubmit={handleSubmit}>
-          <label>
-            <input
-              type="checkbox"
-              name="isResearcher"
-              checked={isResearcher}
-              onChange={() => setIsResearcher(!isResearcher)} // Toggle checkbox state
-            />
-            Are you a Researcher?
-          </label>
-          <div className="form-group">
-            <label>Email:</label>
-            <input
-              type="email"
-              value={email}
-              placeholder="Enter your email"
-              onChange={(e) => setEmail(e.target.value)}
-              required
-            />
-          </div>
-          <div className="form-group">
-            <label>Password:</label>
-            <input
-              type="password"
-              value={password}
-              placeholder="Create a password"
-              onChange={(e) => setPassword(e.target.value)}
-              required
-            />
-          </div>
-          <div className="form-group">
-            <label>Name:</label>
-            <input
-              type="text"
-              value={name}
-              placeholder="Enter your name"
-              onChange={(e) => setName(e.target.value)}
-              required
-            />
-          </div>
-          {error && <p className="error-message">{error}</p>}
-          <button type="submit">Register</button>
-        </form>
-        <p className="login-prompt">
-          Already have an account? <Link to="/login">Login here</Link>
-        </p>
+        <div id='background-image'>
+          {/* Main Content */}
+        <div className="register-container">
+          <h1>Create an Account</h1>
+          <h3 id='info-reg'>
+            Create an account with us to be able to submit wildlife sightings, and contribute to monitoring populations!
+            If you are a verified researcher and can register with your university email, you will gain access to viewing machine learning powered predictive population data!
+          </h3>
+          <br />
+          <form onSubmit={handleSubmit}>
+            <label>
+              <input
+                type="checkbox"
+                name="isResearcher"
+                checked={isResearcher}
+                onChange={() => setIsResearcher(!isResearcher)} // Toggle checkbox state
+              />
+              Are you a Researcher?
+            </label>
+            <div className="form-group">
+              <label>Email:</label>
+              <input
+                type="email"
+                value={email}
+                placeholder="Enter your email"
+                onChange={(e) => setEmail(e.target.value)}
+                required
+              />
+            </div>
+            <div className="form-group">
+              <label>Password:</label>
+              <input
+                type="password"
+                value={password}
+                placeholder="Create a password"
+                onChange={(e) => setPassword(e.target.value)}
+                required
+              />
+            </div>
+            <div className="form-group">
+              <label>Name:</label>
+              <input
+                type="text"
+                value={name}
+                placeholder="Enter your name"
+                onChange={(e) => setName(e.target.value)}
+                required
+              />
+            </div>
+            {error && <p className="error-message">{error}</p>}
+            <button type="submit">Register</button>
+          </form>
+          <p className="login-prompt">
+            Already have an account? <Link to="/login">Login here</Link>
+          </p>
+        </div>
       </div>
+      
       <Footer />
     </div>
   );

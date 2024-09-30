@@ -31,11 +31,27 @@ body {
 .register-container {
   width: 100%;
   max-width: 500px;
-  margin: 100px auto 0 auto;
-  padding: 2.5rem;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  padding: 50px;
+}
+
+#background-image{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url('/background.png'); /* Replace with your image path */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  height: auto; /* Allow the height to adjust automatically */
+  min-height: 100vh; /* Minimum height to cover the viewport */
+  width: 100%; /* Full width */
+  position: relative; /* Set position for child elements */
+  z-index: 0; /* Send it to the back */
 }
 
 .register-container h1 {
