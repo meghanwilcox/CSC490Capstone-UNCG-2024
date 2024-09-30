@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import './styles/Register.css';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 const Register = () => {
   const [email, setEmail] = useState('');
@@ -44,7 +45,7 @@ const Register = () => {
   };
 
   return (
-    <>
+    <div>
       <Navbar />
 
       {/* Main Content */}
@@ -102,7 +103,8 @@ const Register = () => {
           Already have an account? <Link to="/login">Login here</Link>
         </p>
       </div>
-    </>
+      <Footer />
+    </div>
   );
 };
 

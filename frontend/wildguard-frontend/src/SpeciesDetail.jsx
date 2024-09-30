@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import './styles/SpeciesDetail.css';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 const SpeciesDetail = () => {
   const { scientificName } = useParams(); 
@@ -57,6 +58,7 @@ const SpeciesDetail = () => {
         <p><strong>Species:</strong> {speciesData.species}</p>
         <p><strong>Threat Status:</strong> {speciesData.threatStatus || 'N/A'}</p>
       </div>
+      <Footer />
     </div>
     
   );

@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar'; // Adjust the import path if necessary
 import './styles/AboutUs.css'; // Import the CSS file
+import Footer from './Footer';
 
 const AboutUs = () => {
   return (
@@ -28,6 +29,7 @@ const AboutUs = () => {
           Together, we can create a better future for wildlife.
         </p>
       </section>
+      <Footer />
     </div>
   );
 };

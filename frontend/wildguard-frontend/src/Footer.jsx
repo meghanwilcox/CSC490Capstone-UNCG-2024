@@ -1,10 +1,11 @@
 import React from 'react';
+import './styles/Footer.css'
 
 const Footer = () => {
   return (
-    <div>
+    <div id="footer-div">
         {/* Footer */}
-        <footer styles={styles.footerSection}>
+        <footer >
           <p>&copy; 2024 WildGuard. All rights reserved.</p>
         </footer>
     </div> 

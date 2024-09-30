@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './styles/DataView.css';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 const DataView = () => {
   // list of plot objects with file names and custom labels/titles
@@ -46,6 +47,7 @@ const DataView = () => {
           style={{ width: '100%', height: '600px', border: 'none' }}
         />
       </div>
+      <Footer />
     </div>
   );
 };

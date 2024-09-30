@@ -4,6 +4,7 @@ import './styles/UserProfile.css';
 import placeholderImage from './assets/neon-demon-slayer-tengen-uzui-cw5wj06w8h06hkao.jpg';
 import { AuthContext } from './AuthContext';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 const UserProfile = () => {
   const navigate = useNavigate();
@@ -186,6 +187,7 @@ const UserProfile = () => {
           </div>
         </div>
       )}
+      <Footer />
     </>
   );
 };

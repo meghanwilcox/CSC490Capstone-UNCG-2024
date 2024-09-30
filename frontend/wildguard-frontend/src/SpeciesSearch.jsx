@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './styles/SpeciesSearch.css';
 import logo from './assets/logo 2 transparent.png'; 
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 const SpeciesSearchPage = () => {
   const [species, setSpecies] = useState([]);
@@ -38,20 +39,23 @@ const SpeciesSearchPage = () => {
   }, [searchTerm, categoryFilter, species]);
 
   return (
-    <div>
+    <div id='main-contnet'>
       <Navbar />
       <div>
-        <h1>Species Search</h1>
+        <div id="info-text">
+          <h2>Search for a species to learn more about its classification!</h2>
+        </div>
 
         {/* Filters */}
-        <div className="filters">
           <input
+            id='input1'
             type="text"
             placeholder="Search by scientific or common name"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
           <select
+          id='select1'
             value={categoryFilter}
             onChange={(e) => setCategoryFilter(e.target.value)}
           >
@@ -62,7 +66,6 @@ const SpeciesSearchPage = () => {
             <option value="NT">Near Threatened</option>
             <option value="LC">Least Concern</option>
           </select>
-        </div>
 
         {/* Species List */}
         <div className="species-list">
@@ -72,9 +75,6 @@ const SpeciesSearchPage = () => {
                 <li key={species.taxonid}>
                   <Link to={`/detail/${encodeURIComponent(species.scientific_name)}`}>
                     <h2>{species.scientific_name}</h2>
-                    <p><strong>Common Name:</strong> {species.main_common_name || 'N/A'}</p>
-                    <p><strong>Category:</strong> {species.category}</p>
-                    <p><strong>Family:</strong> {species.family_name}</p>
                   </Link>
                 </li>
               ))}
@@ -84,6 +84,7 @@ const SpeciesSearchPage = () => {
           )}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

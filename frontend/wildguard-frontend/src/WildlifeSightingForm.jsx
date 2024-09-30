@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from './Navbar';
 import './styles/WildlifeSightingForm.css'; // Import your CSS styles
+import Footer from './Footer';
 
 const WildlifeSightingForm = () => {
     const [speciesValue, setSpeciesValue] = useState('');
@@ -154,6 +155,7 @@ const WildlifeSightingForm = () => {
                     </form>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };

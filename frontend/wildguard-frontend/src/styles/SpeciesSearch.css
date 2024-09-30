@@ -9,6 +9,14 @@
   box-sizing: border-box;
 }
 
+#info-text h2{
+  color: #0f9b4a;
+}
+
+#info-text h3 {
+  color: black;
+}
+
 /* Body Styling */
 body {
   font-family: "Roboto", sans-serif;
@@ -16,85 +24,31 @@ body {
   color: #333;
 }
 
-/* Header/Banner Styles */
-.species-search-header {
-  background-color: #ffffff00;
-  padding: 1rem 2rem;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+#input1{
+  margin-left: 20%;
+  margin-top: 40px;
+  width: 30%;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid #0f9b4a;
+  font-family: "Roboto", sans-serif;
+  font-size: 15pt;
 }
 
-/* Styling for the logo in the header */
-.logo-image {
-  width: 150px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-/* Main Page Layout */
-.species-search-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.species-search-content {
-  width: 100%;
-  max-width: 1200px;
-  margin-top: 6rem;
-  padding: 2rem;
-}
-
-/* Title Styling */
-.species-search-content h1 {
-  text-align: center;
-  color: #080808;
-  margin-bottom: 2rem;
-}
-
-/* Eye GIF Styling */
-.eye-gif-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2rem;
-}
-
-.eye-gif {
-  width: 150px;
-  height: auto;
-}
-
-/* Filters Styling */
-.filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-  margin-bottom: 2rem;
-}
-
-.filters input,
-.filters select {
-  padding: 0.75rem;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  font-size: 1rem;
-  width: 250px;
-}
-
-.filters input:focus,
-.filters select:focus {
-  border-color: #0f9b4a;
-  outline: none;
+#select1{
+  margin-left: 10%;
+  margin-top: 40px;
+  width: 20%;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid #0f9b4a;
+  font-family: "Roboto", sans-serif;
+  font-size: 15pt;
 }
 
 /* Species List Styling */
 .species-list {
-  max-height: 60vh;
+  margin-top: 40px;
   overflow-y: auto;
   padding-right: 1rem;
 }

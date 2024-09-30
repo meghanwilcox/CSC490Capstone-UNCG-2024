@@ -187,12 +187,20 @@ border-radius: 10px; /* Optional: Add rounded corners */
   margin-left: 7%;
 }
 
+.ml-div h2, .content h2{
+  color: rgb(105, 136, 124);
+}
+
 .link-app-div{
   color: black;
   background-color: #025f3b59;
   width: 30%;
   border-radius: 10px;
   margin-left: 35%;
+}
+
+.link-app h2{
+  color: black;
 }
 
 .feature:hover, .link-app {

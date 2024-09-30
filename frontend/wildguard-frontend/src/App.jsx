@@ -5,6 +5,7 @@ import './styles/App.css';
 import logo from './assets/logo 2 transparent.png'; 
 import { AuthContext } from './AuthContext'; 
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 const App = () => {
   const { isLoggedIn, logout, user } = useContext(AuthContext); 
@@ -124,9 +125,7 @@ const App = () => {
       </section>
 
       {/* Footer */}
-      <footer className="footer-section">
-        <p>&copy; 2024 WildGuard. All rights reserved.</p>
-      </footer>
+      <Footer />
     </div>
   );
 };

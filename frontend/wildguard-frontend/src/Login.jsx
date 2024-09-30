@@ -4,6 +4,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import './styles/Login.css';
 import { AuthContext } from './AuthContext';
 import Navbar from './Navbar'; 
+import Footer from './Footer';
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -83,6 +84,7 @@ const Login = () => {
           </p>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
