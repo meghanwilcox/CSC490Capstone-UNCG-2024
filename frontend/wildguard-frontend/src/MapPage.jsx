@@ -88,7 +88,12 @@ const MapPage = () => {
     <div>
       <Navbar />
       <div id="info-text">
-        <h2>Here you can view geographical data about wildlife conservation efforts around the world.</h2>
+        <h3>View our Interactive Map!</h3>
+        <br/>
+        <h4>Here you can browse verified species sightings submitted by our users, in addition to poachings arrests data. 
+          This data helps researchers and conservationists better understand where species are being impacted, which helps them concentrate efforts in areads of need, 
+          or provide a better understanding of population distributions for academic study.
+        </h4>
       </div>
       <div id="content-container">
         {/* Map Container */}

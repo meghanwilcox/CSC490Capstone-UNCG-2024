@@ -10,6 +10,9 @@
   box-sizing: border-box;
 }
 
+h3{
+  color: #0f9b4a;
+}
 /* Body Styling */
 body {
   font-family: 'Roboto', sans-serif;
@@ -34,7 +37,6 @@ body {
   border-radius: 5px;
   text-align: center;
   width: 80%; /* Make it responsive */
-  max-width: 800px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
 }
 
