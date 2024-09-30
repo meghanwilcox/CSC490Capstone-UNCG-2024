@@ -48,6 +48,8 @@ body {
 
 /* Species List Styling */
 .species-list {
+  padding-left: 25px;
+  padding-right: 25px;
   margin-top: 40px;
   overflow-y: auto;
   padding-right: 1rem;
