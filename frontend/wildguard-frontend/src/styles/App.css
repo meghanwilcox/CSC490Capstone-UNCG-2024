@@ -79,12 +79,12 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding-top: 100px;
+  /* padding-top: 100px; */
   margin-bottom: 0;
 }
 
 .hero-overlay {
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
   color: #1111117a;
   border-radius: 10px;
@@ -123,20 +123,20 @@ nav {
 }
 
 /* Features Section */
-.clickable-feature {
+.clickable-feature, .link-app {
   cursor: pointer;
   text-decoration: none;
   color: inherit;
 }
 
-.clickable-feature:hover {
+.clickable-feature:hover{
   transform: translateY(-5px);
   transition: transform 0.3s;
 }
 
 .clickable-feature .feature-icon,
 .clickable-feature h3,
-.clickable-feature p {
+.clickable-feature p{
   color: inherit;
 }
 
@@ -146,16 +146,20 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  /* Removed absolute positioning */
-  /* position: absolute;
-  bottom: 2rem;
-  left: 0;
-  right: 0;
-  margin: 0 auto; */
   margin-top: 2rem; /* Optional */
 }
 
-.feature {
+#attention{
+/* Add background image */
+background-image: url('/background.png'); /* Replace with your image path */
+background-size: cover; /* Cover the entire section */
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Prevent the image from repeating */
+padding: 2rem; /* Add some padding if needed */
+border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+.feature{
   background-color: #025f3b59;
   padding: 1rem;
   border-radius: 10px;
@@ -166,7 +170,32 @@ nav {
   transition: transform 0.3s;
 }
 
-.feature:hover {
+.content{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content2{
+  padding: 70px;
+  display: flex;
+  flex-direction: row;
+}
+
+.ml-div{
+  margin-left: 7%;
+}
+
+.link-app-div{
+  color: black;
+  background-color: #025f3b59;
+  width: 30%;
+  border-radius: 10px;
+  margin-left: 35%;
+}
+
+.feature:hover, .link-app {
   transform: translateY(-5px);
 }
 .feature-icon {

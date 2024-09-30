@@ -18,13 +18,16 @@ const Navbar = () => {
           <Link to="/about" style={styles.link}>About Us</Link>
         </li>
         <li style={styles.navItem}>
-          <Link to="/species-search" style={styles.link}>Educational Content</Link>
+          <Link to="/species-search" style={styles.link}>Species Search</Link>
         </li>
         <li style={styles.navItem}>
           <Link to="/wildlife-sighting-form" style={styles.link}>Report Sighting</Link>
         </li>
         <li style={styles.navItem}>
-          <Link to="/map-page" style={styles.link}>Map Sightings</Link>
+          <Link to="/map-page" style={styles.link}>Interactive Map</Link>
+        </li>
+        <li style={styles.navItem}>
+          <Link to="/data-view" style={styles.link}>Predictive Data</Link>
         </li>
         {isLoggedIn ? (
           <>
