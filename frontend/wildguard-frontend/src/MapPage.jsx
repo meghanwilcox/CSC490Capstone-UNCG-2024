@@ -4,6 +4,7 @@ import './styles/MapPage.css';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import Navbar from './Navbar'; 
+import poaching_coordinates from './poaching_coordinates'; // Import poaching data
 
 // Configure Leaflet icons
 delete L.Icon.Default.prototype._getIconUrl;
@@ -12,10 +13,19 @@ import iconRetinaUrl from 'leaflet/dist/images/marker-icon-2x.png';
 import iconUrl from 'leaflet/dist/images/marker-icon.png';
 import shadowUrl from 'leaflet/dist/images/marker-shadow.png';
 
+// Default icon for sightings
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: iconRetinaUrl,
   iconUrl: iconUrl,
   shadowUrl: shadowUrl,
+});
+
+// Custom icon for poaching markers
+const poachingIcon = new L.Icon({
+  iconUrl: '/marker.png', // Red marker
+  iconSize: [40, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34]
 });
 
 const MapPage = () => {
@@ -23,8 +33,8 @@ const MapPage = () => {
   const [speciesList, setSpeciesList] = useState([]);
   const [selectedSpecies, setSelectedSpecies] = useState('All Species');
   const [checkboxes, setCheckboxes] = useState({
-    checkbox1: false,
-    checkbox2: false,
+    checkbox1: true,
+    checkbox2: true,
   });
   const [filteredSightings, setFilteredSightings] = useState([]);
 
@@ -57,7 +67,9 @@ const MapPage = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    if (e) {
+      e.preventDefault();
+    }
 
     // Filtering logic
     let filtered = sightings;
@@ -67,20 +79,9 @@ const MapPage = () => {
       filtered = filtered.filter(sighting => sighting.species_name === selectedSpecies);
     }
 
-    // Filter by checkboxes (you can customize the checkbox filters as needed)
-    if (checkboxes.checkbox1) {
-      // Example filter based on checkbox 1
-      filtered = filtered.filter(sighting => sighting.latitude > 0); // Example: northern hemisphere
-    }
-    if (checkboxes.checkbox2) {
-      // Example filter based on checkbox 2
-      filtered = filtered.filter(sighting => sighting.longitude < 0); // Example: western hemisphere
-    }
-
     // Update the filtered sightings that will be displayed
     setFilteredSightings(filtered);
   };
-
 
   return (
     <div>
@@ -96,7 +97,9 @@ const MapPage = () => {
               attribution='&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-            {filteredSightings.map((sighting) => (
+
+            {/* Sightings Markers */}
+            {checkboxes.checkbox1 && filteredSightings.map((sighting) => (
               <Marker
                 key={sighting.id}
                 position={[sighting.latitude, sighting.longitude]}
@@ -109,23 +112,31 @@ const MapPage = () => {
                 </Popup>
               </Marker>
             ))}
+
+            {/* Conditional rendering of Poaching markers */}
+            {checkboxes.checkbox2 && poaching_coordinates.map((poaching, index) => (
+              <Marker
+                key={`poaching-${index}`}
+                position={[poaching.latitude, poaching.longitude]} // Use labeled latitude and longitude
+                icon={poachingIcon} // Use custom icon for poaching
+              >
+                <Popup>
+                  <strong>{poaching.species}</strong> {/* Species */}
+                  <br />
+                  {new Date(poaching.date).toLocaleDateString()} {/* Date */}
+                  <br />
+                  Poaching Incident
+                </Popup>
+              </Marker>
+            ))}
           </MapContainer>
         </div>
         {/* Filters */}
         <div className="filters">
           <form onSubmit={handleSubmit}>
             {/* Checkboxes */}
-            <label>
-              <input
-                type="checkbox"
-                name="checkbox1"
-                checked={checkboxes.checkbox1}
-                onChange={handleCheckboxChange}
-              />
-              Endangered Species Data
-            </label>
+            <h4>Select the type of data you would like to display: </h4>
             <br />
-            <br/>
             <label>
               <input
                 type="checkbox"
@@ -136,20 +147,29 @@ const MapPage = () => {
               Poaching Arrests
             </label>
             <br />
-            <br/>
+            <br />
+            <label>
+              <input
+                type="checkbox"
+                name="checkbox1"
+                checked={checkboxes.checkbox1}
+                onChange={handleCheckboxChange}
+              />
+              Species Sightings
+            </label>
+            <br />
+            <br />
+            <h4>For the species sightings data, add filters based on which species you would like to display. </h4>
             {/* Dropdown */}
-            <label>      
+            <div id='dropdown-container'>
               <select value={selectedSpecies} onChange={handleDropdownChange}>
                 {speciesList.map((species, index) => (
                   <option key={index} value={species}>{species}</option>
                 ))}
               </select>
-              Select a Species 
-            </label>
-            <br />
-            <br/>
             {/* Submit Button */}
-            <button type="submit">Apply Filters</button>
+            <button id='submit-dropdown' type="submit">Apply Filters</button>
+            </div>
           </form>
         </div>
       </div>

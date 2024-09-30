@@ -12,6 +12,9 @@ import csv
 from django.contrib.auth import login
 from rest_framework.permissions import IsAuthenticated
 from django.views.decorators.csrf import csrf_exempt
+import pandas as pd
+import json
+from django.conf import settings
 
 class UsersListView(ListAPIView):
     queryset = User.objects.all()
@@ -228,5 +231,3 @@ class IsAuthenticatedView(APIView):
                 'is_researcher': request.user.is_researcher,
             }
         })
-
-
