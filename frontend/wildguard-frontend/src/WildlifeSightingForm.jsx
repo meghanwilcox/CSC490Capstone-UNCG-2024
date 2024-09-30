@@ -121,7 +121,7 @@ const WildlifeSightingForm = () => {
                         </div>
 
                         <div className='form-group'>
-                            <label htmlFor="latitude">Latitude:</label>
+                            <label htmlFor="latitude">Latitude (-90 to +90):</label>
                             <input
                                 type="number"
                                 id="latitude"
@@ -132,7 +132,7 @@ const WildlifeSightingForm = () => {
                         </div>
 
                         <div className='form-group'>
-                            <label htmlFor="longitude">Longitude:</label>
+                            <label htmlFor="longitude">Longitude (-180 to +180):</label>
                             <input
                                 type="number"
                                 id="longitude"
