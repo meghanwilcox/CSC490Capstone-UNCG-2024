@@ -1,0 +1,70 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 10px 20px;
+    flex-wrap: wrap; /* Allow items to wrap */
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logoImage {
+    height: 100px;
+  }
+  
+  .navLinks {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    justify-content: flex-end;
+  }
+  
+  .navItem {
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative; /* For the pseudo-element */
+  }
+  
+  .link {
+    color: black;
+    text-decoration: none;
+    font-size: 15pt;
+    position: relative; /* For the pseudo-element */
+  }
+  
+  /* Hover effect */
+  .link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Distance between text and line */
+    height: 2px; /* Line thickness */
+    width: 100%;
+    background-color: green; /* Line color */
+    transform: scaleX(0); /* Initially hide the line */
+    transition: transform 0.3s ease; /* Animation for smooth effect */
+  }
+  
+  .link:hover::after {
+    transform: scaleX(1); /* Show the line on hover */
+  }
+  
+  .buttonLink {
+    background: none;
+    border: none;
+    color: black;
+    text-decoration: none;
+    font-size: 15pt;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+  }
+  
