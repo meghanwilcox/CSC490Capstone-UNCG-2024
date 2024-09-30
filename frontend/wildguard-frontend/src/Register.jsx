@@ -1,26 +1,32 @@
-// Register.jsx
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import './styles/Register.css';
 import Navbar from './Navbar';
- 
 
 const Register = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [name, setName] = useState('');
+  const [isResearcher, setIsResearcher] = useState(false); // State for the checkbox
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Validate email if the user is a researcher
+    if (isResearcher && !email.endsWith('.edu')) {
+      setError('Email must end with .edu when registering as a researcher.');
+      return; // Stop the form submission
+    }
+
     try {
       const response = await fetch('http://localhost:8000/users/create/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ email, password, name }),
+        body: JSON.stringify({ email, password, name, is_researcher: isResearcher }), // Include is_researcher
       });
 
       if (response.ok) {
@@ -44,7 +50,21 @@ const Register = () => {
       {/* Main Content */}
       <div className="register-container">
         <h1>Create an Account</h1>
+        <h3 id='info-reg'>
+          Create an account with us to be able to submit wildlife sightings, and contribute to monitoring populations!
+          If you are a verified researcher and can register with your university email, you will gain access to viewing machine learning powered predictive population data!
+        </h3>
+        <br />
         <form onSubmit={handleSubmit}>
+          <label>
+            <input
+              type="checkbox"
+              name="isResearcher"
+              checked={isResearcher}
+              onChange={() => setIsResearcher(!isResearcher)} // Toggle checkbox state
+            />
+            Are you a Researcher?
+          </label>
           <div className="form-group">
             <label>Email:</label>
             <input

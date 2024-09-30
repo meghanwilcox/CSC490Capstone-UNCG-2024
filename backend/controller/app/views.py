@@ -15,6 +15,8 @@ from django.views.decorators.csrf import csrf_exempt
 import pandas as pd
 import json
 from django.conf import settings
+from rest_framework.exceptions import ValidationError  # Import ValidationError
+
 
 class UsersListView(ListAPIView):
     queryset = User.objects.all()
@@ -32,6 +34,10 @@ class CreateUserView(APIView):
             name = serializer.validated_data.get('name')
             is_researcher = serializer.validated_data.get('is_researcher', False)
 
+            # Validate that the email ends with .edu if the user is a researcher
+            if is_researcher and not email.endswith('.edu'):
+                raise ValidationError({'email': 'Email must end with .edu for researchers.'})
+
             hashed_password = make_password(password)
 
             user = User.objects.create(
@@ -42,7 +48,7 @@ class CreateUserView(APIView):
             )
 
             return Response(UserSerializer(user).data, status=status.HTTP_201_CREATED)
-        
+
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
     
 class UserLoginView(APIView):
