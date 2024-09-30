@@ -145,7 +145,7 @@ const MapPage = () => {
                 checked={checkboxes.checkbox2}
                 onChange={handleCheckboxChange}
               />
-              Poaching Arrests
+              Poaching Arrests 🔴
             </label>
             <br />
             <br />
@@ -156,7 +156,7 @@ const MapPage = () => {
                 checked={checkboxes.checkbox1}
                 onChange={handleCheckboxChange}
               />
-              Species Sightings
+              Species Sightings 🔵
             </label>
             <br />
             <br />

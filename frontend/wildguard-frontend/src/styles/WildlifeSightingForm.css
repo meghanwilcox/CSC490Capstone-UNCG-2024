@@ -54,22 +54,28 @@ form {
   font-weight: bold;
 }
 
+/* Style for input fields */
 .form-group input[type="text"],
 .form-group input[type="date"],
 .form-group input[type="number"],
-.form-group input[type="file"] {
+.form-group input[type="file"],
+.form-group select { /* Added select here */
   width: 100%;
   padding: 0.75rem;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 1rem;
+  font-family: 'Roboto', sans-serif; /* Ensure Roboto font is used */
 }
 
-.form-group input:focus {
+/* Focus state for inputs */
+.form-group input:focus,
+.form-group select:focus { /* Added focus state for select */
   border-color: #0f9b4a;
   outline: none;
 }
 
+/* Submit button styling */
 button[type="submit"] {
   padding: 0.75rem;
   background-color: #0f9b4a;
