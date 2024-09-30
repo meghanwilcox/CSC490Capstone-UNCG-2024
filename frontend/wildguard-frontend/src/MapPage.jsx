@@ -5,8 +5,9 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import Navbar from './Navbar'; 
 import poaching_coordinates from './poaching_coordinates'; // Import poaching data
+import Footer from './Footer';
 
-// Configure Leaflet icons
+// Configure Leaflet icons;
 delete L.Icon.Default.prototype._getIconUrl;
 
 import iconRetinaUrl from 'leaflet/dist/images/marker-icon-2x.png';
@@ -173,6 +174,7 @@ const MapPage = () => {
           </form>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

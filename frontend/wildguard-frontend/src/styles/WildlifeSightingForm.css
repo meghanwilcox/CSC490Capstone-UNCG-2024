@@ -1,10 +1,15 @@
 /* src/styles/WildlifeSightingForm.css */
 
-/* Import Google Fonts
-/* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); */
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); 
+
+#main-content {
+  text-align: center;
+  background-color: #f0f8f5; /* Light background for better contrast */
+  padding: 2rem;
+}
 
 /* Header/Banner Styles */
-/* WildlifeSightingForm.css */
 .wildlife-sighting-form-page {
   display: flex;
   flex-direction: column;
@@ -13,30 +18,37 @@
 
 .wildlife-sighting-form-content {
   max-width: 800px;
-  margin: 6rem auto 0 auto; /* Centers content horizontally */
+  margin: 2rem auto;
   padding: 2rem;
+  background-color: #ffffff; /* White background for the form */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.wildlife-sighting-form-content h1 {
-  text-align: center;
-  color: #0f9b4a;
+.wildlife-sighting-form-content h2 {
+  color: #0f9b4a; /* Primary color */
+  margin-bottom: 1rem;
+}
+
+.wildlife-sighting-form-content h3 {
+  color: #333; /* Darker text color for readability */
   margin-bottom: 2rem;
+  font-size: 1rem; /* Slightly smaller for better readability */
 }
 
 /* Form Styling */
 form {
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 10px;
-  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* Space between form elements */
 }
 
 .form-group {
-  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-group label {
-  display: block;
   margin-bottom: 0.5rem;
   color: #333;
   font-weight: bold;
@@ -44,7 +56,8 @@ form {
 
 .form-group input[type="text"],
 .form-group input[type="date"],
-.form-group textarea {
+.form-group input[type="number"],
+.form-group input[type="file"] {
   width: 100%;
   padding: 0.75rem;
   border: 1px solid #ccc;
@@ -52,23 +65,12 @@ form {
   font-size: 1rem;
 }
 
-.form-group input[type="file"] {
-  padding: 0.75rem 0;
-}
-
-.form-group textarea {
-  min-height: 150px;
-  resize: vertical;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
+.form-group input:focus {
   border-color: #0f9b4a;
   outline: none;
 }
 
 button[type="submit"] {
-  width: 100%;
   padding: 0.75rem;
   background-color: #0f9b4a;
   color: #fff;
@@ -82,23 +84,6 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background-color: #0c7a3f;
-}
-
-/* Media Preview */
-.media-preview {
-  margin-top: 1rem;
-}
-
-.media-preview p {
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-}
-
-.media-preview img,
-.media-preview video {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px;
 }
 
 /* Responsive Styles */
