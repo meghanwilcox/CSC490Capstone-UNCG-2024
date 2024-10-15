@@ -24,6 +24,7 @@ class User(AbstractBaseUser):
     name = models.CharField(max_length=100, null=False)
     is_researcher = models.BooleanField(default=False)
     bio = models.TextField(blank=True, null=True)
+    profile_picture = models.ImageField(upload_to='profile_pictures/', blank=True, null=True)
 
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['name']

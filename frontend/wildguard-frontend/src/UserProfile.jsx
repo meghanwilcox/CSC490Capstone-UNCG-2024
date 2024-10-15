@@ -1,3 +1,4 @@
+// UserProfile.jsx
 import React, { useState, useEffect, useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './styles/UserProfile.css';
@@ -12,11 +13,11 @@ const UserProfile = () => {
 
   const [isEditing, setIsEditing] = useState(false);
   const [editedUser, setEditedUser] = useState({ ...user });
-  const [isModalOpen, setIsModalOpen] = useState(false); // State for modal
+  const [isModalOpen, setIsModalOpen] = useState(false); 
 
   useEffect(() => {
     if (!user) {
-      navigate('/login'); // Redirect if user is not logged in
+      navigate('/login'); 
     }
   }, [user, navigate]);
 
@@ -86,8 +87,8 @@ const UserProfile = () => {
             style={{ cursor: 'pointer' }}
           >
             <img
-              src={user.profilePicture || placeholderImage}
-              alt={`${user.name}'s profile`}
+              src={user.profilePicture ? user.profilePicture : placeholderImage}              
+              alt={`${user.name}'s enlarged profile`}
             />
           </div>
           {!isEditing ? (
@@ -180,10 +181,11 @@ const UserProfile = () => {
               &times;
             </span>
             <img
-              src={user.profilePicture || placeholderImage}
+              src={user.profilePicture ? user.profilePicture : placeholderImage}
               alt={`${user.name}'s enlarged profile`}
               className="modal-image"
             />
+
           </div>
         </div>
       )}
