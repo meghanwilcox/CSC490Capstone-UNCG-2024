@@ -9,17 +9,29 @@ import Footer from './Footer';
 
 const UserProfile = () => {
   const navigate = useNavigate();
-  const { user, logout, updateUser } = useContext(AuthContext);
+
+  // Make sure to include 'loading' in the destructuring
+  const { user, logout, updateUser, loading } = useContext(AuthContext);
 
   const [isEditing, setIsEditing] = useState(false);
   const [editedUser, setEditedUser] = useState({ ...user });
   const [isModalOpen, setIsModalOpen] = useState(false); 
 
   useEffect(() => {
-    if (!user) {
+    if (!loading && !user) {
       navigate('/login'); 
     }
-  }, [user, navigate]);
+  }, [user, loading, navigate]);
+
+  // Show a loading indicator or null while loading
+  if (loading) {
+    return null; // Or return a loading spinner if you prefer
+  }
+
+  if (!user) {
+    return null; // User is not authenticated
+  }
+
 
   const handleChange = (e) => {
     const { name, value, files } = e.target;
