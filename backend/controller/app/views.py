@@ -16,6 +16,11 @@ import pandas as pd
 import json
 from django.conf import settings
 from rest_framework.exceptions import ValidationError  # Import ValidationError
+from django.apps import apps
+from PIL import Image
+from tensorflow import keras
+from tensorflow.keras.preprocessing import image
+import numpy as np
 
 
 class UsersListView(ListAPIView):
@@ -245,3 +250,27 @@ class IsAuthenticatedView(APIView):
                 'is_researcher': request.user.is_researcher,
             }
         })
+
+@csrf_exempt
+def predict_image(request):
+    if request.method == 'POST' and request.FILES.get('image'):
+
+        model = apps.get_app_config('app').model
+        labels = apps.get_app_config('app').labels
+
+        image_file = request.FILES['image']
+        image = Image.open(image_file)
+
+        image = image.resize((224, 224))
+        image_array = np.array(image)
+        image_array = keras.applications.efficientnet.preprocess_input(image_array)
+        image_array = np.expand_dims(image_array, axis=0)
+
+        prediction = model.predict(image_array, verbose=0)
+
+        predicted_class = np.argmax(prediction, axis=1)[0]
+        predicted_class_str = labels[predicted_class]
+
+        return JsonResponse({'predicted_class': predicted_class_str})
+
+    return JsonResponse({'error': 'Invalid request or missing image.'}, status=400)
