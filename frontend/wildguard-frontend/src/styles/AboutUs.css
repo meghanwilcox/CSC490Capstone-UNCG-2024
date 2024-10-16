@@ -1,0 +1,64 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero-section {
+  background-image: url('https://example.com/your-image.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+/* Content Section */
+.content-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  color: #333333;
+}
+
+.content-section h2 {
+  font-size: 2em;
+  margin-top: 40px;
+  color: #2e8b57;
+}
+
+.content-section p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.content-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.content-section li {
+  margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 60px 20px;
+  }
+
+  .hero-section h1 {
+    font-size: 2.5em;
+  }
+
+  .content-section {
+    padding: 30px 20px;
+  }
+}

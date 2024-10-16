@@ -1,3 +1,4 @@
+// UserProfile.jsx
 import React, { useState, useEffect, useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './styles/UserProfile.css';
@@ -8,17 +9,29 @@ import Footer from './Footer';
 
 const UserProfile = () => {
   const navigate = useNavigate();
-  const { user, logout, updateUser } = useContext(AuthContext);
+
+  // Make sure to include 'loading' in the destructuring
+  const { user, logout, updateUser, loading } = useContext(AuthContext);
 
   const [isEditing, setIsEditing] = useState(false);
   const [editedUser, setEditedUser] = useState({ ...user });
-  const [isModalOpen, setIsModalOpen] = useState(false); // State for modal
+  const [isModalOpen, setIsModalOpen] = useState(false); 
 
   useEffect(() => {
-    if (!user) {
-      navigate('/login'); // Redirect if user is not logged in
+    if (!loading && !user) {
+      navigate('/login'); 
     }
-  }, [user, navigate]);
+  }, [user, loading, navigate]);
+
+  // Show a loading indicator or null while loading
+  if (loading) {
+    return null; // Or return a loading spinner if you prefer
+  }
+
+  if (!user) {
+    return null; // User is not authenticated
+  }
+
 
   const handleChange = (e) => {
     const { name, value, files } = e.target;
@@ -86,8 +99,8 @@ const UserProfile = () => {
             style={{ cursor: 'pointer' }}
           >
             <img
-              src={user.profilePicture || placeholderImage}
-              alt={`${user.name}'s profile`}
+              src={user.profilePicture ? user.profilePicture : placeholderImage}              
+              alt={`${user.name}'s enlarged profile`}
             />
           </div>
           {!isEditing ? (
@@ -180,10 +193,11 @@ const UserProfile = () => {
               &times;
             </span>
             <img
-              src={user.profilePicture || placeholderImage}
+              src={user.profilePicture ? user.profilePicture : placeholderImage}
               alt={`${user.name}'s enlarged profile`}
               className="modal-image"
             />
+
           </div>
         </div>
       )}

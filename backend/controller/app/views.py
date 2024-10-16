@@ -60,14 +60,14 @@ class UserLoginView(APIView):
             return Response({'error': 'Email and password are required.'}, status=status.HTTP_400_BAD_REQUEST)
 
         try:
-            user = User.objects.get(email=email)  # Use your custom user model here
+            user = User.objects.get(email=email)  
         except User.DoesNotExist:
             return Response({'error': 'Invalid email or password.'}, status=status.HTTP_401_UNAUTHORIZED)
 
-        # Use Django's built-in password verification
+        
         if check_password(password, user.password):
-            # Use Django's login to create a session
-            login(request, user)  # This will handle session creation automatically
+            
+            login(request, user)  # handling of session creation automatically
 
             print(f"User logged in: {user.email} (ID: {user.user_id})")
             print(f"Session data: {request.session.items()}")
@@ -80,7 +80,8 @@ class UserLoginView(APIView):
                     'name': user.name,
                     'is_researcher': user.is_researcher,
                     'role': 'Researcher' if user.is_researcher else 'Volunteer',
-                    'bio': user.bio
+                    'bio': user.bio,
+                    'profilePicture': request.build_absolute_uri(user.profile_picture.url) if user.profile_picture else None
                 }
             }, status=status.HTTP_200_OK)
         else:
@@ -92,6 +93,7 @@ class UpdateUserProfileView(APIView):
         bio = request.data.get('bio')
         name = request.data.get('name')
         email = request.data.get('email')
+        profile_picture = request.FILES.get('profilePicture')  # Handle file upload
 
         try:
             user = User.objects.get(user_id=user_id)
@@ -102,6 +104,10 @@ class UpdateUserProfileView(APIView):
         user.bio = bio
         user.name = name
         user.email = email
+
+        if profile_picture:
+            user.profile_picture = profile_picture
+        
         user.save()
 
         return Response({
@@ -109,8 +115,10 @@ class UpdateUserProfileView(APIView):
             'email': user.email,
             'name': user.name,
             'is_researcher': user.is_researcher,
-            'bio': user.bio
+            'bio': user.bio,
+            'profilePicture': request.build_absolute_uri(user.profile_picture.url) if user.profile_picture else None
         }, status=status.HTTP_200_OK)
+
 
         
 class AdminLoginView(APIView):
