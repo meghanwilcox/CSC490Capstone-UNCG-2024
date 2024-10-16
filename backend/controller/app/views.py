@@ -216,25 +216,24 @@ class SpeciesDataView(View):
     
 
 class AddSightingView(APIView):
-    permission_classes = []  # You may want to set permissions later
+    permission_classes = []  
 
-    @csrf_exempt  # Disable CSRF for this view
+    @csrf_exempt  
     def post(self, request, *args, **kwargs):
         serializer = SightingSerializer(data=request.data, context={'request': request})
         
-        # Ensure the serializer is valid
         if serializer.is_valid():
-            serializer.save()  # The sighted_by field is no longer being assigned
+            serializer.save()  
             return Response(serializer.data, status=status.HTTP_201_CREATED)
 
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
 
 class SightingListView(generics.ListAPIView):
     queryset = Sighting.objects.all()
     serializer_class = SightingSerializer
 
     def get_queryset(self):
-        # Optionally, filter sightings by user or other criteria if needed
         return super().get_queryset()
 
 class IsAuthenticatedView(APIView):

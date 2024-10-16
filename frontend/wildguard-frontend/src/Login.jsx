@@ -1,4 +1,3 @@
-// Login.jsx
 import React, { useState, useContext } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import './styles/Login.css';
@@ -30,6 +29,9 @@ const Login = () => {
 
         
         login(data.user);
+
+         // Print the logged-in user data to the console
+         console.log('Logged in user data:', data.user);
         
         navigate('/');
       } else {

@@ -4,26 +4,23 @@ import './styles/MapPage.css';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import Navbar from './Navbar'; 
-import poaching_coordinates from './poaching_coordinates'; // Import poaching data
+import poaching_coordinates from './poaching_coordinates'; 
 import Footer from './Footer';
 
-// Configure Leaflet icons;
 delete L.Icon.Default.prototype._getIconUrl;
 
 import iconRetinaUrl from 'leaflet/dist/images/marker-icon-2x.png';
 import iconUrl from 'leaflet/dist/images/marker-icon.png';
 import shadowUrl from 'leaflet/dist/images/marker-shadow.png';
 
-// Default icon for sightings
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: iconRetinaUrl,
   iconUrl: iconUrl,
   shadowUrl: shadowUrl,
 });
 
-// Custom icon for poaching markers
 const poachingIcon = new L.Icon({
-  iconUrl: '/marker.png', // Red marker
+  iconUrl: '/marker.png', 
   iconSize: [40, 41],
   iconAnchor: [12, 41],
   popupAnchor: [1, -34]
@@ -40,17 +37,15 @@ const MapPage = () => {
   const [filteredSightings, setFilteredSightings] = useState([]);
 
   useEffect(() => {
-    // Fetch sightings data from backend
     const fetchSightings = async () => {
       try {
         const response = await fetch('http://localhost:8000/api/sightings/');
         const data = await response.json();
         setSightings(data);
 
-        // Extract species names, remove duplicates, and add "All Species" option
         const speciesNames = ['All Species', ...new Set(data.map(sighting => sighting.species_name))];
         setSpeciesList(speciesNames);
-        setFilteredSightings(data); // Initial display: show all sightings
+        setFilteredSightings(data); 
       } catch (error) {
         console.error('Error fetching sightings data:', error);
       }
@@ -72,15 +67,12 @@ const MapPage = () => {
       e.preventDefault();
     }
 
-    // Filtering logic
     let filtered = sightings;
 
-    // Filter by species dropdown
     if (selectedSpecies !== 'All Species') {
       filtered = filtered.filter(sighting => sighting.species_name === selectedSpecies);
     }
 
-    // Update the filtered sightings that will be displayed
     setFilteredSightings(filtered);
   };
 
@@ -123,8 +115,8 @@ const MapPage = () => {
             {checkboxes.checkbox2 && poaching_coordinates.map((poaching, index) => (
               <Marker
                 key={`poaching-${index}`}
-                position={[poaching.latitude, poaching.longitude]} // Use labeled latitude and longitude
-                icon={poachingIcon} // Use custom icon for poaching
+                position={[poaching.latitude, poaching.longitude]} 
+                icon={poachingIcon} 
               >
                 <Popup>
                   <strong>{poaching.species}</strong> {/* Species */}
