@@ -29,6 +29,9 @@ const Login = () => {
 
         
         login(data.user);
+
+         // Print the logged-in user data to the console
+         console.log('Logged in user data:', data.user);
         
         navigate('/');
       } else {
