@@ -8,17 +8,16 @@ const Register = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [name, setName] = useState('');
-  const [isResearcher, setIsResearcher] = useState(false); // State for the checkbox
+  const [isResearcher, setIsResearcher] = useState(false); 
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Validate email if the user is a researcher
     if (isResearcher && !email.endsWith('.edu')) {
       setError('Email must end with .edu when registering as a researcher.');
-      return; // Stop the form submission
+      return; 
     }
 
     try {
@@ -27,7 +26,7 @@ const Register = () => {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ email, password, name, is_researcher: isResearcher }), // Include is_researcher
+        body: JSON.stringify({ email, password, name, is_researcher: isResearcher }), 
       });
 
       if (response.ok) {

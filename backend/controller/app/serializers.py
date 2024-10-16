@@ -25,9 +25,7 @@ class SpeciesSerializer(serializers.ModelSerializer):
 class SightingSerializer(serializers.ModelSerializer):
     class Meta:
         model = Sighting
-        fields = ['id', 'species_name', 'date_seen', 'latitude', 'longitude', 'photo']  # Removed 'sighted_by'
-        # No need for read_only_fields since it's not included anymore
+        fields = ['id', 'species_name', 'date_seen', 'latitude', 'longitude', 'photo']  
 
     def create(self, validated_data):
-        # You can still use request context if needed for other purposes, but not for sighted_by
         return super().create(validated_data)

@@ -1,26 +1,25 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from './Navbar';
-import './styles/WildlifeSightingForm.css'; // Import your CSS styles
+import './styles/WildlifeSightingForm.css'; 
 import Footer from './Footer';
 
 const WildlifeSightingForm = () => {
     const [speciesValue, setSpeciesValue] = useState('');
-    const [speciesOptions, setSpeciesOptions] = useState([]); // State for species options
+    const [speciesOptions, setSpeciesOptions] = useState([]); 
     const [dateValue, setDateValue] = useState('');
     const [latitudeValue, setLatitudeValue] = useState('');
     const [longitudeValue, setLongitudeValue] = useState('');
     const [photoFile, setPhotoFile] = useState(null);
-    const token = '';  // Add logic for obtaining token here if needed
+    const token = '';  
     const navigate = useNavigate();
 
-    // Fetch species data from the API
     useEffect(() => {
         const fetchSpecies = async () => {
             try {
                 const response = await fetch('http://localhost:8000/api/species/');
                 const data = await response.json();
-                // Map the data to extract scientific names
+
                 const scientificNames = data.map(species => species.scientific_name);
                 setSpeciesOptions(scientificNames);
             } catch (error) {

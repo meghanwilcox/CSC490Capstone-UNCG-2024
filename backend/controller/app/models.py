@@ -75,11 +75,10 @@ class Species(models.Model):
 class Sighting(models.Model):
     id = models.AutoField(primary_key=True)
     species_name = models.CharField(max_length=100)
-    # sighted_by = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)  # Links to the logged-in user
-    date_seen = models.DateField(default=timezone.now)  # Defaults to the current date
-    latitude = models.FloatField()  # Latitude for location
-    longitude = models.FloatField()  # Longitude for location
-    photo = models.ImageField(upload_to='sightings_photos/', blank=True, null=True)  # Optional photo
+    date_seen = models.DateField(default=timezone.now)  
+    latitude = models.FloatField()  
+    longitude = models.FloatField()  
+    photo = models.ImageField(upload_to='sightings_photos/', blank=True, null=True)  
 
     def __str__(self):
         return f'{self.species_name} '
