@@ -154,7 +154,7 @@ const WildlifeSightingForm = () => {
                     </form>
                 </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 };

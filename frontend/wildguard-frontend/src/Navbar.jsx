@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import logo from './assets/logo 2 transparent.png';
 import { AuthContext } from './AuthContext'; // Import AuthContext
 import './styles/Navbar.css'; // Import the CSS file
+import PredictImage from './PredictImage';
 
 const Navbar = () => {
   const { isLoggedIn, user, logout } = useContext(AuthContext); // Destructure user from AuthContext
@@ -31,6 +32,9 @@ const Navbar = () => {
             {/* Links for all logged-in users */}
             <li className="navItem">
               <Link to="/wildlife-sighting-form" className="link">Report Sighting</Link>
+            </li>
+            <li className="navItem">
+              <Link to="/classify-photo" className="link">Classify Your Photo</Link>
             </li>
 
             {/* Additional link only for researchers (is_researcher === 1) */}

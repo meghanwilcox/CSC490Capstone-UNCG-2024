@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#info-text h3{
+  color: #0f9b4a;
+}
+/* Body Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f8f5;
+  color: #333;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#info-div{
+  margin: 20px auto; /* This centers the div horizontally */
+  font-size: 20px;
+  color: #333;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.7); /* Slight background transparency */
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 80%; /* Make it responsive */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+#upload-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#image-box{
+  max-height: 500px;
+} 
+
+#footer-div{
+  padding-top: 350px;
+  background-color: white;
+}
+
+#sighting-section{
+  text-align:center;
+}
+
+#sighting-button{
+  background-color: #0f9b4a;
+  color: white;
+  border: none;
+  padding: 10px;
+  padding-left:40px;
+  padding-right:40px;
+  border-radius: 5px;
+  font-size: 13pt;
+  font-family: 'Roboto', sans-serif;
+}
+
+#sighting-button:hover{
+  cursor:pointer
+}

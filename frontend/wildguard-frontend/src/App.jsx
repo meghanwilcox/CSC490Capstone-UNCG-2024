@@ -24,6 +24,15 @@ const App = () => {
     }
   };
 
+    // Handle report sighting click based on whether the user is logged in
+    const handleClassifyPhoto = () => {
+      if (isLoggedIn) {
+        navigate('/classify-photo'); // If logged in, go to the report page
+      } else {
+        navigate('/login'); // If not logged in, redirect to login
+      }
+    };
+
   // Handle predictive data click with researcher check
   const handleViewPredictiveData = () => {
     if (isLoggedIn) {
@@ -108,9 +117,14 @@ const App = () => {
                 gain access to machine learning predictive population models on species data for some of the top studied endangered species! 
               </h2>
               <br/>
-              {/* Replace Link with a button and handle login and researcher check */}
               <div className='link-app-div clickable-feature' onClick={handleViewPredictiveData}>
                 <h2 style={{color: 'black'}}>View Predictive Data</h2>
+              </div>
+              <br/>
+              <h2>In addition, our users can utilize our advanced neural network model to classify the animal species from a photograph! Sign up and submit your photograph today!</h2>
+              
+              <div className='link-app-div clickable-feature' onClick={handleClassifyPhoto}>
+                <h2 style={{color: 'black'}}>Classify your Photograph</h2>
               </div>
             </div>
           </div>

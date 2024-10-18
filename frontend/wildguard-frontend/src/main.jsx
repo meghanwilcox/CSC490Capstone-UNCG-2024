@@ -12,6 +12,7 @@ import WildlifeSightingForm from './WildlifeSightingForm';
 import UserProfile from './UserProfile'; 
 import MapPage from './MapPage';
 import DataView from './DataView';
+import PredictImage from './PredictImage'
 import { AuthProvider } from './AuthContext'; 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -30,6 +31,7 @@ root.render(
         <Route path="/user-profile" element={<UserProfile />} /> 
         <Route path="/map-page" element={<MapPage />} /> 
         <Route path="/data-view" element={<DataView />} />
+        <Route path="/classify-photo" element={<PredictImage />} />
       </Routes>
     </Router>
   </AuthProvider>
