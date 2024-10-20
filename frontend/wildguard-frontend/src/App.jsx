@@ -18,18 +18,18 @@ const App = () => {
   // Handle report sighting click based on whether the user is logged in
   const handleReportSighting = () => {
     if (isLoggedIn) {
-      navigate('/wildlife-sighting-form'); // If logged in, go to the report page
+      navigate('/wildlife-sighting-form'); 
     } else {
-      navigate('/login'); // If not logged in, redirect to login
+      navigate('/login'); 
     }
   };
 
   // Handle classify photo click based on whether the user is logged in
   const handleClassifyPhoto = () => {
     if (isLoggedIn) {
-      navigate('/classify-photo'); // If logged in, go to the classify photo page
+      navigate('/classify-photo'); 
     } else {
-      navigate('/login'); // If not logged in, redirect to login
+      navigate('/login'); 
     }
   };
 
@@ -40,10 +40,10 @@ const App = () => {
         navigate('/data-view'); // If the user is a researcher, go to the data view page
       } else {
         alert('Only researchers can view predictive data.'); // Alert if not a researcher
-        navigate('/login'); // Redirect to login
+        navigate('/login'); 
       }
     } else {
-      navigate('/login'); // If not logged in, redirect to login
+      navigate('/login'); 
     }
   };
 

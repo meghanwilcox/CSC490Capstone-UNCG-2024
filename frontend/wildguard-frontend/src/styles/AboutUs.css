@@ -30,7 +30,7 @@
 /* Content Section */
 .aboutus-content-section {
   max-width: 800px;
-  margin: -50px auto 0 auto; /* Pull up over the hero section */
+  margin: -50px auto 0 auto;
   padding: 40px 20px;
   color: #333333;
   background-color: #fff;
@@ -62,7 +62,7 @@
   padding-left: 25px;
 }
 
-/* Base styles for the pseudo-element */
+
 .aboutus-content-section li::before {
   content: '';
   position: absolute;
@@ -72,17 +72,17 @@
   line-height: 1em;
 }
 
-/* Assign different emojis to each list item */
+
 .aboutus-content-section ul li:nth-child(1)::before {
-  content: '🐼'; /* First goal: Panda emoji */
+  content: '🐼'; 
 }
 
 .aboutus-content-section ul li:nth-child(2)::before {
-  content: '🐘'; /* Second goal: Elephant emoji */
+  content: '🐘'; 
 }
 
 .aboutus-content-section ul li:nth-child(3)::before {
-  content: '🦁'; /* Third goal: Lion emoji */
+  content: '🦁'; 
 }
 
 /* Responsive Design */
