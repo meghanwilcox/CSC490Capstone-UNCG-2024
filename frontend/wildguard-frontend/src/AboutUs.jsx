@@ -5,12 +5,12 @@ import Footer from './Footer';
 
 const AboutUs = () => {
   return (
-    <div>
+    <div className="aboutus-container">
       <Navbar />
-      <section className="hero-section">
+      <section className="aboutus-hero-section">
         <h1>About Us</h1>
       </section>
-      <section className="content-section">
+      <section className="aboutus-content-section">
         <p>
           Welcome to <strong>WildGuard</strong>! Our mission is to protect endangered species
           and educate the public about wildlife conservation. We are a team

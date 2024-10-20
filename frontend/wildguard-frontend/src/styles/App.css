@@ -1,35 +1,22 @@
+/* App.css */
+
 /* Import Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-#navbar-m{
-  border: 5px solid red;
-}
-
-/* Reset default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Body Styling */
-body {
+/* Container Styling */
+.app-container {
+  overflow-x: hidden;
   font-family: "Roboto", sans-serif;
   color: #333;
 }
 
-/* App Container */
-.app-container {
-  overflow-x: hidden;
-}
-
 /* Navigation styles */
-nav {
+.app-nav {
   display: flex;
-  gap: 1rem; /* Adds space between nav-buttons */
+  gap: 1rem; 
 }
 
-.navigation {
+.app-navigation {
   background-color: rgba(3, 3, 3, 0);
   position: fixed;
   top: 0;
@@ -38,25 +25,21 @@ nav {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
 }
 
-.nav-content {
+.app-nav-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
 }
 
-.logo {
+.app-logo {
   font-size: 1.8rem;
   font-weight: bold;
   color: #0f9b4a;
   text-decoration: none;
 }
 
-nav {
-  display: flex;
-}
-
-.nav-button {
+.app-nav-button {
   margin-left: 1rem;
   padding: 0.5rem 1rem;
   background-color: #0f9b4900;
@@ -66,11 +49,11 @@ nav {
   transition: background-color 0.3s;
 }
 
-.nav-button:hover {
+.app-nav-button:hover {
   background-color: #0c7a3f;
 }
 
-.hero-section {
+.app-hero-section {
   background-size: cover;
   background-position: center;
   min-height: auto; 
@@ -79,34 +62,32 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  /* padding-top: 100px; */
   margin-bottom: 0;
 }
 
-.hero-overlay {
-  /* padding: 2rem; */
+.app-hero-overlay {
   text-align: center;
   color: #1111117a;
   border-radius: 10px;
 }
 
-.hero-section h1 {
+.app-hero-section h1 {
   font-size: 4rem;
   margin-bottom: 1rem;
 }
 
-.hero-section p {
+.app-hero-section p {
   font-size: 1.5rem;
   margin-bottom: 2rem;
 }
 
-.hero-logo {
+.app-hero-logo {
   width: 200px;
   height: auto;
   margin-bottom: 1rem;
 }
 
-.cta-button {
+.app-cta-button {
   background-color: #0f9b4a;
   color: white;
   padding: 1rem 2rem;
@@ -118,48 +99,46 @@ nav {
   transition: background-color 0.3s;
 }
 
-.cta-button:hover {
+.app-cta-button:hover {
   background-color: #0c7a3f;
 }
 
 /* Features Section */
-.clickable-feature, .link-app {
+.app-clickable-feature, .app-link-app {
   cursor: pointer;
   text-decoration: none;
   color: inherit;
 }
 
-.clickable-feature:hover{
+.app-clickable-feature:hover {
   transform: translateY(-5px);
   transition: transform 0.3s;
 }
 
-.clickable-feature .feature-icon,
-.clickable-feature h3,
-.clickable-feature p{
+.app-clickable-feature .app-feature-icon,
+.app-clickable-feature h3,
+.app-clickable-feature p {
   color: inherit;
 }
 
-/* Features Section */
-.features {
+.app-features {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  margin-top: 2rem; /* Optional */
+  margin-top: 2rem; 
 }
 
-#attention{
-/* Add background image */
-background-image: url('/background.png'); /* Replace with your image path */
-background-size: cover; /* Cover the entire section */
-background-position: center; /* Center the image */
-background-repeat: no-repeat; /* Prevent the image from repeating */
-padding: 2rem; /* Add some padding if needed */
-border-radius: 10px; /* Optional: Add rounded corners */
+#app-attention {
+  background-image: url('/background.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  border-radius: 10px;
 }
 
-.feature{
+.app-feature {
   background-color: #025f3b59;
   padding: 1rem;
   border-radius: 10px;
@@ -170,28 +149,28 @@ border-radius: 10px; /* Optional: Add rounded corners */
   transition: transform 0.3s;
 }
 
-.content{
+.app-content {
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.content2{
+.app-content2 {
   padding: 70px;
   display: flex;
   flex-direction: row;
 }
 
-.ml-div{
+.app-ml-div {
   margin-left: 7%;
 }
 
-.ml-div h2, .content h2{
+.app-ml-div h2, .app-content h2 {
   color: rgb(105, 136, 124);
 }
 
-.link-app-div{
+.app-link-app-div {
   color: black;
   background-color: #025f3b59;
   width: 30%;
@@ -199,69 +178,70 @@ border-radius: 10px; /* Optional: Add rounded corners */
   margin-left: 35%;
 }
 
-.link-app h2{
+.app-link-app h2 {
   color: black;
 }
 
-.feature:hover, .link-app {
+.app-feature:hover, .app-link-app {
   transform: translateY(-5px);
 }
-.feature-icon {
+
+.app-feature-icon {
   font-size: 2rem;
   margin-bottom: 0.5rem;
   color: #0f9b4a;
 }
 
-.feature h3 {
+.app-feature h3 {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
   color: #030303;
 }
 
-.feature p {
+.app-feature p {
   font-size: 0.8rem;
   color: #030303dc;
 }
 
 /* Footer Section */
-.footer-section {
+.app-footer-section {
   background-color: #000000;
   color: #fdfdfd;
   padding: 1rem;
   text-align: center;
 }
 
-.footer-section p {
+.app-footer-section p {
   margin: 0;
   font-size: 0.9rem;
 }
 
 /* Media Queries for Responsiveness */
-/* @media (max-width: 768px) {
-  .nav-button {
+@media (max-width: 768px) {
+  .app-nav-button {
     margin-left: 0.5rem;
     padding: 0.5rem 0.8rem;
   }
 
-  .hero-section h1 {
+  .app-hero-section h1 {
     font-size: 2.5rem;
   }
 
-  .hero-section p {
+  .app-hero-section p {
     font-size: 1.2rem;
   }
 
-  .features {
+  .app-features {
     flex-direction: column;
     align-items: center;
   }
 
-  .feature {
+  .app-feature {
     flex: 1 1 100%;
   }
 }
 
-.logo-image {
+.app-logo-image {
   width: 150px;
   height: auto;
-} */
+}
