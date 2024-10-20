@@ -1,24 +1,158 @@
 /* Centering the buttons and adding space between them */
 .plot-navigation {
-    display: flex;
-    justify-content: center; /* Center buttons horizontally */
-    flex-wrap: wrap; /* Wrap the buttons if they overflow */
-    gap: 10px; /* Space between the buttons */
-    margin: 20px 0; /* Add some space above and below the buttons */
-  }
-  
-  .plot-button {
-    padding: 10px 20px; /* Increase padding for bigger buttons */
-    background-color: #54c46c;
-    color: rgb(0, 0, 0);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    text-transform: capitalize; /* Capitalize only the first letter */
-    transition: background-color 0.3s;
-  }
-  
-  .plot-button:hover {
-    background-color: #478a47; /* Darken button on hover */
-  }
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  flex-wrap: wrap; /* Wrap the buttons if they overflow */
+  gap: 10px; /* Space between the buttons */
+  margin: 20px 0; /* Add some space above and below the buttons */
+}
+
+.plot-button {
+  padding: 10px 20px; /* Increase padding for bigger buttons */
+  background-color: #54c46c;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: capitalize; /* Capitalize only the first letter */
+  transition: background-color 0.3s;
+}
+
+.plot-button:hover {
+  background-color: #478a47; /* Darken button on hover */
+}
+
+/* Tooltip container */
+.tooltip-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.tooltip-icon {
+  background-color: #ddd;
+  border-radius: 50%;
+  padding: 5px;
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tooltip-box {
+  position: absolute;
+  top: 60px; 
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  white-space: pre-wrap; /* Allow white space to be preserved */
+}
+
+/* Centered tooltip content box */
+.tooltip-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: 300px;
+  text-align: center;
+}
+
+.tooltip-content p {
+  margin: 0; /* Remove default margin */
+}
+
+.tooltip-textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.tooltip-text {
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-align: center;
+  color: #000;
+}
+
+.close-tooltip-button {
+  background-color: #54c46c;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.close-tooltip-button:hover {
+  background-color: #478a47;
+}
+
+.species-dropdown-container {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.species-search-input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.dropdown-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+.dropdown-item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+.content-box {
+  font-size: 14px;
+  line-height: 1;
+  position: fixed; /* Fixed position to keep it on the left */
+  top: 50%; /* Center vertically */
+  left: 20px; /* Distance from the left */
+  transform: translateY(-50%); /* Adjust for centering */
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  width: 600px; /* Set width for the content box */
+  overflow-y: auto; /* Scroll if content is too long */
+}
