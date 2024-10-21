@@ -120,6 +120,7 @@ class UpdateUserProfileView(APIView):
             'email': user.email,
             'name': user.name,
             'is_researcher': user.is_researcher,
+            'role': 'Researcher' if user.is_researcher else 'Volunteer',  
             'bio': user.bio,
             'profilePicture': request.build_absolute_uri(user.profile_picture.url) if user.profile_picture else None
         }, status=status.HTTP_200_OK)
