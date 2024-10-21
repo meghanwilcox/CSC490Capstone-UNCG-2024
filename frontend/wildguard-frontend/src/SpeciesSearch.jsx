@@ -84,7 +84,7 @@ const SpeciesSearchPage = () => {
           )}
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

@@ -162,8 +162,8 @@ const App = () => {
         </div>
       </section>
 
-      {/* Footer */}
-      <Footer />
+{/*       
+      <Footer /> */}
     </div>
   );
 };

@@ -201,7 +201,7 @@ const UserProfile = () => {
           </div>
         </div>
       )}
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

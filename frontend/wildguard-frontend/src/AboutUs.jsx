@@ -29,7 +29,7 @@ const AboutUs = () => {
           Together, we can create a better future for wildlife.
         </p>
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

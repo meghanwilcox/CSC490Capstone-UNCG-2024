@@ -58,7 +58,7 @@ const SpeciesDetail = () => {
         <p><strong>Species:</strong> {speciesData.species}</p>
         <p><strong>Threat Status:</strong> {speciesData.threatStatus || 'N/A'}</p>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
     
   );
