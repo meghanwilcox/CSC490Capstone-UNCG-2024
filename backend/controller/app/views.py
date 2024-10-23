@@ -268,9 +268,14 @@ def predict_image(request):
 
         prediction = model.predict(image_array, verbose=0)
 
+        # Get the predicted class and confidence
         predicted_class = np.argmax(prediction, axis=1)[0]
+        confidence = prediction[0][predicted_class]
         predicted_class_str = labels[predicted_class]
 
-        return JsonResponse({'predicted_class': predicted_class_str})
+        if confidence > 0.7:
+            return JsonResponse({'predicted_class': predicted_class_str.title()})
+        else:
+            return JsonResponse({'error': 'Model is unsure! Are you certain that\'s an animal?'})
 
     return JsonResponse({'error': 'Invalid request or missing image.'}, status=400)
