@@ -20,7 +20,8 @@ Instructions to run Frontend locally:
 
 Instructions to run Backend locally:
     **You must have a system environment variable set up called AZURE_SSL_CA_PATH that points to the DigiCertGlobalRootCA.crt.pem file needed for Azure MySQL authentication.**
-
+    **You must also have the ML model .keras file in the backend/controller/app folder. You can download that file [here](https://drive.google.com/drive/folders/1njqkychNKGrS0_5l6cDvi0ojijGJyaFQ?usp=drive_link)**
+    
     1. Run "python manage.py migrate" in the backend/controller folder
     2. Run "python manage.py runserver" in the backend/controller folder
 
