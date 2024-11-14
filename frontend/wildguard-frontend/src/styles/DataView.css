@@ -1,29 +1,28 @@
-/* Centering the buttons and adding space between them */
+
 .plot-navigation {
   display: flex;
-  justify-content: center; /* Center buttons horizontally */
-  flex-wrap: wrap; /* Wrap the buttons if they overflow */
-  gap: 10px; /* Space between the buttons */
-  margin: 20px 0; /* Add some space above and below the buttons */
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 10px; 
+  margin: 20px 0;
 }
 
 .plot-button {
-  padding: 10px 20px; /* Increase padding for bigger buttons */
+  padding: 10px 20px; 
   background-color: #54c46c;
   color: rgb(0, 0, 0);
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  text-transform: capitalize; /* Capitalize only the first letter */
+  text-transform: capitalize; 
   transition: background-color 0.3s;
 }
 
 .plot-button:hover {
-  background-color: #478a47; /* Darken button on hover */
+  background-color: #478a47; 
 }
 
-/* Tooltip container */
 .tooltip-container {
   display: flex;
   align-items: center;
@@ -51,10 +50,9 @@
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 100;
-  white-space: pre-wrap; /* Allow white space to be preserved */
+  white-space: pre-wrap; 
 }
 
-/* Centered tooltip content box */
 .tooltip-content {
   position: fixed;
   top: 50%;
@@ -70,7 +68,7 @@
 }
 
 .tooltip-content p {
-  margin: 0; /* Remove default margin */
+  margin: 0; 
 }
 
 .tooltip-textarea {
@@ -83,7 +81,7 @@
 }
 
 .tooltip-text {
-  margin-bottom: 10px;
+  margin-bottom: 14px;
   font-size: 14px;
   text-align: center;
   color: #000;
@@ -106,8 +104,10 @@
 
 .species-dropdown-container {
   position: relative;
+  align-items: center;
   width: 300px;
   margin: 0 auto;
+  display: flex;
 }
 
 .species-search-input {
@@ -143,16 +143,15 @@
 .content-box {
   font-size: 14px;
   line-height: 1;
-  position: fixed; /* Fixed position to keep it on the left */
-  top: 50%; /* Center vertically */
-  left: 20px; /* Distance from the left */
-  transform: translateY(-50%); /* Adjust for centering */
+  position: absolute; 
+  top: 35%; 
+  right: 20px; 
   background-color: white;
   border: 1px solid #ccc;
   padding: 15px;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 100;
-  width: 600px; /* Set width for the content box */
-  overflow-y: auto; /* Scroll if content is too long */
+  width: 600px; 
+  overflow-y: auto; 
 }

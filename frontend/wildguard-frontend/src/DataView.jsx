@@ -24,31 +24,24 @@ const DataView = () => {
   
   const tooltipText = `
     <p>The following three prediction methods are commonly used in time series analysis, particularly for predicting population trends:</p>
+    <br>
 
     <h3>1. Long-Short Term Memory (LSTM)</h3>
-    <p>LSTM is a type of recurrent neural network (RNN) specifically designed to model sequential data. It can learn long-term dependencies, making it suitable for time series forecasting. Here are some key features:</p>
-    <ul>
-        <li><strong>Memory Cells:</strong> LSTM networks have memory cells that maintain information over long periods, allowing them to remember past events that are crucial for making predictions.</li>
-        <li><strong>Gating Mechanism:</strong> LSTMs utilize gates (input, output, and forget gates) to control the flow of information, enabling the network to learn when to remember or forget data.</li>
-    </ul>
+    <p>LSTM is a type of recurrent neural network (RNN) specifically designed to model sequential data. It can learn long-term dependencies, making it suitable for time series forecasting.</p>
+    <p><a href="https://en.wikipedia.org/wiki/Long_short-term_memory" target="_blank">More Info?</a></p>
+    <br>
 
     <h3>2. Regression Analysis</h3>
-    <p>Regression analysis is a statistical method used to model the relationship between a dependent variable and one or more independent variables. In the context of population prediction, it typically involves the following:</p>
-    <ul>
-        <li><strong>Linear Relationships:</strong> Linear regression assumes a straight-line relationship between the independent variable (e.g., time) and the dependent variable (population).</li>
-        <li><strong>Coefficient Estimation:</strong> The method estimates coefficients that minimize the difference between observed and predicted values, allowing predictions based on historical data.</li>
-        <li><strong>Limitations:</strong> While useful for capturing general trends, regression analysis may not effectively model complex patterns and fluctuations in time series data.</li>
-    </ul>
+    <p>Regression analysis is a statistical method used to model the relationship between a dependent variable and one or more independent variables, and assign an equation to the trend in the data that most closely represents that relationship.</p>
+    <p><a href="https://en.wikipedia.org/wiki/Regression_analysis" target="_blank">More Info?</a></p>
+    <br>
+    
 
     <h3>3. Blended Approach (LSTM + Regression)</h3>
-    <p>This method leverages the strengths of both LSTM and regression analysis. It involves using LSTM to capture complex, non-linear relationships in the data while incorporating regression to maintain a trend. Key aspects include:</p>
-    <ul>
-        <li><strong>Hybrid Prediction:</strong> The LSTM model predicts the next population value, while the regression model provides a trend line that influences the prediction.</li>
-        <li><strong>Trend Adjustment:</strong> The final prediction is adjusted by combining LSTM output with the regression prediction, allowing for realistic variations while adhering to the overall trend.</li>
-        <li><strong>Improved Stability:</strong> This combined method enhances prediction stability and accuracy, making it particularly effective for long-term forecasting in dynamic systems like wildlife populations.</li>
-    </ul>
+    <p>This method leverages the strengths of both LSTM and regression analysis. It involves using LSTM to capture complex, non-linear relationships in the data while incorporating regression to maintain a trend.</p>
+    <br>
 
-    <p>For our purposes, regression analysis and blended approach can give a more accurate view of a species' time to extinction, but may lead to discontinuity.</p>
+    <p>For our purposes, regression analysis and blended approach can give a more accurate view of a species' time to extinction <b>(which is of key importance in making population predictions from a conservation perspective)</b>, but may lead to discontinuity.</p>
     <p>Whereas pure LSTM prediction and the blended approach can give a more accurate forecast of species populations that are growing, while giving inaccurate estimates of time to extinction, and in some cases, conflict with the trend of the known data..</p>
     <p>Which series of predictions are most useful for individual species are left to the user's discretion.</p>
 
